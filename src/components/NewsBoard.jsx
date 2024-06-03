@@ -2,7 +2,20 @@ import React, { useState, useEffect } from "react";
 import "../css/newsboard.css";
 import NewsCard from "./NewsCard";
 import "../css/newsboard.css";
-// import { myPromise } from "../articles";
+import { myFunction } from "../articles";
+
+const fetchHardData = (setArticles, setLoading, category) => {
+  myFunction(category)
+    .then((data) => {
+      setArticles(data.articles);
+      setLoading(false);
+      localStorage.setItem(
+        category,
+        JSON.stringify([new Date().getTime(), ...data.articles])
+      );
+    })
+    .catch((err) => console.log(err));
+};
 
 const NewsBoard = ({ loading, setLoading, ...props }) => {
   const [articles, setArticles] = useState([]);
@@ -23,25 +36,21 @@ const NewsBoard = ({ loading, setLoading, ...props }) => {
       setArticles(data.slice(1));
       setLoading(false);
     } else {
-      // myPromise
-      //   .then((data) => {
-      //     setArticles(data.articles);
-      // setLoading(false)
-      //     localStorage.setItem("articles", JSON.stringify(data.articles));
-      //   })
-      //   .catch((err) => console.log(err));
-
       const apiKey = process.env.REACT_APP_SECRET_NAME_2;
       let url = `https://newsapi.org/v2/top-headlines?country=in&category=${props.category}&apiKey=${apiKey}`;
       fetch(url)
         .then((res) => res.json())
         .then((data) => {
-          setArticles(data.articles ? data.articles : []);
-          setLoading(false);
-          localStorage.setItem(
-            props.category,
-            JSON.stringify([new Date().getTime(), ...data.articles])
-          );
+          if (data.articles) {
+            setArticles(data.articles);
+            setLoading(false);
+            localStorage.setItem(
+              props.category,
+              JSON.stringify([new Date().getTime(), ...data.articles])
+            );
+          } else {
+            fetchHardData(setArticles, setLoading, props.category);
+          }
         })
         .catch((err) => console.log(err));
     }
@@ -64,7 +73,7 @@ const NewsBoard = ({ loading, setLoading, ...props }) => {
                     src={article.urlToImage}
                     url={article.url}
                     publishedAt={new Date(article.publishedAt)}
-                    author={article.author}
+                    author={article.source.name}
                   ></NewsCard>
                 </div>
               );

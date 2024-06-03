@@ -18,15 +18,15 @@ const NewsCard = ({ title, description, src, url, publishedAt, author }) => {
   };
   return (
     <div>
-      {/* <div class="card text-bg-dark" style={{ width: "18rem" }}>
-        <img src={logo} class="card-img" alt="..." />
-        <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
+      {/* <div className="card text-bg-dark" style={{ width: "18rem" }}>
+        <img src={logo} className="card-img" alt="..." />
+        <div className="card-img-overlay">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
             This is a wider card with supporting text below as a natural lead-in
             to additional content. This content is a little bit longer.
           </p>
-          <p class="card-text">
+          <p className="card-text">
             <small>Last updated 3 mins ago</small>
           </p>
         </div>
@@ -47,10 +47,10 @@ const NewsCard = ({ title, description, src, url, publishedAt, author }) => {
               ? `${description.slice(0, descriptionSize)}` +
                 `${description.length > descriptionSize ? "..." : ""}`
               : ""}
-            <div className="news-card-date">
+            <span className="news-card-date">
               {publishedAt.toLocaleDateString()}
-            </div>
-            <div className="news-card-date">Source: {author}</div>
+            </span>
+            <span className="news-card-date">Source: {author}</span>
           </p>
           <a
             href={url}

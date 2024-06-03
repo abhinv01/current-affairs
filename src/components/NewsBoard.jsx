@@ -74,8 +74,11 @@ const NewsBoard = ({ loading, setLoading, ...props }) => {
               className="col-12 d-flex justify-content-center align-items-center"
               style={{ height: "65vh" }}
             >
-              <div class="spinner-border custom-spinner-border" role="status">
-                <span class="visually-hidden">Loading...</span>
+              <div
+                className="spinner-border custom-spinner-border"
+                role="status"
+              >
+                <span className="visually-hidden">Loading...</span>
               </div>
             </div>
           )}

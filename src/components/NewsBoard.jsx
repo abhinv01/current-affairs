@@ -36,7 +36,7 @@ const NewsBoard = ({ loading, setLoading, ...props }) => {
       fetch(url)
         .then((res) => res.json())
         .then((data) => {
-          setArticles(data.articles);
+          setArticles(data.articles ? data.articles : []);
           setLoading(false);
           localStorage.setItem(
             props.category,

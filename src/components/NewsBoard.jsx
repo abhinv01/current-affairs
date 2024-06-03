@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../css/newsboard.css";
 import NewsCard from "./NewsCard";
 import "../css/newsboard.css";
-import { myPromise } from "../articles";
+// import { myPromise } from "../articles";
 
 const NewsBoard = ({ loading, setLoading, ...props }) => {
   const [articles, setArticles] = useState([]);
@@ -45,7 +45,7 @@ const NewsBoard = ({ loading, setLoading, ...props }) => {
         })
         .catch((err) => console.log(err));
     }
-  }, [props.category]);
+  }, [props.category, setLoading]);
 
   return (
     <div className="my-4 mb-5">

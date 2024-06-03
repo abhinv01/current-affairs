@@ -56,6 +56,7 @@ const NewsCard = ({ title, description, src, url, publishedAt, author }) => {
             href={url}
             className="btn btn-primary newscard-button"
             target="_blank"
+            rel="noreferrer"
           >
             Read more
           </a>

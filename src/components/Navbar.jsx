@@ -9,9 +9,9 @@ const Navbar = ({ setCategory, category, setLoading }) => {
       style={{ backgroundColor: "red" }}
     >
       <div className="container-fluid navbar-container">
-        <a className="navbar-brand" href="#">
-          <img src={logo} className="navbar-image-logo"></img>
-        </a>
+        <span className="navbar-brand">
+          <img src={logo} className="navbar-image-logo" alt="logo"></img>
+        </span>
         <button
           className="navbar-toggler"
           type="button"

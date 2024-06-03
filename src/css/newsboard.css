@@ -1,0 +1,9 @@
+.newsboard-heading {
+  opacity: 0.8;
+  color: #872525;
+  font-weight: 800;
+  font-size: calc(30px + 2vw);
+}
+.newsboard-border-bottom {
+  border-bottom: 1px solid #872525;
+}

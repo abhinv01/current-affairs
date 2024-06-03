@@ -1,0 +1,22 @@
+.navbar-image-logo {
+  height: calc(7vh + 10px);
+  width: max(162px, calc(10vw + 20px));
+}
+
+.navbar-container {
+  background-color: #f4efe5 !important;
+}
+
+.navbar-single-navitem {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.navbar-nav .nav-link.active {
+  color: #872525;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #872525;
+}

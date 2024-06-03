@@ -7,3 +7,15 @@
 .newsboard-border-bottom {
   border-bottom: 1px solid #872525;
 }
+
+.newsboard-fixed-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-spinner-border {
+  border-color: #882e2e; /* Change this to your custom color */
+  border-right-color: transparent;
+}

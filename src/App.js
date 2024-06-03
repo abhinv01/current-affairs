@@ -9,10 +9,20 @@ import Footer from "./components/Footer";
 
 function App() {
   const [category, setCategory] = useState("general");
+  const [loading, setLoading] = useState(true);
+
   return (
     <>
-      <Navbar setCategory={setCategory} category={category}></Navbar>
-      <NewsBoard category={category}></NewsBoard>
+      <Navbar
+        setCategory={setCategory}
+        category={category}
+        setLoading={setLoading}
+      ></Navbar>
+      <NewsBoard
+        category={category}
+        loading={loading}
+        setLoading={setLoading}
+      ></NewsBoard>
       <Footer></Footer>
     </>
   );

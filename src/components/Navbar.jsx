@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../images/logo512.png";
 import "../css/navbar.css";
 
-const Navbar = ({ setCategory, category }) => {
+const Navbar = ({ setCategory, category, setLoading }) => {
   return (
     <nav
       className="navbar navbar-expand-lg bg-body-tertiary p-0"
@@ -31,7 +31,10 @@ const Navbar = ({ setCategory, category }) => {
                   category === "general" ? "active" : ""
                 }`}
                 aria-current="page"
-                onClick={() => setCategory("general")}
+                onClick={() => {
+                  setLoading(true);
+                  setCategory("general");
+                }}
               >
                 general
               </span>
@@ -42,7 +45,10 @@ const Navbar = ({ setCategory, category }) => {
                   category === "business" ? "active" : ""
                 }`}
                 aria-current="page"
-                onClick={() => setCategory("business")}
+                onClick={() => {
+                  setLoading(true);
+                  setCategory("business");
+                }}
               >
                 business
               </span>
@@ -53,7 +59,10 @@ const Navbar = ({ setCategory, category }) => {
                   category === "entertainment" ? "active" : ""
                 }`}
                 aria-current="page"
-                onClick={() => setCategory("entertainment")}
+                onClick={() => {
+                  setLoading(true);
+                  setCategory("entertainment");
+                }}
               >
                 entertainment
               </span>
@@ -64,7 +73,10 @@ const Navbar = ({ setCategory, category }) => {
                   category === "health" ? "active" : ""
                 }`}
                 aria-current="page"
-                onClick={() => setCategory("health")}
+                onClick={() => {
+                  setLoading(true);
+                  setCategory("health");
+                }}
               >
                 health
               </span>
@@ -75,7 +87,10 @@ const Navbar = ({ setCategory, category }) => {
                   category === "science" ? "active" : ""
                 }`}
                 aria-current="page"
-                onClick={() => setCategory("science")}
+                onClick={() => {
+                  setLoading(true);
+                  setCategory("science");
+                }}
               >
                 science
               </span>
@@ -86,7 +101,10 @@ const Navbar = ({ setCategory, category }) => {
                   category === "sports" ? "active" : ""
                 }`}
                 aria-current="page"
-                onClick={() => setCategory("sports")}
+                onClick={() => {
+                  setLoading(true);
+                  setCategory("sports");
+                }}
               >
                 sports
               </span>
@@ -97,7 +115,10 @@ const Navbar = ({ setCategory, category }) => {
                   category === "technology" ? "active" : ""
                 }`}
                 aria-current="page"
-                onClick={() => setCategory("technology")}
+                onClick={() => {
+                  setLoading(true);
+                  setCategory("technology");
+                }}
               >
                 technology
               </span>

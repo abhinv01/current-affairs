@@ -3,7 +3,7 @@ import logo from "../images/android-chrome-192x192.png";
 import "../css/newsCard.css";
 
 const NewsCard = ({ title, description, src, url, publishedAt, author }) => {
-  console.log(src ? true : title);
+  // console.log(src ? true : title);
   const [imgLoad, setImgLoad] = useState(src === null ? false : true);
 
   useEffect(() => {

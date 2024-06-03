@@ -19,7 +19,7 @@ const NewsBoard = ({ loading, setLoading, ...props }) => {
       : false; //checking if last call was done more than 12hrs ago
 
     if (data && isLatest) {
-      console.log(data);
+      // console.log(data);
       setArticles(data.slice(1));
       setLoading(false);
     } else {
@@ -31,7 +31,7 @@ const NewsBoard = ({ loading, setLoading, ...props }) => {
       //   })
       //   .catch((err) => console.log(err));
 
-      const apiKey = process.env.REACT_APP_SECRET_NAME;
+      const apiKey = process.env.REACT_APP_SECRET_NAME_2;
       let url = `https://newsapi.org/v2/top-headlines?country=in&category=${props.category}&apiKey=${apiKey}`;
       fetch(url)
         .then((res) => res.json())

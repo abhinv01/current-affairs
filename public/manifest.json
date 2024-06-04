@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Current Affairs",
+  "name": "Current Affairs",
   "icons": [
     {
       "src": "favicon.ico",
@@ -27,7 +27,6 @@
       "type": "image/png",
       "sizes": "32x32"
     }
-
   ],
   "start_url": ".",
   "display": "standalone",

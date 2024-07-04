@@ -4,154 +4,444 @@ const articles = {
     totalResults: 37,
     articles: [
       {
-        source: { id: null, name: "Hindustan Times" },
-        author: "HT News Desk",
-        title:
-          "Mann Ki Baat Live: PM thanks citizens for ‘unwavering faith in Constitution’ - Hindustan Times",
-        description:
-          "Mann Ki Baat Live Updates: Prime Minister Narendra Modi began addressing the 111th episode of his monthly radio programme on Sunday.",
-        url: "https://www.hindustantimes.com/india-news/mann-ki-baat-live-update-episode-111-narendra-modi-latest-news-today-30-june-2024-101719719770937.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/30/550x309/Srinagar--Jammu-and-Kashmir---Jun-21--ANI---Prime-_1718996533605_1719720491987.jpg",
-        publishedAt: "2024-06-30T06:19:15Z",
-        content:
-          "Mann Ki Baat Live Updates: Prime Minister Narendra Modi's monthly radio show, Mann Ki Baat, resumed on Sunday (June 30) following a break. The program was last broadcast on February 25 but was paused… [+9791 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "HT Entertainment Desk",
-        title:
-          "Ajay Devgn says Amitabh Bachchan is 'intelligent, normal, sane today also only because he’s working' even at his age - Hindustan Times",
-        description:
-          "Ajay Devgn said that the moment a person stops working and decides to chill, they will ‘age three times faster’. Find out what he thinks about Amitabh Bachchan. | Bollywood",
-        url: "https://www.hindustantimes.com/entertainment/bollywood/ajay-devgn-says-amitabh-bachchan-is-intelligent-normal-sane-today-also-only-because-he-s-working-even-at-his-age-101719724071647.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/30/1600x900/ajay_devgn_1719725169118_1719725176307.png",
-        publishedAt: "2024-06-30T05:53:54Z",
-        content:
-          "Ajay Devgn praised Amitabh Bachchan for working even at the age of 80. A video was shared on the NH Studioz YouTube channel, in which Ajay said that since actors work continuously, after a point they… [+2258 chars]",
-      },
-      {
-        source: { id: null, name: "The Indian Express" },
-        author: "The Indian Express",
-        title:
-          "Here’s everything Samsung plans to show at its Unpacked event on July 10 - The Indian Express",
-        description: null,
-        url: "https://indianexpress.com/article/technology/tech-news-technology/samsung-galaxy-unpacked-paris-zflip6-zfold6-watch7-buds3-ring-9423874/",
-        urlToImage: null,
-        publishedAt: "2024-06-30T05:21:11Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Sanya",
-        title:
-          "Triptii Dimri reacts to being called 'national crush' after Animal: 'I would like to thank God...' - Hindustan Times",
-        description:
-          "Triptii Dimri was asked if it made her uncomfortable to be termed the ‘crush’ of India at the risk of her acting being overlooked. Here's how she responded. | Bollywood",
-        url: "https://www.hindustantimes.com/entertainment/bollywood/triptii-dimri-reacts-to-being-called-national-crush-after-animal-i-would-like-to-thank-god-101719722604411.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/30/1600x900/tdimri_1706600928110_1719722846929.jpg",
-        publishedAt: "2024-06-30T05:03:25Z",
-        content:
-          "Triptii Dimri, who has become a national sensation ever since the release of Ranbir Kapoor-starrer Animal (2023), opened up about being labelled as India's 'crush'. The actor is gearing up for the re… [+1671 chars]",
-      },
-      {
-        source: { id: null, name: "Moneycontrol" },
-        author: "Moneycontrol News",
-        title:
-          "Dalal Street Week Ahead: FOMC minutes, Auto sales, FII activity among 10 key factors to watch next week - Moneycontrol",
-        description:
-          "Sector-specific movements are anticipated amid budget-related buzz next week. Here are the 10 key factors to watch.",
-        url: "https://www.moneycontrol.com/news/business/markets/dalal-street-week-ahead-fomc-minutes-auto-sales-fii-activity-among-10-key-factors-to-watch-next-week-12758993.html",
-        urlToImage:
-          "https://images.moneycontrol.com/static-mcnews/2023/01/Dalal.png",
-        publishedAt: "2024-06-30T04:56:09Z",
-        content:
-          "Indian benchmark indices recorded gains this week despite mixed signals from the global market, particularly regarding inflation concerns. Markets concluded a two-week consolidation phase by gaining … [+7681 chars]",
-      },
-      {
         source: { id: "the-times-of-india", name: "The Times of India" },
-        author: "TOI Sports Desk",
+        author: "Shifa Khan",
         title:
-          "PM Narendra Modi speaks to Indian team, lauds cricketers after T20 World Cup win - The Times of India",
+          "10 foods that contain cancer-causing agents - The Times of India",
         description:
-          "Cricket News: Prime Minister Narendra Modi congratulated the Indian cricket team on their victory in the ICC T20 World Cup 2024, expressing the pride of 140 crore I",
-        url: "https://timesofindia.indiatimes.com/sports/cricket/icc-mens-t20-world-cup/pm-narendra-modi-speaks-to-indian-team-lauds-cricketers-after-t20-world-cup-win/articleshow/111375522.cms",
+          "Avoiding these cancer-causing foods and incorporating healthier alternatives can significantly reduce the risk of developing cancer.",
+        url: "https://timesofindia.indiatimes.com/life-style/health-fitness/web-stories/10-foods-that-contain-cancer-causing-agents/photostory/111436284.cms",
         urlToImage:
-          "https://static.toiimg.com/thumb/msid-111375691,width-1070,height-580,imgsize-72566,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-        publishedAt: "2024-06-30T04:55:00Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "SocialNews.XYZ" },
-        author: "Gopi",
-        title:
-          "5 US universities win NASA’s 2024 Human Lander Challenge - Social News XYZ",
-        description:
-          "New York, June 30 (SocialNews.XYZ) Five US universities have won NASA’s 2024 Human Lander Challenge (HuLC) for different innovative concepts addressing the complex issue of managing lunar dust during the impending Moon exploration campaign Artemis,... - Socia…",
-        url: "https://www.socialnews.xyz/2024/06/30/5-us-universities-win-nasas-2024-human-lander-challenge/",
-        urlToImage:
-          "https://www.socialnews.xyz/wp-content/uploads/2024/06/30/202406303182028-1024x635.png",
-        publishedAt: "2024-06-30T04:33:28Z",
+          "https://static.toiimg.com/thumb/msid-111436320,imgsize-1277736,width-900,height-1200,resizemode-6/111436320.jpg",
+        publishedAt: "2024-07-03T06:30:00Z",
         content:
-          "Home » General » Education » 5 US universities win NASAs 2024 Human Lander Challenge\r\nNew York, June 30 (SocialNews.XYZ) Five US universities have won NASAs 2024 Human Lander Challenge (HuLC) for dif… [+1528 chars]",
-      },
-      {
-        source: { id: null, name: "Livemint" },
-        author: "Arshdeep kaur",
-        title:
-          "Watch Jasprit Bumrah share sweet moment with wife Sanjana Ganesan, son after T20 World Cup 2024 win | Mint - Mint",
-        description:
-          "Heartwarming moment captured as Bumrah celebrates T20 World Cup victory with his wife and son at Kensington Oval, Barbados.",
-        url: "https://www.livemint.com/sports/cricket-news/watch-jasprit-bumrah-share-sweet-moment-with-wife-sanjana-ganesan-son-after-t20-world-cup-2024-win-11719719989373.html",
-        urlToImage:
-          "https://www.livemint.com/lm-img/img/2024/06/30/1600x900/ANI-20240629039-0_1719719988496_1719720020241.jpg",
-        publishedAt: "2024-06-30T04:25:02Z",
-        content:
-          "As India won the T20 World Cup 2024, it was something else that stole the hearts on the internet. It was an adorable video of the Player of the Tournament, Indian pacer Jasprit Bumrah with a beaming … [+2148 chars]",
+          "According to Dr Neeraj Goel, Director - Oncology Services, GI Oncology, GI &amp; HPB Surgery at the CK Birla Hospital (R), Delhi, These drinks, especially those with high sugar content, have been ass… [+131 chars]",
       },
       {
         source: { id: null, name: "NDTV News" },
         author: null,
         title:
-          "Video: Israeli Driver Enters Palestine Territory, His Car Is Set On Fire - NDTV",
+          '"Those Saying Balak Buddhi...": Akhilesh Yadav On PM\'s Jab At Rahul Gandhi - NDTV',
         description:
-          "An Israeli citizen mistakenly entered the Palestinian town of Qalandiya, situated between Jerusalem and Ramallah, in West Bank and was soon met with aggression from local residents, leading to a violent confrontation.",
-        url: "https://www.ndtv.com/world-news/video-israeli-driver-enters-palestine-territory-his-car-is-set-on-fire-6001042",
+          "Prime Minister Narendra Modi's infantilising jabs at Leader of the Opposition Rahul Gandhi in Lok Sabha have drawn a sharp response from the Congress and its allies.",
+        url: "https://www.ndtv.com/india-news/pm-narendra-modi-akhilesh-yadav-those-saying-balak-buddhi-akhilesh-yadav-on-pms-jab-at-rahul-gandhi-6023228",
         urlToImage:
-          "https://c.ndtvimg.com/2024-06/rlm82u78_israel-car-fire-_625x300_30_June_24.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=738?ver-20240615.100",
-        publishedAt: "2024-06-30T04:24:24Z",
+          "https://c.ndtvimg.com/2024-07/3e86utm8_pm-modi-rahul-gandhi_625x300_02_July_24.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=738?ver-20240615.100",
+        publishedAt: "2024-07-03T06:05:41Z",
         content:
-          "Other footage revealed that the vehicle was set ablaze by the Palestinian attackers.\r\nWest Bank: An Israeli citizen mistakenly entered the Palestinian town of Qalandiya, situated between Jerusalem an… [+1663 chars]",
+          "PM Modi launched a fierce counter-attack on Rahul Gandhi in Lok Sabha yesterday\r\nNew Delhi: Prime Minister Narendra Modi's infantilising jabs at Leader of the Opposition Rahul Gandhi in Lok Sabha hav… [+3096 chars]",
       },
       {
-        source: { id: null, name: "Livemint" },
-        author: "Sudeshna Ghoshal",
+        source: { id: null, name: "Abplive.com" },
+        author: "ABP News Bureau",
         title:
-          "Sunita Williams' return to Earth may take months, NASA likely to extend project | Today News - Mint",
+          "Garena Free Fire Max: Exclusive Redeem Codes Unveiled For July 03. Here's How To Use - ABP Live",
         description:
-          "Indian-origin Sunita Williams’ return to Earth may take a few more months as there’s ‘no rush to come home’",
-        url: "https://www.livemint.com/news/world/not-in-a-rush-to-come-home-boeing-starliner-with-sunita-williams-return-date-not-fixe-nasa-stich-heliumleaks-spacex-11719713525220.html",
+          "Garena Free Fire Max redeem codes can unlock a handful of goodies, including weapons and skins.",
+        url: "https://news.abplive.com/technology/garena-free-fire-max-redeem-codes-jul-03-july-2024-daily-free-rewards-1699912",
         urlToImage:
-          "https://www.livemint.com/lm-img/img/2024/06/30/1600x900/PTI05-06-2024-000075B-0_1719316661367_1719713984730.jpg",
-        publishedAt: "2024-06-30T04:11:26Z",
-        content:
-          "The Boeing Starliner project that was expected to last only a few days, will now take more time as the first test with two astronauts onboard is in limbo, without any announcement of exact date of re… [+5699 chars]",
+          "https://feeds.abplive.com/onecms/images/uploaded-images/2024/05/06/33398c5c5555646f2a600601b46e87ef1714984881019925_original.jpg?impolicy=abp_cdn&imwidth=1200",
+        publishedAt: "2024-07-03T05:43:26Z",
+        content: null,
       },
       {
-        source: { id: null, name: "India Today" },
-        author: "India Today World Desk",
+        source: { id: null, name: "Hindustan Times" },
+        author: "HT News Desk",
         title:
-          "Biden's huddle with family to decide way ahead after debate debacle: Report - India Today",
+          "Bengal governor vs Mamata Banerjee: Calcutta high court to hear defamation suit today - Hindustan Times",
         description:
-          "US President Joe Biden is expected to discuss the future of his re-election campaign with his family following a troubling debate performance that has sparked concerns among Democrats about his ability to beat Donald Trump",
-        url: "https://www.indiatoday.in/world/story/joe-biden-family-meeting-camp-david-debate-trump-democrats-concerned-white-house-2560261-2024-06-30",
+          "The Calcutta high court is scheduled to hear a defamation suit on Wednesday, filed by Governor C V Ananda Bose against chief minister Mamata Banerjee. | Latest News India",
+        url: "https://www.hindustantimes.com/india-news/bengal-governor-vs-mamata-banerjee-calcutta-high-court-to-hear-defamation-suit-today-101719979471223.html",
         urlToImage:
-          "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202406/president-joe-biden--left--and-first-lady-jill-biden-arrive-at-mcguire-air-force-base--saturday--jun-300607200-16x9_0.jpg?VersionId=_4a7UERp2CPtKbTkJ1BAWTvKzV1bZr4E",
-        publishedAt: "2024-06-30T04:08:15Z",
+          "https://www.hindustantimes.com/ht-img/img/2024/07/03/1600x900/West-Bengal-chief-minister-Mamata-Banerjee-urged-P_1719257573129_1719980805580.jpg",
+        publishedAt: "2024-07-03T05:40:58Z",
         content:
-          "After a faltering debate performance that cast doubts on his re-election bid, US President Joe Biden is expected to discuss the future of his campaign with family at Camp David on Sunday, NBC News re… [+2349 chars]",
+          "The Calcutta high court is set to hear a defamation suit on Wednesday, July 3, filed by West Bengal governor CV Ananda Bose against chief minister Mamata Banerjee. The hearing for the case is listed … [+1984 chars]",
+      },
+      {
+        source: { id: null, name: "News18" },
+        author: "S Aadeetya",
+        title:
+          "WhatsApp Will Soon Let You Create AI Avatar In Chats Using Your Photo: How It Works - News18",
+        description:
+          "WhatsApp is already offering the Meta AI chatbot for users in many countries and soon you will get more features baked into it.",
+        url: "https://www.news18.com/tech/whatsapp-will-soon-let-you-create-ai-avatar-in-chats-using-your-photo-how-it-works-8952717.html",
+        urlToImage:
+          "https://images.news18.com/ibnlive/uploads/2024/04/meta-ai-whatsapp-roll-out-2024-04-0e90270015c4134c12ef4efac9304376-16x9.jpg?impolicy=website&width=1200&height=675",
+        publishedAt: "2024-07-03T05:36:05Z",
+        content:
+          "WhatsApp users in many countries are now able to access the Meta AI chatbot which lets them create images, ask for recipes and more. And soon the messaging will have the ability to use the AI tool to… [+1856 chars]",
+      },
+      {
+        source: { id: null, name: "The Indian Express" },
+        author: "The Indian Express",
+        title:
+          "Leaked internal code suggests iPhone 16 series to be powered by A18 chip - The Indian Express",
+        description: null,
+        url: "https://indianexpress.com/article/technology/mobile-tabs/iphone-16-series-to-be-powered-by-a18-chip-9429770/",
+        urlToImage: null,
+        publishedAt: "2024-07-03T04:51:50Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Moneycontrol" },
+        author: "Rajni Pandey",
+        title:
+          "ISRO's Aditya-L1 Mission completes first Halo Orbit around Sun-Earth L1 point - Moneycontrol",
+        description:
+          "India's Aditya-L1 mission successfully completed its first halo orbit around the Sun-Earth L1 point, ensuring seamless transition through precise station-keeping maneuvers, ISRO announced. This milestone validates the advanced flight dynamics software develop…",
+        url: "https://www.moneycontrol.com/science/isros-aditya-l1-mission-completes-first-halo-orbit-around-sun-earth-l1-point-article-12761187.html",
+        urlToImage:
+          "https://images.moneycontrol.com/static-mcnews/2024/07/20240703043742_pics-1.png",
+        publishedAt: "2024-07-03T04:38:31Z",
+        content:
+          "India's first solar mission, Aditya-L1, has successfully completed its initial halo orbit around the Sun-Earth L1 point, the Indian Space Research Organisation (ISRO) announced on Tuesday. This signi… [+1632 chars]",
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: null,
+        title:
+          "Virat Kohli Video Calling Anushka Sharma To Show Hurricane In Barbados Is The Cutest Thing On Internet - NDTV Movies",
+        description:
+          "Virat was pictured showing the turbulent weather in Barbados caused by Hurricane Beryl to Anushka and their kids",
+        url: "https://www.ndtv.com/entertainment/virat-kohli-video-calling-anushka-sharma-to-show-hurricane-in-barbados-is-the-cutest-thing-on-internet-6022713",
+        urlToImage:
+          "https://c.ndtvimg.com/2024-07/l2inarao_anushka_625x300_03_July_24.jpg",
+        publishedAt: "2024-07-03T04:36:08Z",
+        content:
+          "The image was shared on Instagram. (courtesy: wrognxvirat)\r\nNew Delhi: Virat Kohli and Anushka Sharma don't leave any chance to win the Internet's heart with their cute antics and this time is no dif… [+1462 chars]",
+      },
+      {
+        source: { id: null, name: "Financial Express" },
+        author: "The Financial Express",
+        title:
+          "Netflix starts pushing users to watch ads or buy more expensive plan in these countries to boost revenue - The Financial Express",
+        description: null,
+        url: "https://www.financialexpress.com/life/technology-netflix-starts-pushing-users-to-watch-ads-or-buy-more-expensive-plan-in-these-countries-to-boost-revenue-3541948/",
+        urlToImage: null,
+        publishedAt: "2024-07-03T04:26:39Z",
+        content: null,
+      },
+      {
+        source: { id: "the-hindu", name: "The Hindu" },
+        author: "The Hindu",
+        title:
+          "Hathras stampede: death toll rises to 121; FIR registered against organisers of religious congregation - The Hindu",
+        description: null,
+        url: "https://www.thehindu.com/news/national/uttar-pradesh/hathras-stampede-death-toll-increase-july-3/article68362124.ece",
+        urlToImage: null,
+        publishedAt: "2024-07-03T04:00:00Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "HT Sports Desk",
+        title:
+          "Watch: Zimbabwe welcomes 'T20 World Cup champions' India after VVS Laxman's side touch down ahead of five-match series - Hindustan Times",
+        description:
+          "India will play five T20Is against Zimbabwe in Harare, with just three of the T20 World Cup-winning squad playing after the second match.  | Crickit",
+        url: "https://www.hindustantimes.com/cricket/watch-zimbabwe-welcomes-t20-world-cup-champions-india-after-vvs-laxmans-side-touch-down-ahead-of-five-match-series-101719977365983.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/03/1600x900/harare_1719977590695_1719977598180.jpg",
+        publishedAt: "2024-07-03T03:57:10Z",
+        content:
+          "Team India has arrived in Zimbabwe for their upcoming five-match T20I series in the country. The team is set to consist of just three players who were part of the Indian squad that won the 2024 T20 W… [+1976 chars]",
+      },
+      {
+        source: { id: "the-times-of-india", name: "The Times of India" },
+        author: "TOI Business Desk",
+        title:
+          "Stock market today: BSE Sensex crosses 80,000 for the first time; Nifty50 hits new lifetime high as bulls - The Times of India",
+        description:
+          "India Business News: Stock market today: BSE Sensex and Nifty50, the Indian equity benchmark indices, scaled new lifetime highs in trade today with the 30-share index cros",
+        url: "https://timesofindia.indiatimes.com/business/india-business/stock-market-today-bse-sensex-nifty50-july-03-2024-dalal-street-indian-equities-global-markets/articleshow/111445492.cms",
+        urlToImage:
+          "https://static.toiimg.com/thumb/msid-111445533,width-1070,height-580,imgsize-118558,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        publishedAt: "2024-07-03T03:55:00Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "HT News Desk",
+        title:
+          "Morning briefing: IMD issues ‘orange’ rain alert for north India; Hathras stampede survivors recall horror, and more - Hindustan Times",
+        description:
+          "A shortlist of the biggest headlines, recommended stories, and a special collection of news items you should check out. | Latest News India",
+        url: "https://www.hindustantimes.com/india-news/morning-briefing-imd-issues-orange-rain-alert-for-north-india-hathras-stampede-survivors-recall-horror-and-more-101719974513114.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/03/1600x900/Gujarat_1719880937126_1719976942995.jpg",
+        publishedAt: "2024-07-03T03:37:04Z",
+        content:
+          "The India Meteorological Department (IMD) issued an orange alert for 15 states in northern India on Tuesday and Wednesday amid a forecast of moderate to heavy rainfall. A red alert was also issued fo… [+5614 chars]",
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "Ananya Das",
+        title:
+          "Ajay Devgn and Tabu's Auron Mein Kahan Dum Tha release date postponed, Kill to enjoy a solo outing this Friday - Hindustan Times",
+        description:
+          "Auron Mein Kahan Dum Tha was earlier scheduled to release on July 5. The film also stars Jimmy Sheirgill, Sayaji Shinde, Shantanu Maheshwari, Saiee Manjrekar. | Bollywood",
+        url: "https://www.hindustantimes.com/entertainment/bollywood/ajay-devgn-and-tabus-auron-mein-kahan-dum-tha-release-date-postponed-kill-to-enjoy-a-solo-outing-this-friday-101719974675483.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/03/1600x900/Ajay_Devgn_and_Tabu_in_Auron_Mein_Kahan_Dum_Tha_1718272820975_1719975781120.PNG",
+        publishedAt: "2024-07-03T03:20:34Z",
+        content:
+          "The release date of Auron Mein Kahan Dum Tha, starring Ajay Devgn and Tabu, has been postponed. The film's team on Tuesday shared that they have decided to postpone the film \"on the request of the ex… [+2171 chars]",
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "PTI",
+        title:
+          "After waterfall tragedy, prohibitory orders imposed at picnic spots in Pune - Hindustan Times",
+        description:
+          "After waterfall tragedy, prohibitory orders imposed at picnic spots in Pune",
+        url: "https://www.hindustantimes.com/cities/pune-news/after-waterfall-tragedy-prohibitory-orders-imposed-at-picnic-spots-in-pune-101719975479367.html",
+        urlToImage: "https://images.hindustantimes.com/default/1600x900.jpg",
+        publishedAt: "2024-07-03T02:57:58Z",
+        content:
+          "Pune, The Pune district administration has imposed prohibitory orders at several popular picnic spots, including Bhushi Dam and the Pavana Dam region, to ensure the safety of tourists during the mons… [+4064 chars]",
+      },
+      {
+        source: { id: null, name: "Business Standard" },
+        author: "Nikita Vashisht",
+        title:
+          "Stocks to Watch, July 3:HDFC Bank, Zomato, Concor, RVNL, M&M Fin, Britannia - Business Standard",
+        description:
+          "Stocks to Watch today, July 3, 2024: he latest foreign ownership data, released on Tuesday, July 2, showed FII holding in the private bank falling to 54.83 per cent",
+        url: "https://www.business-standard.com/markets/news/stocks-to-watch-july-3-hdfc-bank-zomato-concor-rvnl-mm-fin-britannia-124070300060_1.html",
+        urlToImage:
+          "https://bsmedia.business-standard.com/_media/bs/img/article/2023-10/03/thumb/featurecrop/400X400/1696329652-4074.jpg",
+        publishedAt: "2024-07-03T02:34:16Z",
+        content:
+          "Stocks to Watch today, July 3, 2024: he latest foreign ownership data, released on Tuesday, July 2, showed FII holding in the private bank falling to 54.83 per cent\r\nHDFC Bank | Image credits: Bloomb… [+2946 chars]",
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: null,
+        title:
+          '"Almost Fell Asleep": Biden Reacts To Debate Debacle Against Trump - NDTV',
+        description:
+          "US President Joe Biden today blamed international travel and jet lag for his debate debacle against his Republican rival Donald Trump.",
+        url: "https://www.ndtv.com/world-news/joe-biden-vs-donald-trump-debate-us-presidential-elections-joe-biden-blames-travel-jet-lag-for-debate-debacle-against-donald-trump-6022143",
+        urlToImage:
+          "https://c.ndtvimg.com/2024-06/h13tfc7_joe-biden_625x300_28_June_24.jpeg",
+        publishedAt: "2024-07-03T02:19:55Z",
+        content:
+          "Joe Biden, Donald Trump accused each other of being history's worst.\r\nNew Delhi: US President Joe Biden today blamed jet lag from his recent travels overseas for his disastrous debate performance aga… [+1776 chars]",
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: null,
+        title:
+          "Updates: 116, Including Children, Killed In Stampede At Religious Event In UP - NDTV",
+        description:
+          "NDTV.com: India, Business, Bollywood, Cricket, Video and Breaking News",
+        url: "https://www.ndtv.com/",
+        urlToImage: "https://cdn.ndtv.com/common/images/ogndtv.png",
+        publishedAt: "2024-07-03T02:13:29Z",
+        content: null,
+      },
+      {
+        source: { id: "bloomberg", name: "Bloomberg" },
+        author: "Bhuma Shrivastava, Bei Hu",
+        title:
+          "Hedge Fund's Secret Adani Short Revealed in Blow-by-Blow Account - Bloomberg",
+        description:
+          "An activist short-seller, a New York hedge fund, a Mauritius-based investment vehicle and a broker tied to a big Indian bank: All played a role in one of the most-damaging short-seller attacks anywhere in the world.",
+        url: "https://www.bloomberg.com/news/articles/2024-07-03/hedge-fund-s-secret-adani-short-revealed-in-blow-by-blow-account",
+        urlToImage:
+          "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i1Qq_uliui88/v0/1200x800.jpg",
+        publishedAt: "2024-07-03T01:48:00Z",
+        content:
+          "An activist short-seller, a New York hedge fund, a Mauritius-based investment vehicle and a broker tied to a big Indian bank: All played a role in one of the most-damaging short-seller attacks anywhe… [+292 chars]",
+      },
+      {
+        source: { id: null, name: "Gadgets360.com" },
+        author: "Rohan Pal",
+        title:
+          "Airtel vs Jio vs Vi: Best Prepaid Plans With Up to 365 Days Validity - Gadgets 360",
+        description:
+          "Airtel, Reliance Jio, and Vodafone Idea have increased the prices of their prepaid plans in India. The new prepaid plans from the operators will go live on July 3. So, if you are wondering which operator offers better pricing and benefits for different validi…",
+        url: "https://www.gadgets360.com/telecom/features/airtel-vs-jio-vs-vi-best-prepaid-validity-plans-compared-2024-6015856",
+        urlToImage:
+          "https://i.gadgets360cdn.com/large/airtel_vs_jio_vs_vi_1719902658578.jpg",
+        publishedAt: "2024-07-03T01:30:01Z",
+        content:
+          "Ariel, Reliance Jio, and Vodafone Idea have announced price hikes for their prepaid and postpaid plans. Airtel and Jio's revised prepaid plans will be valid from July 3, while Vi recharge plans will … [+4730 chars]",
+      },
+    ],
+  },
+  science: {
+    status: "ok",
+    totalResults: 40,
+    articles: [
+      {
+        source: { id: null, name: "News9live.com" },
+        author: "Aditya Madanapalle",
+        title:
+          "First study from pristine asteroid Bennu samples indicate asteroid has composition similar to Sun - News9 LIVE",
+        description:
+          "New Delhi: In September 2023, the OSIRIS-REx spacecraft returned samples from the asteroid Bennu to Earth. The spacecraft was dispatched on a seven year journey to retrieve some material from a space rock because asteroids are time capsules, that contain with…",
+        url: "https://www.news9live.com/science/first-study-from-pristine-asteroid-bennu-samples-indicate-asteroid-has-composition-similar-to-sun-2602191",
+        urlToImage:
+          "https://images.news9live.com/wp-content/uploads/2024/07/Asteroid-Bennu.gif",
+        publishedAt: "2024-07-03T06:11:57Z",
+        content:
+          "Gravel being ejected by asteroid Bennu, as captured by the OSIRIS-REx spacecraft. (Image Credit: NASA’s GSFC, U. Arizona, OSIRIS-REx Lockheed Martin). \r\nNew Delhi: In September 2023, the OSIRIS-REx s… [+2076 chars]",
+      },
+      {
+        source: { id: null, name: "News9live.com" },
+        author: "Aditya Madanapalle",
+        title:
+          "Scientists unravel how ultraviolet light from Sun created building blocks of life on ancient Mars - News9 LIVE",
+        description:
+          "Further research can reveal whether or not organic material on Mars led to the emergence of life on the Red Planet.",
+        url: "https://www.news9live.com/science/scientists-unravel-how-ultraviolet-light-from-sun-created-building-blocks-of-life-on-ancient-mars-2602142",
+        urlToImage:
+          "https://images.news9live.com/wp-content/uploads/2024/07/Mount-Sharp.gif",
+        publishedAt: "2024-07-03T05:48:48Z",
+        content:
+          "NASA’s Curiosity rover found organic material near Mount Sharp on Mars, which occupies the heart of the Gale Crater. (Image Credit: NASA/JPL-Caltech/MSSS). \r\nNew Delhi: Carbon has two stable isotopes… [+2448 chars]",
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "Moneycontrol",
+        title:
+          "How to Watch the Milky Way Without a Telescope This Summer - Moneycontrol",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMidWh0dHBzOi8vd3d3Lm1vbmV5Y29udHJvbC5jb20vc2NpZW5jZS9ob3ctdG8td2F0Y2gtdGhlLW1pbGt5LXdheS13aXRob3V0LWEtdGVsZXNjb3BlLXRoaXMtc3VtbWVyLWFydGljbGUtMTI3NjEyMDUuaHRtbNIBAA?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-03T05:29:10Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "NewsBytes" },
+        author: "Mudit Dube",
+        title: "Jupiter's moon Io is a fiery world soaked in lava - NewsBytes",
+        description: "",
+        url: "https://www.newsbytesapp.com/news/science/nasa-s-juno-probe-uncovers-jupiter-moon-io-s-volcanic-activity/story",
+        urlToImage:
+          "https://i.cdn.newsbytesapp.com/images/l39320240703103021.jpeg",
+        publishedAt: "2024-07-03T05:01:04Z",
+        content:
+          "Next Article\r\nNASA's Juno probe has revealed that Jupiter's moon Io, the most volcanically active celestial body in our Solar System, is fully covered in lava lakes. \r\n Approximately 150 out of its 4… [+2062 chars]",
+      },
+      {
+        source: { id: null, name: "Moneycontrol" },
+        author: "Rajni Pandey",
+        title:
+          "ISRO's Aditya-L1 Mission completes first Halo Orbit around Sun-Earth L1 point - Moneycontrol",
+        description:
+          "India's Aditya-L1 mission successfully completed its first halo orbit around the Sun-Earth L1 point, ensuring seamless transition through precise station-keeping maneuvers, ISRO announced. This milestone validates the advanced flight dynamics software develop…",
+        url: "https://www.moneycontrol.com/science/isros-aditya-l1-mission-completes-first-halo-orbit-around-sun-earth-l1-point-article-12761187.html",
+        urlToImage:
+          "https://images.moneycontrol.com/static-mcnews/2024/07/20240703043742_pics-1.png",
+        publishedAt: "2024-07-03T04:38:31Z",
+        content:
+          "India's first solar mission, Aditya-L1, has successfully completed its initial halo orbit around the Sun-Earth L1 point, the Indian Space Research Organisation (ISRO) announced on Tuesday. This signi… [+1632 chars]",
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "HT Tech",
+        title:
+          "NASA says 3 asteroids will make a close approach to Earth in coming days: Check out speed, size, and more - HT Tech",
+        description:
+          "NASA says 3 asteroids will make a close approach to Earth in coming days Check out speed size and more Check out the upcoming asteroids that will pass Earth at a very close distance. Check out their speed size close distance range and more.  NASAs Jet Propuls…",
+        url: "https://tech.hindustantimes.com/web-stories/nasa-says-3-asteroids-will-make-a-close-approach-to-earth-in-coming-days-check-out-speed-size-and-more-71719973529620.html",
+        urlToImage:
+          "https://images.hindustantimes.com/tech/img/2024/07/03/1600x900/ai-generated-8356727_1280_1713933096675_1719973952985.jpg/",
+        publishedAt: "2024-07-03T02:32:41Z",
+        content:
+          "Photo Credit: Pixabay Check out the upcoming asteroids that will pass Earth at a very close distance. Check out their speed, size, close distance range, and more. \r\nPhoto Credit: Pixabay NASAs Jet Pr… [+1392 chars]",
+      },
+      {
+        source: { id: null, name: "Indiatribune.com" },
+        author: "Rinku",
+        title:
+          "5 US universities win NASA's 2024 Human Lander Challenge - India Tribune",
+        description:
+          "Five US universities have won NASA’s 2024 Human Lander Challenge (HuLC) for different innovative concepts addressing the complex issue of managing lunar dust during the impending Moon exploration campaign Artemis, the space agency said. /IANS\n\n\n\nNew York, Jun…",
+        url: "http://www.indiatribune.com/5-us-universities-win-nasas-2024-human-lander-challenge",
+        urlToImage: "http://www.indiatribune.com/uploads/thumbnails_post",
+        publishedAt: "2024-07-03T01:43:59Z",
+        content:
+          "New York, June 30 (IANS) Five US universities have won NASAs 2024 Human Lander Challenge (HuLC) for different innovative concepts addressing the complex issue of managing lunar dust during the impend… [+1422 chars]",
+      },
+      {
+        source: { id: "the-times-of-india", name: "The Times of India" },
+        author: "Surendra Singh",
+        title:
+          "Chandrayaan-3's Pragyan rover makes new findings at Moon's South Pole - The Times of India",
+        description:
+          "India News: NEW DELHI: India’s Chandrayaan-3 mission has made significant findings about the lunar surface at Moon’s South Pole, according to a new analysis of da.",
+        url: "https://timesofindia.indiatimes.com/india/chandrayaan-3s-pragyan-rover-makes-new-findings-at-moons-south-pole/articleshow/111441287.cms",
+        urlToImage:
+          "https://static.toiimg.com/thumb/msid-111441306,width-1070,height-580,imgsize-983136,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        publishedAt: "2024-07-02T22:22:00Z",
+        content: "Unforgettable train journeys across Indias best landscape",
+      },
+      {
+        source: { id: null, name: "YouTube" },
+        author: null,
+        title: "Boeing Starliner crew not stuck on ISS, NASA says - WCNC",
+        description:
+          "Two NASA astronauts will stay longer at the International Space Station as engineers troubleshoot problems on Boeing’s new space capsule that cropped up on t...",
+        url: "https://www.youtube.com/watch?v=2Dwi8lJIBKM",
+        urlToImage: "https://i.ytimg.com/vi/2Dwi8lJIBKM/hqdefault.jpg",
+        publishedAt: "2024-07-02T21:43:37Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "YouTube" },
+        author: null,
+        title:
+          "Launching a new weather satellite and fixing a spacecraft in interstellar space - Central Florida Public Media",
+        description:
+          "The fourth and final satellite of the GOES-R weather satellite constellation is one step closer to tracking weather from space like never before. Plus, after...",
+        url: "https://www.youtube.com/watch?v=fwvilj8BPsc",
+        urlToImage:
+          "https://i.ytimg.com/vi/fwvilj8BPsc/maxresdefault.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAK4CIoCDAgAEAEYHiBLKH8wDw==&rs=AOn4CLCSh-IeCNcrxOGZIGpQkRjloFE7PA",
+        publishedAt: "2024-07-02T21:01:21Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "msnNOW" },
+        author: null,
+        title:
+          "NASA Will Pay SpaceX Up to $843 Million to Destroy the International Space Station - MSN",
+        description: null,
+        url: "https://www.msn.com/en-in/news/techandscience/nasa-will-pay-spacex-up-to-843-million-to-destroy-the-international-space-station/ar-BB1pigmM",
+        urlToImage: null,
+        publishedAt: "2024-07-02T19:17:09Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "India Education Diary" },
+        author: "iednewsdesk",
+        title:
+          "ASU Study on Rock Preservation of Life Signs Dedicated to Late Mentor - India Education Diary",
+        description:
+          "Building from his PhD work at Arizona State University, Jon Lima-Zaloumis is developing methods to look for signs of active life occurring in extreme environments, namely in the Earth’s atmosphere and potentially those of other planets.After earning",
+        url: "https://indiaeducationdiary.in/asu-study-on-rock-preservation-of-life-signs-dedicated-to-late-mentor/",
+        urlToImage:
+          "https://indiaeducationdiary.in/wp-content/uploads/2024/07/press_release_image-1024x576.jpg",
+        publishedAt: "2024-07-02T18:29:11Z",
+        content:
+          "Building from his PhD work at Arizona State University, Jon Lima-Zaloumis is developing methods to look for signs of active life occurring in extreme environments, namely in the Earths atmosphere and… [+6248 chars]",
+      },
+      {
+        source: { id: null, name: "India Education Diary" },
+        author: "iednewsdesk",
+        title:
+          "ASU: Webb Telescope Uncovers Star Clusters in Cosmic Gems Arc - India Education Diary",
+        description:
+          "Young galaxies in the early universe experienced significant bursts of star formation, producing large amounts of ionizing radiation. However, their great distances have made direct studies of their stellar content challenging.Using the James Webb Sp",
+        url: "https://indiaeducationdiary.in/asu-webb-telescope-uncovers-star-clusters-in-cosmic-gems-arc/",
+        urlToImage:
+          "https://indiaeducationdiary.in/wp-content/uploads/2020/08/Default-Image-IED.png",
+        publishedAt: "2024-07-02T18:27:58Z",
+        content:
+          "Young galaxies in the early universe experienced significant bursts of star formation, producing large amounts of ionizing radiation. However, their great distances have made direct studies of their … [+4702 chars]",
       },
       {
         source: { id: null, name: "[Removed]" },
@@ -164,313 +454,84 @@ const articles = {
         content: "[Removed]",
       },
       {
-        source: { id: null, name: "The Quint" },
-        author: "Raajwrita Dutta",
+        source: { id: null, name: "Phys.Org" },
+        author: "Bob Yirka",
         title:
-          "Garena Free Fire MAX Redeem Codes for 30 June 2024: How To Win In-Game Freebies - The Quint",
+          "Infrared glow high in Jupiter's atmosphere may be dark matter particles colliding - Phys.org",
         description:
-          "The Garena Free Fire MAX redeem codes for today, Sunday, 30 June 2024, are updated on the website - reward.ff.garena.com. Follow the steps here to claim the active codes.",
-        url: "https://www.thequint.com/tech-and-auto/tech-news/garena-free-fire-max-redeem-codes-for-today-how-to-win-rewards-and-diamonds-check-details-here",
+          "A pair of astrophysicists with Princeton University and the SLAC National Accelerator Laboratory found possible evidence of dark matter particles colliding. In their study, published in Physical Review Letters, Carlos Blanco and Rebecca Leane conducted measur…",
+        url: "https://phys.org/news/2024-07-infrared-high-jupiter-atmosphere-dark.html",
         urlToImage:
-          "https://images.thequint.com/thequint%2F2024-06%2F25acbc26-ceda-4bde-81c0-637639ede2ec%2Fgarena.jpg",
-        publishedAt: "2024-06-30T03:55:15Z",
+          "https://scx2.b-cdn.net/gfx/news/2024/infrared-glow-high-in.jpg",
+        publishedAt: "2024-07-02T13:04:08Z",
         content:
-          "Registered players can start claiming the Garena Free Fire MAX redeem codes for today, Sunday, 30 June 2024. The list of active codes is updated online and you can use any one of them. Players can co… [+589 chars]",
+          "A pair of astrophysicists with Princeton University and the SLAC National Accelerator Laboratory found possible evidence of dark matter particles colliding. In their study, published in Physical Revi… [+2537 chars]",
       },
       {
-        source: { id: null, name: "NDTV News" },
-        author: null,
+        source: { id: null, name: "Business Insider India" },
+        author: "Ashmita Gupta",
         title:
-          "Kalki 2898 AD Box Office Collection Day 3: Prabhas-Deepika Padukone's Film Is At Rs 220 Crore And Counting - NDTV Movies",
+          "Over 80% of prehistoric megaherbivores went extinct due to human activity and not climate change: Study - Business Insider India",
         description:
-          "NDTV.com: India, Business, Bollywood, Cricket, Video and Breaking News",
-        url: "https://www.ndtv.com/news",
-        urlToImage: "https://cdn.ndtv.com/common/images/ogndtv.png",
-        publishedAt: "2024-06-30T03:52:30Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "CNBCTV18" },
-        author: "https://www.cnbctv18.com",
-        title:
-          "July tech roundup: Foldable phones, budget handsets and other exciting launches - CNBCTV18",
-        description:
-          "Motorola confirmed the launch of its 2024 foldable series — the Moto razr 50 and the moto razr 50 ultra in India.",
-        url: "https://www.cnbctv18.com/technology/july-tech-launches-foldable-phones-budget-handsets-and-other-exciting-launches-19435699.htm",
+          "Recent studies have spotlighted the extinction or rapid decline of large mammals over the past 50,000 years. This is known as the late-Quaternary megafauna extinction. While climate change was once a convenient scapegoat, it has proven insufficient to explain…",
+        url: "https://www.businessinsider.in/science/environment/article/over-80-of-prehistoric-megaherbivores-went-extinct-due-to-human-activity-and-not-climate-change-study/articleshow/111434373.cms",
         urlToImage:
-          "https://images.cnbctv18.com/uploads/2024/06/samsung-galaxy-z-fold-6-2024-06-4de5164aa27a1bcc52ad8b047ef4a31b.jpg?im=FitAndFill,width=500,height=300",
-        publishedAt: "2024-06-30T03:35:53Z",
+          "https://staticbiassets.in/thumb/msid-111434176,width-700,resizemode-4,imgsize-154676/mammoth-extinction.jpg",
+        publishedAt: "2024-07-02T12:06:58Z",
         content:
-          "July is packed with highly anticipated launches in the tech world and promises. From foldable phones to budget-friendly handsets, here's all that's in store for tech enthusiasts in July.Motorola Razr… [+3149 chars]",
+          "Today, it's undeniable that humanity holds a profound influence over Earth's climate and its biodiversity. However, contrary to modern media sensationalism, this relationship is not a recent revelati… [+4280 chars]",
       },
       {
-        source: { id: null, name: "CNBCTV18" },
-        author: "https://www.cnbctv18.com",
-        title:
-          "International Asteroid Day 2024: Know its history and significance - CNBCTV18",
-        description:
-          "This is the day to make people aware about the crisis communication actions that should be taken at the global level in case there is a situation of a credible near-Earth object threat.",
-        url: "https://www.cnbctv18.com/india/science/international-asteroid-day-2024-know-its-history-and-significance-19433408.htm",
-        urlToImage:
-          "https://images.cnbctv18.com/uploads/2022/12/asteroid-11.jpg?im=FitAndFill,width=500,height=300",
-        publishedAt: "2024-06-30T03:32:03Z",
-        content:
-          "International Asteroid Day is marked on June 30 every year to raise awareness about the asteroid impact hazard and its potential threat to our planet.This is the day to make people aware of the crisi… [+2183 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "HT News Desk",
-        title:
-          "Morning briefing: Sharad Pawar on MVA's CM face; PM Modi to resume ‘Mann ki Baat’ today, and more - Hindustan Times",
-        description:
-          "A shortlist of the biggest headlines, recommended stories, and a special collection of news items you should check out. | Latest News India",
-        url: "https://www.hindustantimes.com/india-news/morning-briefing-sharad-pawar-on-mvas-cm-face-pm-modi-to-resume-mann-ki-baat-today-and-more-101719716942934.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/30/1600x900/The-Sharad-Pawar-faction-of-NCP-won-eight-of-the-1_1718994972778_1719717826926.jpg",
-        publishedAt: "2024-06-30T03:25:46Z",
-        content:
-          "NCP (SP) chief Sharad Pawar on Saturday rejected Shiv Sena (UBT)s suggestion to declare a chief minister face of the MVA coalition. Pawar said that the coalition is their collective face, and they ca… [+3886 chars]",
-      },
-      {
-        source: { id: null, name: "NDTV News" },
-        author: null,
-        title:
-          "Warren Buffett Changes His Will, Reveals What Will Happen To His Money After Death - NDTV",
-        description:
-          "Berkshire Hathaway announced on Friday that Mr Buffett is converting around 9,000 Class A shares into over 13 million Class B shares.",
-        url: "https://www.ndtv.com/world-news/warren-buffett-changes-his-will-reveals-what-will-happen-to-his-money-after-death-6000626",
-        urlToImage:
-          "https://c.ndtvimg.com/2019-02/8t9tcl7o_warren-buffett-reuters_625x300_26_February_19.jpg",
-        publishedAt: "2024-06-30T02:35:17Z",
-        content:
-          "Mr Buffett mentioned that he has altered his will multiple times\r\nWarren Buffett has revised the plans for his considerable fortune after his death. Mr Buffett, 93, the chairman of Berkshire Hathaway… [+2212 chars]",
-      },
-      {
-        source: { id: null, name: "THE WEEK" },
-        author: "Puja Awasthi",
-        title:
-          "Skincare myths debunked: Here are the red flags to watch out for - The Week",
-        description:
-          "The quest for ever-youthful skin leading to misuse of anti-aging creams",
-        url: "https://www.theweek.in/health/more/2024/06/29/how-to-take-care-of-your-skin-explained-by-dr-sunil-sanghi.html",
-        urlToImage:
-          "https://www.theweek.in/content/dam/week/week/magazine/health/more/images/2024/6/29/18-Senior-consultant-dermatology.jpg",
-        publishedAt: "2024-06-30T02:11:00Z",
-        content:
-          "Dr Sunil Sanghi, 57, senior consultant, dermatology, studied medicine at the Armed Forces Medical College in Pune. A fellow of the American Association of Dermatology, he enjoys playing lawn tennis a… [+7350 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "ANI",
-        title:
-          "Israeli ministry announces new urban district plan in north Gaza - Hindustan Times",
-        description:
-          "Israel's Ministry of Construction and Housing plans a new urban district in Sderot, Gaza, one of the cities attacked during the October 7 incident. | World News",
-        url: "https://www.hindustantimes.com/world-news/israeli-ministry-announces-new-urban-district-plan-in-north-gaza-101719710716096.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/30/1600x900/Israel-Palestinians-12_1719711532141_1719711585008.jpg",
-        publishedAt: "2024-06-30T01:56:54Z",
-        content:
-          "Israel's Ministry of Construction and Housing has initiated a plan to establish a new urban district near the train station in the city of Sderot located just north of Gaza. It was one of the cities … [+1503 chars]",
-      },
-    ],
-  },
-  science: {
-    status: "ok",
-    totalResults: 15,
-    articles: [
-      {
-        source: { id: null, name: "SocialNews.XYZ" },
-        author: "Gopi",
-        title:
-          "5 US universities win NASA’s 2024 Human Lander Challenge - Social News XYZ",
-        description:
-          "New York, June 30 (SocialNews.XYZ) Five US universities have won NASA’s 2024 Human Lander Challenge (HuLC) for different innovative concepts addressing the complex issue of managing lunar dust during the impending Moon exploration campaign Artemis,... - Socia…",
-        url: "https://www.socialnews.xyz/2024/06/30/5-us-universities-win-nasas-2024-human-lander-challenge/",
-        urlToImage:
-          "https://www.socialnews.xyz/wp-content/uploads/2024/06/30/202406303182028-1024x635.png",
-        publishedAt: "2024-06-30T04:33:28Z",
-        content:
-          "Home » General » Education » 5 US universities win NASAs 2024 Human Lander Challenge\r\nNew York, June 30 (SocialNews.XYZ) Five US universities have won NASAs 2024 Human Lander Challenge (HuLC) for dif… [+1528 chars]",
-      },
-      {
-        source: { id: null, name: "Livemint" },
-        author: "Sudeshna Ghoshal",
-        title:
-          "Sunita Williams' return to Earth may take months, NASA likely to extend project | Today News - Mint",
-        description:
-          "Indian-origin Sunita Williams’ return to Earth may take a few more months as there’s ‘no rush to come home’",
-        url: "https://www.livemint.com/news/world/not-in-a-rush-to-come-home-boeing-starliner-with-sunita-williams-return-date-not-fixe-nasa-stich-heliumleaks-spacex-11719713525220.html",
-        urlToImage:
-          "https://www.livemint.com/lm-img/img/2024/06/30/1600x900/PTI05-06-2024-000075B-0_1719316661367_1719713984730.jpg",
-        publishedAt: "2024-06-30T04:11:26Z",
-        content:
-          "The Boeing Starliner project that was expected to last only a few days, will now take more time as the first test with two astronauts onboard is in limbo, without any announcement of exact date of re… [+5699 chars]",
-      },
-      {
-        source: { id: null, name: "CNBCTV18" },
-        author: "https://www.cnbctv18.com",
-        title:
-          "International Asteroid Day 2024: Know its history and significance - CNBCTV18",
-        description:
-          "This is the day to make people aware about the crisis communication actions that should be taken at the global level in case there is a situation of a credible near-Earth object threat.",
-        url: "https://www.cnbctv18.com/india/science/international-asteroid-day-2024-know-its-history-and-significance-19433408.htm",
-        urlToImage:
-          "https://images.cnbctv18.com/uploads/2022/12/asteroid-11.jpg?im=FitAndFill,width=500,height=300",
-        publishedAt: "2024-06-30T03:32:03Z",
-        content:
-          "International Asteroid Day is marked on June 30 every year to raise awareness about the asteroid impact hazard and its potential threat to our planet.This is the day to make people aware of the crisi… [+2183 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "HT Tech",
-        title:
-          "Top 5 breathtaking cosmology images captured by NASA Hubble Space Telescope - HT Tech",
-        description:
-          "Top 5 breathtaking cosmology images captured by NASA Hubble Space Telescope Check out the stunning cosmology images shared by NASA Hubble Space Telescope. The NASA Hubble Space Telescope showcases unseen views of space and the universe in its best and unimagi…",
-        url: "https://tech.hindustantimes.com/web-stories/top-5-breathtaking-cosmology-images-captured-by-nasa-hubble-space-telescope-71719655464897.html",
-        urlToImage:
-          "https://images.hindustantimes.com/tech/img/2024/06/29/1600x900/potw2135a_1719656184068_1719656186758.jpg/",
-        publishedAt: "2024-06-29T20:00:04Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "WION" },
-        author: "Harshit Sabarwal",
-        title: "The Problem of Space Debris - WION",
-        description: "All images: NASA, ESA",
-        url: "https://www.wionews.com/web-stories/science/the-problem-of-space-debris-1719676729121",
-        urlToImage: null,
-        publishedAt: "2024-06-29T16:19:19Z",
-        content:
-          "There are currently no international laws to clean up space debris in the LEO. LEO is now viewed as the Worlds largest garbage dump, and its expensive to remove space debris from LEO because the prob… [+100 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Ashima Grover",
-        title:
-          "NASA is paying Elon Musk's SpaceX $843m to destroy the International Space Station - Hindustan Times",
-        description:
-          "NASA has awarded SpaceX an $843 million contract to intentionally destroy the ISS after its retirement in 2030.",
-        url: "https://www.hindustantimes.com/world-news/us-news/nasa-is-paying-elon-musks-spacex-843m-to-destroy-the-international-space-station-101719656512415.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/29/1600x900/International-Space-Station-SpaceX-Contract-0_1719659194215_1719659250595.jpg",
-        publishedAt: "2024-06-29T11:12:59Z",
-        content:
-          "NASA has enlisted the help of the astronautics company SpaceX to champion the destruction of the International Space Station (ISS)in 2030. \r\nThis photo provided by NASA shows the International Space … [+3346 chars]",
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: null,
-        title:
-          "Self-Interacting Dark Matter: Mysterious self-interaction of dark matter in nearby galaxy - Moneycontrol",
+        source: { id: null, name: "CW39 Houston" },
+        author: "CW39 Houston",
+        title: "Mars and meteors: July skygazing guide - CW39 Houston",
         description: null,
-        url: "https://admin.google.com/ServiceNotAllowed",
+        url: "https://cw39.com/news/space-exploration/mars-and-meteors-july-skygazing-guide/",
         urlToImage: null,
-        publishedAt: "2024-06-29T10:52:10Z",
-        content:
-          "We are sorry, but you do not have access to Google News. Some reasons why you may not have access: \r\n<ul><li>Your account is managed by an organization that has this service turned off for its users.… [+306 chars]",
-      },
-      {
-        source: { id: null, name: "Space.com" },
-        author: "Stefanie Waldek",
-        title:
-          "NASA's Juno probe reveals lava lakes across Jupiter's volcanic moon Io (image) - Space.com",
-        description:
-          "They aren't all that different from the ones found in Hawaii.",
-        url: "https://www.space.com/nasa-juno-lava-lakes-io-volcanic-moon",
-        urlToImage:
-          "https://cdn.mos.cms.futurecdn.net/Lya9sSYHQiquAvTpCGVTE7-1200-80.png",
-        publishedAt: "2024-06-29T10:00:19Z",
-        content:
-          "NASA's Juno mission might have originally been all about Jupiter, but its extended mission has the spacecraft observing the gas giant's moons — and it's making some pretty interesting discoveries. It… [+2636 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Trisha Sengupta",
-        title:
-          "Peer back in time to 460 million years after the Big Bang with these visuals of ‘first-ever star clusters’ - Hindustan Times",
-        description:
-          "“This is so beautiful”, an Instagram user wrote while reacting to the visuals of ESA of “first-ever star clusters”. The post left others amazed. | Trending",
-        url: "https://www.hindustantimes.com/trending/peer-back-in-time-to-460-million-years-after-the-big-bang-with-these-visuals-of-first-ever-star-clusters-101719640479883.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/29/1600x900/Instagram_Viral_Star_Clusters_Big_Bang_ESA_1719640543869_1719640558703.png",
-        publishedAt: "2024-06-29T06:27:53Z",
-        content:
-          "The European Space Agency (ESA) satisfies the curiosity of space lovers by sharing intriguing posts that give a glimpse into the world beyond our home planet. One such post shows first-ever star clus… [+1665 chars]",
-      },
-      {
-        source: { id: null, name: "Livemint" },
-        author: "Livemint",
-        title:
-          "Sunita Williams stuck in space: Russian satellite breaks into pieces near ISS - Mint",
-        description:
-          "Sunita Williams stuck in space: The National Aeronautics and Space Administration has recently warned its ISS astronauts to seek shelter as Russian satellite breaks into 100 pieces near the space stations location",
-        url: "https://www.livemint.com/science/news/sunita-williams-stuck-in-space-another-bad-news-from-nasa-russian-satellite-iss-boeing-starliner-11719637018031.html",
-        urlToImage:
-          "https://www.livemint.com/lm-img/img/2024/06/29/1600x900/Sunita_Williams_1719637962825_1719637968527.jpg",
-        publishedAt: "2024-06-29T05:31:39Z",
-        content:
-          "Amid uncertainty over Sunita Williams' return from space, NASA recently shared an update about the International Space Station (ISS), the India-born astronaut's temporary home in space. Astronauts on… [+3199 chars]",
-      },
-      {
-        source: { id: null, name: "YouTube" },
-        author: null,
-        title:
-          "Asteroid passing between Earth and moon has ‘0% chance’ of impact: expert | Canada Tonight - CBC News",
-        description:
-          "A large asteroid will pass between Earth and the moon on Saturday. The asteroid, discovered earlier this month, ranges from 120 to 260 metres in diameter. CB...",
-        url: "https://www.youtube.com/watch?v=NvlKB9dsymg",
-        urlToImage: "https://i.ytimg.com/vi/NvlKB9dsymg/maxresdefault.jpg",
-        publishedAt: "2024-06-28T23:54:28Z",
+        publishedAt: "2024-07-02T11:37:48Z",
         content: null,
       },
       {
-        source: { id: null, name: "Dailymotion.com" },
-        author: null,
+        source: { id: null, name: "India Education Diary" },
+        author: "India Education Diary Bureau Admin",
         title:
-          "Butterfly-Shape' Coronal Mass Ejection Captured - video Dailymotion - Dailymotion",
-        description: null,
-        url: "https://www.dailymotion.com/video/x914lts",
-        urlToImage: null,
-        publishedAt: "2024-06-28T20:04:21Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "Dailymotion.com" },
-        author: null,
-        title:
-          "4K Webb Telescope's Amazing Imagery Of Star-Forming Region NGC 346 - video Dailymotion - Dailymotion",
-        description: null,
-        url: "https://www.dailymotion.com/video/x914h80",
-        urlToImage: null,
-        publishedAt: "2024-06-28T19:03:21Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "The Indian Express" },
-        author: "The Indian Express",
-        title:
-          "China’s Chang’e-6 collects nearly two kgs of samples from Moon’s far side for research - The Indian Express",
-        description: null,
-        url: "https://indianexpress.com/article/world/chinas-change6-samples-moon-far-side-9420539/",
-        urlToImage: null,
-        publishedAt: "2024-06-28T10:47:58Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "Space.com" },
-        author: "Robert Lea",
-        title:
-          "James Webb Space Telescope spies strange shapes above Jupiter's Great Red Spot - Livescience.com",
+          "SPACE India celebrated the United Nations' International Asteroid Day in collaboration with Bhau Daji Lad Museum in Mumbai - India Education Diary",
         description:
-          "Astronomers using the James Webb Space Telescope (JWST) have spotted a previously unseen structure in the atmosphere above Jupiter's famous Great Red Spot.",
-        url: "https://www.space.com/james-webb-space-telescope-strange-shapes-above-jupiters-great-red-spot-image",
+          "With over 1000 participants having learned about the critical importance of saving our planet, the urgency is clear: take action nowSPACE India’s Astro Carnival in Mumbai marked the significance of the United Nations International Asteroid Day. It wa",
+        url: "https://indiaeducationdiary.in/space-india-celebrated-the-united-nations-international-asteroid-day-in-collaboration-with-bhau-daji-lad-museum-in-mumbai/",
         urlToImage:
-          "https://cdn.mos.cms.futurecdn.net/aGEDMfYm6cixxLCtgzWMLD-1200-80.jpg",
-        publishedAt: "2024-06-28T10:00:00Z",
+          "https://indiaeducationdiary.in/wp-content/uploads/2020/08/Default-Image-IED.png",
+        publishedAt: "2024-07-02T11:27:43Z",
         content:
-          "Using the James Webb Space Telescope (JWST), astronomers have found previously unseen structures and activity in Jupiter's atmosphere above the Great Red Spot. These odd features seem to be caused by… [+4650 chars]",
+          "With over 1000 participants having learned about the critical importance of saving our planet, the urgency is clear: take action now\r\nSPACE Indias Astro Carnival in Mumbai marked the significance of … [+2465 chars]",
+      },
+      {
+        source: { id: null, name: "India TV News" },
+        author: "Rahul Pratyush",
+        title:
+          "'Take a journey through triple-star system': NASA's Hubble telescope amazes space lovers - India TV News",
+        description:
+          "NASA never leaves an opportunity to amaze people. The space agency keeps sharing stunning pictures from the vast universe. Recently, they shared beautiful pictures of the triple-star system.",
+        url: "https://www.indiatvnews.com/trending/news/take-a-journey-through-triple-star-system-nasa-s-hubble-telescope-amazes-space-lovers-2024-07-02-939856",
+        urlToImage:
+          "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2024/07/wdwer-1719912897.jpg",
+        publishedAt: "2024-07-02T10:15:17Z",
+        content:
+          "NASA's Hubble Space Telescope has consistently fascinated space enthusiasts by showcasing the immense scale of the universe. Whether it's capturing far-off galaxies billions of light-years away or do… [+1812 chars]",
+      },
+      {
+        source: { id: null, name: "News9live.com" },
+        author: "Aditya Madanapalle",
+        title:
+          "NASA Astronomy Picture of the Day: Noctilucent Clouds - News9 LIVE",
+        description:
+          "Noctilucent clouds are the highest altitude clouds in the atmosphere of Earth.",
+        url: "https://www.news9live.com/web-stories/science/nasa-astronomy-picture-of-the-day-noctilucent-clouds",
+        urlToImage:
+          "https://images.news9live.com/wp-content/uploads/2024/07/cropped-image-54.png",
+        publishedAt: "2024-07-02T09:41:04Z",
+        content:
+          "Noctilucent clouds form between altitudes of 76 and 85 kilometers, and are the highest clouds on Earth.",
       },
     ],
   },
@@ -480,267 +541,262 @@ const articles = {
     articles: [
       {
         source: { id: "the-times-of-india", name: "The Times of India" },
-        author: "Aadya+Jha",
+        author: "Shifa Khan",
         title:
-          "8 common diabetes medicine and their side effects - The Times of India",
+          "10 foods that contain cancer-causing agents - The Times of India",
         description:
-          "Managing diabetes is a balancing act that often requires medication to help control blood sugar levels. Understanding the potential side effects of these common diabetes drugs can help better navigate your treatment options and discuss any concerns with your …",
-        url: "https://timesofindia.indiatimes.com/life-style/health-fitness/web-stories/8-common-diabetes-medicine-and-their-side-effects/photostory/111376198.cms",
+          "Avoiding these cancer-causing foods and incorporating healthier alternatives can significantly reduce the risk of developing cancer.",
+        url: "https://timesofindia.indiatimes.com/life-style/health-fitness/web-stories/10-foods-that-contain-cancer-causing-agents/photostory/111436284.cms",
         urlToImage:
-          "https://static.toiimg.com/thumb/msid-111376294,imgsize-1089316,width-900,height-1200,resizemode-6/111376294.jpg",
-        publishedAt: "2024-06-30T05:36:00Z",
+          "https://static.toiimg.com/thumb/msid-111436320,imgsize-1277736,width-900,height-1200,resizemode-6/111436320.jpg",
+        publishedAt: "2024-07-03T06:30:00Z",
         content:
-          "Sulfonylureas, such as glimepiride and glyburide, work by stimulating the pancreas to produce more insulin. While effective, they can cause low blood sugar (hypoglycemia), which can lead to dizziness… [+71 chars]",
-      },
-      {
-        source: { id: null, name: "Mid-day" },
-        author: null,
-        title:
-          "Replacing acai with Indian berries like amla, jamun, falsa, mulberries - mid-day.com",
-        description:
-          "Replace freeze-dried imported acai and go vocal for local with fresh, seasonal berries",
-        url: "https://www.mid-day.com/sunday-mid-day/article/a-berry-good-idea-23358589",
-        urlToImage:
-          "https://images.mid-day.com/images/images/2024/jun/Jamun-1_d.jpg",
-        publishedAt: "2024-06-30T02:55:00Z",
-        content:
-          "Replace freeze-dried imported acai and go vocal for local with fresh, seasonal berries\r\nChef Karishma Sakhrani advocates locally grown berries as substitutes for acai berries. She has curated the rec… [+4470 chars]",
-      },
-      {
-        source: { id: null, name: "THE WEEK" },
-        author: "Nirmal Jovial",
-        title:
-          "AI algorithms can precisely identify indications of heart disease - The Week",
-        description:
-          "These include coronary artery disease and atrial fibrillation",
-        url: "https://www.theweek.in/health/cover/2024/06/29/heartnet-india-pvt-ltd-director-arindam-sen-interview.html",
-        urlToImage:
-          "https://www.theweek.in/content/dam/week/week/magazine/health/cover/images/2024/6/29/26-Arindam-Sen.jpg",
-        publishedAt: "2024-06-30T02:14:00Z",
-        content:
-          "Interview/ Arindam Sen, director, Heartnet India Pvt Ltd\r\nThe Internet of Things has seamlessly integrated into our lives, extending from our kitchens to our very bodies. One of IoTs most significant… [+2928 chars]",
-      },
-      {
-        source: { id: null, name: "THE WEEK" },
-        author: "Puja Awasthi",
-        title:
-          "Skincare myths debunked: Here are the red flags to watch out for - The Week",
-        description:
-          "The quest for ever-youthful skin leading to misuse of anti-aging creams",
-        url: "https://www.theweek.in/health/more/2024/06/29/how-to-take-care-of-your-skin-explained-by-dr-sunil-sanghi.html",
-        urlToImage:
-          "https://www.theweek.in/content/dam/week/week/magazine/health/more/images/2024/6/29/18-Senior-consultant-dermatology.jpg",
-        publishedAt: "2024-06-30T02:11:00Z",
-        content:
-          "Dr Sunil Sanghi, 57, senior consultant, dermatology, studied medicine at the Armed Forces Medical College in Pune. A fellow of the American Association of Dermatology, he enjoys playing lawn tennis a… [+7350 chars]",
-      },
-      {
-        source: { id: null, name: "News-Medical.Net" },
-        author: null,
-        title:
-          "Preconception intake of calcium and zinc linked to lower risk of hypertensive disorders of pregnancy - News-Medical.Net",
-        description:
-          "People with higher intakes of calcium and zinc in the three months before they conceived were significantly less likely to suffer hypertensive disorders during their pregnancy compared with those who had lower intakes of these essential minerals, according to…",
-        url: "https://www.news-medical.net/news/20240629/Preconception-intake-of-calcium-and-zinc-linked-to-lower-risk-of-hypertensive-disorders-of-pregnancy.aspx",
-        urlToImage:
-          "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2014/6/Pregnancy-620x480.jpg",
-        publishedAt: "2024-06-30T01:32:00Z",
-        content:
-          "People with higher intakes of calcium and zinc in the three months before they conceived were significantly less likely to suffer hypertensive disorders during their pregnancy compared with those who… [+3979 chars]",
-      },
-      {
-        source: { id: null, name: "YouTube" },
-        author: null,
-        title:
-          "Tulsi Health Benefits: From Balancing Stress To Protecting Liver From Toxins - moneycontrol",
-        description:
-          "Tulsi, also known as holy basil, is renowned for its myriad health benefits. Its adaptogenic properties help the body adapt to stress and promote mental bala...",
-        url: "https://www.youtube.com/watch?v=gc9ATqurLHg",
-        urlToImage: "https://i.ytimg.com/vi/gc9ATqurLHg/maxresdefault.jpg",
-        publishedAt: "2024-06-30T01:30:23Z",
-        content: null,
-      },
-      {
-        source: { id: "the-times-of-india", name: "The Times of India" },
-        author: "TOI Lifestyle Desk",
-        title:
-          "10 foods that can reduce the risk of gut induced Parkinson - The Times of India",
-        description:
-          "Incorporating a variety of foods like fiber-rich foods, fermented foods, omega-3 rich foods, turmeric, green tea, berries, leafy greens, nuts and seed",
-        url: "https://timesofindia.indiatimes.com/life-style/food-news/10-foods-that-can-reduce-the-risk-of-gut-induced-parkinson/articleshow/111369246.cms",
-        urlToImage:
-          "https://static.toiimg.com/thumb/msid-111369131,width-1070,height-580,imgsize-85504,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-        publishedAt: "2024-06-30T01:30:00Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Vicky Pathare",
-        title:
-          "PMC to start surveillance after suspected vector-borne cases - Hindustan Times",
-        description:
-          "Pune Municipal Corporation to conduct proactive surveillance and containment activities for vector-borne diseases, including suspected cases, to prevent further spread.",
-        url: "https://www.hindustantimes.com/cities/pune-news/pmc-to-start-surveillance-after-suspected-vector-borne-cases-101719688035457.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/29/1600x900/Previously-the-surveillance--containment-survey-an_1719687991236.jpg",
-        publishedAt: "2024-06-30T00:46:01Z",
-        content:
-          "Following the surge in Zika cases and an expected surge in other vector-borne diseases, the Pune Municipal Corporation (PMC) has decided to start surveillance and containment activities for vector-bo… [+1853 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Vicky Pathare",
-        title:
-          "PMC warns private hospital over delay in reporting Zika case - Hindustan Times",
-        description:
-          "The private lab reports detected Zika virus and dengue virus in woman’s blood serum on June 1. However, the hospital informed PMC about the case on June 22",
-        url: "https://www.hindustantimes.com/cities/pune-news/pmc-warns-private-hospital-over-delay-in-reporting-zika-case-101719687434914.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/29/1600x900/After-the-hospital-informed-the-PMC-about-the-Zika_1719687390710.jpg",
-        publishedAt: "2024-06-30T00:12:19Z",
-        content:
-          "The Pune Municipal Corporation (PMC) Health department on Wednesday issued a warning letter to Nobel Hospital, Hadapsar for delaying reporting a Zika Virus case at the hospital. Samples of a 47-year-… [+2192 chars]",
-      },
-      {
-        source: { id: null, name: "Jara.news" },
-        author: "JARA News Media",
-        title:
-          "Brain cells controlling hunger & satiation - JARA News - JARA News",
-        description:
-          "Research pinpoints the exact neurons responsible for the weight loss effects of GLP-1 drugs In high amounts, GLP-1 drugs also reduce appetite and signal a feeling of fullness before eating by targeting the brain, but the exact mechanism was not known until no…",
-        url: "https://jara.news/brain-cells-controlling-hunger-satiation/",
-        urlToImage:
-          "https://i0.wp.com/jara.news/wp-content/uploads/2023/10/iconstopryCam.jpg?resize=15%2C11&ssl=1",
-        publishedAt: "2024-06-29T23:47:29Z",
-        content:
-          "Research pinpoints the exact neurons responsible for the weight loss effects of GLP-1 drugsScientists have figured out how popular medications like Ozempic and Wegovy are helping people shed the kilo… [+4308 chars]",
-      },
-      {
-        source: { id: "the-times-of-india", name: "The Times of India" },
-        author: "TNN",
-        title:
-          "Medicos face hepatitis vaccine shortage, supply likely by Sept - The Times of India",
-        description:
-          "Medical professionals and hospitals facing hepatitis B vaccine shortage with supply anticipated to resume by September. Learn about the impact on healthcare services and the reasons behind the scarcity.",
-        url: "https://timesofindia.indiatimes.com/city/ahmedabad/hepatitis-vaccine-shortage-impacts-medicos-supply-expected-by-september/articleshow/111372970.cms",
-        urlToImage:
-          "https://static.toiimg.com/thumb/msid-111372969,width-1070,height-580,imgsize-282282,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-        publishedAt: "2024-06-29T23:29:00Z",
-        content: "9 vegetables that improve eyesight naturally",
-      },
-      {
-        source: { id: null, name: "Thesouthfirst.com" },
-        author: "South First Desk",
-        title:
-          "All about dengue: A guide to navigate through the viral disease - South First",
-        description:
-          "According to WHO about half of the world's population is at risk of dengue, with an estimated 100-400 million infections occurring each year.",
-        url: "https://thesouthfirst.com/health/all-about-dengue-a-guide-to-navigate-through-the-viral-disease/",
-        urlToImage:
-          "https://s3.ap-south-1.amazonaws.com/media.thesouthfirst.com/wp-content/uploads/2023/09/Aedes-aegypti-the-mosquito-species-that-primararily-causes-the-spread-of-dengue.-Creative-Commons.jpg",
-        publishedAt: "2024-06-29T21:32:14Z",
-        content:
-          "Amidst the torrential monsoon rains, southern states like Telangana and Karnataka are battling a surge in dengue cases, with over a thousand infections already reported.As rainwater pools in urban no… [+18101 chars]",
-      },
-      {
-        source: { id: null, name: "The Tribune India" },
-        author: "The Tribune India",
-        title:
-          "Health Department gears up to tackle mosquito-borne diseases - The Tribune India",
-        description: null,
-        url: "https://www.tribuneindia.com/news/amritsar/health-department-gears-up-to-tackle-mosquito-borne-diseases-635423",
-        urlToImage: null,
-        publishedAt: "2024-06-29T21:05:16Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "The Tribune India" },
-        author: "The Tribune India",
-        title:
-          "Volunteers launch mission to prevent dengue, malaria - The Tribune India",
-        description: null,
-        url: "https://www.tribuneindia.com/news/jalandhar/volunteers-launch-mission-to-prevent-dengue-malaria-635366",
-        urlToImage: null,
-        publishedAt: "2024-06-29T20:37:04Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "The Tribune India" },
-        author: "The Tribune India",
-        title:
-          "Muktsar Civil Hospital sans anti-rabies serum - The Tribune India",
-        description: null,
-        url: "https://www.tribuneindia.com/news/punjab/muktsar-civil-hospital-sans-anti-rabies-serum-635313",
-        urlToImage: null,
-        publishedAt: "2024-06-29T20:13:04Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "Earth.com" },
-        author: null,
-        title:
-          "Dads' diets have a direct impact on childhood obesity rates - Earth.com",
-        description:
-          "Childhood obesity, a concern worldwide, is in the crosshairs of breakthrough research involving a seemingly simple dietary change.",
-        url: "https://www.earth.com/news/dads-diets-have-a-direct-impact-on-childhood-obesity-rates/",
-        urlToImage:
-          "https://cff2.earth.com/uploads/2024/06/29125410/father-diet_influences_offspring-health_1m.jpg",
-        publishedAt: "2024-06-29T19:19:07Z",
-        content:
-          "Childhood obesity, an escalating concern worldwide, is in the crosshairs of breakthrough research involving a seemingly simple dietary change. \r\nThe study underscores the potential of a readily avail… [+3942 chars]",
-      },
-      {
-        source: { id: null, name: "India Education Diary" },
-        author: "iednewsdesk",
-        title:
-          "UPMC Suggests New Risk Equation Could Limit Statin Recommendations for Heart Disease Prevention - India Education Diary",
-        description:
-          "If national guidelines are revised to incorporate a new risk equation, about 40% fewer people could meet criteria for cholesterol-lowering statins to prevent heart disease, according to a study by researchers at the University of Pittsburgh, Beth Isr",
-        url: "https://indiaeducationdiary.in/upmc-suggests-new-risk-equation-could-limit-statin-recommendations-for-heart-disease-prevention/",
-        urlToImage:
-          "https://indiaeducationdiary.in/wp-content/uploads/2020/12/upmc_logo_og-3.jpg",
-        publishedAt: "2024-06-29T17:23:49Z",
-        content:
-          "If national guidelines are revised to incorporate a new risk equation, about 40% fewer people could meet criteria for cholesterol-lowering statins to prevent heart disease, according to a study by re… [+3170 chars]",
-      },
-      {
-        source: { id: "the-times-of-india", name: "The Times of India" },
-        author: "Aadya+Jha",
-        title:
-          "8 things that make us moody and how to avoid it - The Times of India",
-        description:
-          "Understanding what triggers moodiness is the first step in managing it effectively. By making conscious lifestyle choices we can significantly improve our mood and overall well-being. Small changes can lead to big improvements in how you feel each day.",
-        url: "https://timesofindia.indiatimes.com/life-style/health-fitness/web-stories/8-things-that-make-us-moody-and-how-to-avoid-it/photostory/111359894.cms",
-        urlToImage:
-          "https://static.toiimg.com/thumb/msid-111360144,imgsize-1089299,width-900,height-1200,resizemode-6/111360144.jpg",
-        publishedAt: "2024-06-29T16:30:00Z",
-        content:
-          "Stress can become chronic, it can lead to mood swings, anxiety, and depression. Chronic stress can disrupt your hormonal balance, contributing to mood disorders. Practice stress management techniques… [+48 chars]",
-      },
-      {
-        source: { id: "the-hindu", name: "The Hindu" },
-        author: "The Hindu",
-        title:
-          "Endemic dengue may have helped stem severity of early COVID wave in India: study - The Hindu",
-        description: null,
-        url: "https://www.thehindu.com/sci-tech/science/endemic-dengue-may-have-helped-stem-severity-of-early-covid-wave-in-india-study/article68349009.ece",
-        urlToImage: null,
-        publishedAt: "2024-06-29T16:07:00Z",
-        content: null,
+          "According to Dr Neeraj Goel, Director - Oncology Services, GI Oncology, GI &amp; HPB Surgery at the CK Birla Hospital (R), Delhi, These drinks, especially those with high sugar content, have been ass… [+131 chars]",
       },
       {
         source: { id: null, name: "India.com" },
         author: "https://www.india.com/author/lifestylestaff/",
         title:
-          "Can Diabetes Increase The Risk of Uterine Cancer? ICMR Shares Link - India.com",
+          "Quit Smoking! WHO Releases First-Ever Treatment Guidelines to Stop Tobacco Usage in Adults - India.com",
         description:
-          "The Indian Council of Medical Research (ICMR) has highlighted a crucial link between type 2 diabetes and a rise in uterine cancer cases. How is this connection attributed? Scroll down to know!",
-        url: "https://www.india.com/health/can-diabetes-increase-the-risk-of-uterine-cancer-icmr-shares-link-7048758/",
+          "The World Health Organisation has recently published its first-ever guidelines for treatment of cessation of tobacco.",
+        url: "https://www.india.com/health/quit-smoking-who-releases-first-ever-treatment-guidelines-to-stop-tobacco-usage-in-adults-7056411/",
         urlToImage:
-          "https://static.india.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-29-at-8.55.44-PM.jpeg",
-        publishedAt: "2024-06-29T15:30:31Z",
+          "https://static.india.com/wp-content/uploads/2024/07/MixCollage-03-Jul-2024-10-47-AM-8771.jpg",
+        publishedAt: "2024-07-03T05:35:23Z",
         content:
-          "The Indian Council of Medical Research (ICMR) has highlighted a crucial link between type 2 diabetes and a rise in uterine cancer cases. How is this connection attributed? Scroll down to know!\r\nCan D… [+2185 chars]",
+          "The World Health Organisation has recently published its first-ever guidelines for treatment of cessation of tobacco. \r\nSmoking is an addiction that requires utmost determination to quit. Smoking is … [+2069 chars]",
+      },
+      {
+        source: { id: null, name: "Livemint" },
+        author: "Affiliate Desk",
+        title:
+          "Best digital blood pressure monitors in 2024: Top 7 accurate and portable choices | Mint - Mint",
+        description:
+          "Seeking a reliable and portable blood pressure monitor? Dive into our comprehensive guide featuring the top 7 BP monitors of 2024. Make an informed choice to ensure accurate readings and convenience wherever you go.",
+        url: "https://www.livemint.com/technology/gadgets/best-digital-blood-pressure-monitors-in-2024-top-7-accurate-and-portable-choices-11719896561627.html",
+        urlToImage:
+          "https://www.livemint.com/lm-img/img/2024/07/02/1600x900/Digital_Wrist_Blood_Pressure_Monitors_1719916252423_1719916264198.jpg",
+        publishedAt: "2024-07-03T05:00:06Z",
+        content:
+          "Digital blood pressure monitors offer a convenient means to monitor your blood pressure from the comfort of home. With advancements in technology, these devices have improved in accuracy and usabilit… [+11707 chars]",
+      },
+      {
+        source: { id: null, name: "Cureus.com" },
+        author: "Cureus",
+        title:
+          "Exploration of Sargassum wightii: Extraction, Phytochemical Analysis, and Antioxidant Potential of Polyphenol - Cureus",
+        description: null,
+        url: "https://www.cureus.com/articles/264098-exploration-of-sargassum-wightii-extraction-phytochemical-analysis-and-antioxidant-potential-of-polyphenol",
+        urlToImage: null,
+        publishedAt: "2024-07-03T03:46:08Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "Vicky Pathare",
+        title: "Seventh case of Zika detected in Pune - Hindustan Times",
+        description:
+          "City reports 7th Zika case as 45-year-old woman tests positive in Kothrud. Majority show mild symptoms; pregnant women at risk.",
+        url: "https://www.hindustantimes.com/cities/pune-news/seventh-zika-cases-detected-in-pune-101719944405003.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/02/1600x900/According-to-civic-officials--the-woman-on-June-26_1719948322389.jpg",
+        publishedAt: "2024-07-03T02:56:01Z",
+        content:
+          "The city has reported yet another case of Zika, a mosquito-borne virus, taking the overall count to seven, civic officials said on Tuesday. \r\nAccording to civic officials, the woman on June 26 compla… [+1464 chars]",
+      },
+      {
+        source: { id: null, name: "News-Medical.Net" },
+        author: null,
+        title:
+          "Innovative HIV vaccine approaches yield potential for broad protection against viral strains - News-Medical.Net",
+        description:
+          'A major challenge in developing a vaccine for HIV is that the virus mutates fast-;very fast. Although a person initially becomes infected with one or a few HIV strains, the virus replicates and mutates quickly, resulting in a "swarm" of viral strains existing…',
+        url: "https://www.news-medical.net/news/20240702/Innovative-HIV-vaccine-approaches-yield-potential-for-broad-protection-against-viral-strains.aspx",
+        urlToImage:
+          "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2017/1/A_doctor_makes_a_vaccination_to_a_child-Yuganov_Konstantin_cdbf1b05417f45e89b8268af4858e1c9-620x480.jpg",
+        publishedAt: "2024-07-03T02:45:00Z",
+        content:
+          "A major challenge in developing a vaccine for HIV is that the virus mutates fast-;very fast. Although a person initially becomes infected with one or a few HIV strains, the virus replicates and mutat… [+8475 chars]",
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "Surabhi Gorebal",
+        title: "No fear of Zika in Mumbai yet - Hindustan Times",
+        description:
+          "Two cases of Zika were recorded in the city last year – a 15-year-old girl, resident of Kurla, and a 79-year-old man from Chembur",
+        url: "https://www.hindustantimes.com/cities/others/no-fear-of-zika-in-mumbai-yet-101719947890212.html",
+        urlToImage: "https://images.hindustantimes.com/default/1600x900.jpg",
+        publishedAt: "2024-07-03T02:32:19Z",
+        content:
+          "Mumbai: Even as Pune has reported six cases of Zika virus and one each in Ahmednagar and Kolhapur, raising concerns about the spread of the mosquito-borne virus, doctors in Mumbai and the civic body … [+1940 chars]",
+      },
+      {
+        source: { id: null, name: "YouTube" },
+        author: null,
+        title:
+          "New study: High levels of ultraprocessed food may shorten lifespans by more than 10% - Hawaii News Now",
+        description: null,
+        url: "https://www.youtube.com/watch?v=7Ol8aH1A_wU",
+        urlToImage: null,
+        publishedAt: "2024-07-03T01:15:00Z",
+        content:
+          "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later",
+      },
+      {
+        source: { id: null, name: "YouTube" },
+        author: null,
+        title: "10 Benefits Of Ginger Juice - moneycontrol",
+        description:
+          "Here are the 10 health benefits of ginger juice1. Ginger contains gingerol which stimulates the production of saliva and bile, thus enhancing the digestive p...",
+        url: "https://www.youtube.com/watch?v=ZL8iEW3ehBA",
+        urlToImage: "https://i.ytimg.com/vi/ZL8iEW3ehBA/maxresdefault.jpg",
+        publishedAt: "2024-07-03T00:30:22Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "YouTube" },
+        author: null,
+        title: "How to deal with high blood pressure - KOAT",
+        description:
+          "How to deal with high blood pressureSubscribe to KOAT on YouTube now for more: http://bit.ly/1jocB9rGet more Albuquerque news: http://www.koat.comLike us: ht...",
+        url: "https://www.youtube.com/watch?v=M1moM_pA0lg",
+        urlToImage: "https://i.ytimg.com/vi/M1moM_pA0lg/maxresdefault.jpg",
+        publishedAt: "2024-07-02T22:02:36Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Futurity: Research News" },
+        author: "Yale",
+        title:
+          "Lots of infections may have protected kids from COVID - Futurity: Research News",
+        description:
+          "Frequent viral and bacterial infections in kids boost nasal immune defenses. That may have protected them from severe COVID, a study finds.",
+        url: "https://www.futurity.org/seasonal-respiratory-viruses-kids-covid-19-3235972/",
+        urlToImage:
+          "https://www.futurity.org/wp/wp-content/uploads/2024/07/seasonal-viruses-kids-covid-19-1600.jpg",
+        publishedAt: "2024-07-02T18:35:51Z",
+        content:
+          "A new study suggests that susceptibility to a variety of respiratory infections may be part of what protected children from severe COVID-19.\r\nIn the study, researchers found that the presence and pre… [+5051 chars]",
+      },
+      {
+        source: { id: null, name: "Deccan Herald" },
+        author: "Udbhavi Balakrishna",
+        title:
+          "Private hospitals to have fixed rates for dengue tests: Karnataka Health Minister - Deccan Herald",
+        description: null,
+        url: "https://www.deccanherald.com/india/karnataka/private-hospitals-to-have-fixed-rates-for-dengue-tests-karnataka-health-minister-3090176",
+        urlToImage:
+          "https://images.deccanherald.com/deccanherald%2F2024-07%2Fc5dcd0bc-de8c-416c-8425-5bdcb8634fee%2Ffile7uuo6zpx0pt8nnqlm28.jpg?rect=0%2C0%2C3556%2C1867&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
+        publishedAt: "2024-07-02T17:45:59Z",
+        content:
+          "The state has recorded 6,187 positive dengue cases and six deaths from January to the end of June, with a death rate of 0.09 per cent. The highest number of cases are being reported in Bengaluru, Chi… [+1015 chars]",
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "Maria Khan",
+        title:
+          "Month-long fogging drive kicks off in Noida to combat vector-borne diseases - Hindustan Times",
+        description:
+          "Under the drive, teams comprising 52 health workers will carry out fogging and anti-larvae spraying across Noida",
+        url: "https://www.hindustantimes.com/cities/noida-news/monthlong-fogging-drive-kicks-off-in-noida-to-combat-vector-borne-diseases-101719939723432.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/02/1600x900/Health-workers-carry-out-fogging-in-Sector-12--Noi_1719939679210.jpg",
+        publishedAt: "2024-07-02T17:02:02Z",
+        content:
+          "The health department of Noida authority has begun a month-long drive of fogging and spraying of anti-larvae medicines in an attempt to combat the spread of vector-borne diseases. \r\nHealth workers ca… [+2360 chars]",
+      },
+      {
+        source: { id: null, name: "GlobeNewswire" },
+        author: "SNS Insider pvt ltd",
+        title:
+          "Remote Patient Monitoring [RPM] Market Size to Accumulate Around US$ 458.29 Billion By 2031, Enables Personalized Care, Erases Racial Disparity in Postpartum Emergency Room Use - GlobeNewswire",
+        description:
+          "Advancements in Technology Propel Remote Patient Monitoring Market: Latest Innovations Drive Significant Growth and Transform Healthcare Delivery......",
+        url: "https://www.globenewswire.com/news-release/2024/07/02/2907708/0/en/Remote-Patient-Monitoring-RPM-Market-Size-to-Accumulate-Around-US-458-29-Billion-By-2031-Enables-Personalized-Care-Erases-Racial-Disparity-in-Postpartum-Emergency-Room-Use.html",
+        urlToImage:
+          "https://ml.globenewswire.com/Resource/Download/cb2adc75-7bac-484e-a705-cb2addc4a99e",
+        publishedAt: "2024-07-02T16:48:19Z",
+        content:
+          "Pune, July 02, 2024 (GLOBE NEWSWIRE) -- Remote Patient Monitoring [RPM] Market Size Analysis:\r\nAccording to SNS Insider Research, The Remote Patient Monitoring (RPM) Market\r\n is on a staggering upwar… [+10988 chars]",
+      },
+      {
+        source: { id: "the-times-of-india", name: "The Times of India" },
+        author: "etimes.in",
+        title:
+          "13 self care habits we need to pay attention to - The Times of India",
+        description:
+          "​WHO defines self-care as individuals, families and communities’ promoting and maintaining their own health, preventing disease, and coping with illness and disability, with or without the support of a health worker.",
+        url: "https://timesofindia.indiatimes.com/life-style/health-fitness/web-stories/13-self-care-habits-we-need-to-pay-attention-to/photostory/111425778.cms",
+        urlToImage:
+          "https://static.toiimg.com/thumb/msid-111425820,imgsize-582909,width-900,height-1200,resizemode-6/111425820.jpg",
+        publishedAt: "2024-07-02T16:30:00Z",
+        content:
+          "WHO defines self-care as individuals, families and communities promoting and maintaining their own health, preventing disease, and coping with illness and disability, with or without the support of a… [+14 chars]",
+      },
+      {
+        source: { id: null, name: "VOGUE India" },
+        author: "Alessandra Signorelli",
+        title:
+          "Bulletproof coffee could help boost your energy levels—here's what you need to know - VOGUE India",
+        description:
+          "Adding ghee to your morning cup of coffee could help boost your energy levels—here's how bulletproof coffee can help",
+        url: "https://www.vogue.in/content/adding-ghee-to-your-morning-cup-of-coffee-could-help-boost-your-energy-levels",
+        urlToImage:
+          "https://assets.vogue.in/photos/66842245fd97585f15a89127/16:9/w_1280,c_limit/Coffee.jpg",
+        publishedAt: "2024-07-02T16:03:16Z",
+        content:
+          "If you're keeping up with wellness trends, you've likely noticed the rise in popularity of bulletproof coffee. Even the likes of Harry Styles and Shailene Woodley are known to swear by butter coffee.… [+4667 chars]",
+      },
+      {
+        source: { id: null, name: "India TV News" },
+        author: "Muskan Gupta",
+        title: "5 common habits that can damage your brain - India TV News",
+        description:
+          "Learn about 5 common habits that can harm your brain health. Discover how everyday activities may impact cognitive function and long-term brain health. at India TV News",
+        url: "https://www.indiatvnews.com/web-stories/health/5-common-habits-that-can-damage-your-brain-2024-07-02-939929",
+        urlToImage:
+          "https://resize.indiatvnews.com/en/resize/newbucket/1080_-/2024/07/befunky-collage-2024-07-02t205352-1719933836.jpg",
+        publishedAt: "2024-07-02T15:25:40Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "The Indian Express" },
+        author: "The Indian Express",
+        title:
+          "50% positivity rate in city’s dengue samples: NIV - The Indian Express",
+        description: null,
+        url: "https://indianexpress.com/article/cities/pune/50-positivity-rate-city-dengue-samples-niv-9428964/",
+        urlToImage: null,
+        publishedAt: "2024-07-02T15:21:36Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: "NDTV food",
+        title: "5 Detoxifying Foods For Clear Skin - NDTV Food",
+        description:
+          "Having healthy skin through natural ways is nothing impossible. Here are 5 detoxifying foods that you can eat in order to achieve that clear and glowing skin.",
+        url: "https://food.ndtv.com/webstories/food/5-detoxifying-foods-for-clear-skin-19761",
+        urlToImage:
+          "https://c.ndtvimg.com/2024-07/m0mndqo8_girl-doing-skincare_295x200_02_July_24.jpg",
+        publishedAt: "2024-07-02T13:28:28Z",
+        content:
+          "Filled with vitamins A, C and K, spinach helps in reducing inflammation and improves skin elasticity. \r\nImage Credit: iStock",
+      },
+      {
+        source: { id: null, name: "WION" },
+        author: null,
+        title:
+          "Brain of humans go through significant change after death: study - WION",
+        description:
+          "In a new study, it has been found how inconvenient is death as an event for a living brain. \n\nA cascade of effects has been observed as oxygen starts depleting and translating the DNA in its last efforts to save the life.\n\nThe scientists have compared the pos…",
+        url: "https://www.wionews.com/science/brains-of-humans-go-through-significant-change-after-death-study-737176",
+        urlToImage:
+          "https://cdn.wionews.com/sites/default/files/2024/07/02/441232-genes.png",
+        publishedAt: "2024-07-02T12:38:25Z",
+        content:
+          "In a new study, it has been found how inconvenient is death as an event for a living brain. \r\nA cascade of effects has been observed as oxygen starts depleting and translating the DNA in its last eff… [+2706 chars]",
       },
     ],
   },
@@ -749,941 +805,1107 @@ const articles = {
     totalResults: 70,
     articles: [
       {
-        source: { id: null, name: "Moneycontrol" },
-        author: "Moneycontrol News",
-        title:
-          "Dalal Street Week Ahead: FOMC minutes, Auto sales, FII activity among 10 key factors to watch next week - Moneycontrol",
-        description:
-          "Sector-specific movements are anticipated amid budget-related buzz next week. Here are the 10 key factors to watch.",
-        url: "https://www.moneycontrol.com/news/business/markets/dalal-street-week-ahead-fomc-minutes-auto-sales-fii-activity-among-10-key-factors-to-watch-next-week-12758993.html",
-        urlToImage:
-          "https://images.moneycontrol.com/static-mcnews/2023/01/Dalal.png",
-        publishedAt: "2024-06-30T04:56:09Z",
-        content:
-          "Indian benchmark indices recorded gains this week despite mixed signals from the global market, particularly regarding inflation concerns. Markets concluded a two-week consolidation phase by gaining … [+7681 chars]",
-      },
-      {
-        source: { id: "the-times-of-india", name: "The Times of India" },
-        author: "TOI Business Desk",
-        title:
-          "Top 5 tax-saving bank FDs: Which banks offer high interest rates & how much will your money grow? Check l - The Times of India",
-        description:
-          "Financial Literacy News: Top 5 tax-saving bank FDs: When choosing a bank for a tax-saving FD, it is essential to compare interest rates offered by different banks rather than",
-        url: "https://timesofindia.indiatimes.com/business/financial-literacy/savings/top-5-tax-saving-bank-fds-which-banks-offer-high-interest-rates-how-much-will-your-money-grow-check-list/articleshow/111375469.cms",
-        urlToImage:
-          "https://static.toiimg.com/thumb/msid-111375583,width-1070,height-580,imgsize-74124,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-        publishedAt: "2024-06-30T04:50:00Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "NDTV News" },
-        author: null,
-        title:
-          "Warren Buffett Changes His Will, Reveals What Will Happen To His Money After Death - NDTV",
-        description:
-          "Berkshire Hathaway announced on Friday that Mr Buffett is converting around 9,000 Class A shares into over 13 million Class B shares.",
-        url: "https://www.ndtv.com/world-news/warren-buffett-changes-his-will-reveals-what-will-happen-to-his-money-after-death-6000626",
-        urlToImage:
-          "https://c.ndtvimg.com/2019-02/8t9tcl7o_warren-buffett-reuters_625x300_26_February_19.jpg",
-        publishedAt: "2024-06-30T02:35:17Z",
-        content:
-          "Mr Buffett mentioned that he has altered his will multiple times\r\nWarren Buffett has revised the plans for his considerable fortune after his death. Mr Buffett, 93, the chairman of Berkshire Hathaway… [+2212 chars]",
-      },
-      {
-        source: { id: null, name: "GaadiWaadi.com" },
-        author: "Surendhar M",
-        title:
-          "5 All-New Tata & Mahindra SUVs Launching Soon In India - GaadiWaadi.com",
-        description:
-          "Here we have listed the five upcoming SUVs from popular brands Tata and Mahindra in India in the coming months",
-        url: "https://gaadiwaadi.com/5-all-new-tata-mahindra-suvs-launching-soon-in-india/",
-        urlToImage:
-          "https://gaadiwaadi.com/wp-content/uploads/2024/05/mahindra-XUV.e8.jpg",
-        publishedAt: "2024-06-30T02:35:09Z",
-        content:
-          "Over the next 12 to 18 months, the Indian auto market will witness the arrival of several new SUVs mainly in the compact and midsize SUV segments. Here we have explained about the upcoming SUVs from … [+1825 chars]",
-      },
-      {
-        source: { id: null, name: "Livemint" },
-        author: "Priyamvada C",
-        title:
-          "'Ola Electric will use in-house battery cells in its products from 2025,' CEO Bhavish Agarwal | Company Business News - Mint",
-        description:
-          "With Ola Electric's proposed IPO drawing ever nearer, the company's managing director Bhavish Agarwal today unveiled the company's progress and plan in using the battery cells it is producing in-house to be used in its electric vehicles.",
-        url: "https://www.livemint.com/companies/news/ola-electric-will-use-in-house-battery-cells-in-its-products-from-2025-ceo-bhavish-agarwal-11719677624902.html",
-        urlToImage:
-          "https://www.livemint.com/lm-img/img/2024/06/29/1600x900/2-0-874964844-bhavishaggarwalnew-0_1679648246327_1719681442104.jpg",
-        publishedAt: "2024-06-29T17:26:00Z",
-        content:
-          "Bengaluru: Bhavish Agarwal-led Ola Electric expects to use its in-house battery cells for its electric vehicles from early next year, the company's managing director said in a press conference on Sat… [+3497 chars]",
-      },
-      {
-        source: { id: null, name: "Livemint" },
-        author: "Livemint",
-        title:
-          "Personal Loan interest rates surge by 30-50 bps following RBI's raised risk weightage in November 2023 | Mint - Mint",
-        description:
-          "In November last year, the central bank had flagged certain concerns on excessive growth in the unsecured retail loans and increased the risk weightage of personal loans to make lenders more cautious and discourage them from lending too much of these loans",
-        url: "https://www.livemint.com/money/personal-finance/personal-loan-interest-rates-surge-by-30-50-bps-following-rbis-raised-risk-weightage-in-november-2023-11719669747991.html",
-        urlToImage:
-          "https://www.livemint.com/lm-img/img/2024/06/29/1600x900/loan-kysD--621x414LiveMint_1719669803660_1719669803932.jpg",
-        publishedAt: "2024-06-29T15:38:10Z",
-        content:
-          "Personal Loan Rates: Over the past few months several private lenders such as ICICI Bank, Kotak Mahindra Bank, HDFC Bank, and Axis Bank had increased interest rates on personal loans (PLs) after the … [+1514 chars]",
-      },
-      {
-        source: { id: null, name: "Motoroctane.com" },
-        author: "Venkatesh Koushik",
-        title: "New Record For Mahindra XUV7OO – 2 New Changes - MotorOctane",
-        description:
-          "Mahindra XUV700 completes 2 lakh sales milestone within 3 years of launch. Becomes one of the fastest Mahindra to achieve this milestone.",
-        url: "https://motoroctane.com/news/275149-new-record-for-mahindra-xuv7oo-2-new-changes",
-        urlToImage:
-          "https://motoroctane.com/wp-content/uploads/2024/06/Record-Alert.jpg",
-        publishedAt: "2024-06-29T14:52:48Z",
-        content:
-          "Mahindra XUV7OO has been one of the most popular SUVs in the Indian market. In less than three years since its launch, the SUV has managed to find a home with 2 lakh families in the country. To celeb… [+2005 chars]",
-      },
-      {
-        source: { id: null, name: "Coinpedia.org" },
-        author: "Elena R",
-        title:
-          "Waiting Game Continues: Spot Ethereum ETF Launch DELAYED Again! - Coinpedia Fintech News",
-        description:
-          "The SEC has thrown a curveball in the approval process for Ethereum ETFs by returning S-1 forms to their issuers. Initially anticipated to launch next",
-        url: "https://coinpedia.org/news/sec-delays-ethereum-etf-approval-what-it-means-for-investors/",
-        urlToImage:
-          "http://image.coinpedia.org/wp-content/uploads/2024/05/21185819/SEC-Fast-Tracks-Spot-Ethereum-ETFs-Approvals-Coming-Soon.png",
-        publishedAt: "2024-06-29T14:29:37Z",
-        content:
-          "<ul><li></li><li></li><li></li></ul>\r\nThe SEC has thrown a curveball in the approval process for Ethereum ETFs by returning S-1 forms to their issuers. Initially anticipated to launch next week, thes… [+2243 chars]",
-      },
-      {
-        source: { id: null, name: "Team-BHP" },
-        author: "Tushar Kelshikar",
-        title: "Mahindra Thar Armada (5-door) production begins - Team-BHP",
-        description:
-          "According to a media report, series production of the Mahindra Thar 5-door has commenced at the brand's Chakan plant. The new model is likely to be called Thar Armada. The report also sheds some light on the planned production numbers of the Thar 5-door. It i…",
-        url: "https://www.team-bhp.com/news/mahindra-thar-armada-5-door-production-begins",
-        urlToImage:
-          "https://www.team-bhp.com/sites/default/files/styles/large/public/20240628050022_2 _36_.jpg",
-        publishedAt: "2024-06-29T13:22:34Z",
-        content:
-          "According to a media report, series production of the Mahindra Thar 5-door has commenced at the brand's Chakan plant. The new model is likely to be called Thar Armada.\r\nThe report also sheds some lig… [+954 chars]",
-      },
-      {
-        source: { id: null, name: "NDTV News" },
-        author: null,
-        title:
-          "Challa Sreenivasulu Setty Appointed As Next SBI Chairman - NDTV",
-        description:
-          "NDTV.com: India, Business, Bollywood, Cricket, Video and Breaking News",
-        url: "https://www.ndtv.com/news",
-        urlToImage: "https://cdn.ndtv.com/common/images/ogndtv.png",
-        publishedAt: "2024-06-29T12:38:03Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "Livemint" },
-        author: "Vaamanaa Sethi",
-        title:
-          "Budget 2024: Defence, railways, infra, renewable energy sectors to remain in focus, say analysts | Stock Market News - Mint",
-        description:
-          "According to Ravi Singh, SVP- Retail Research, Religare Broking Ltd, Infrastructure investment is set to focus on sustainability, aiming to modernize transport networks and improve environmental outcomes.",
-        url: "https://www.livemint.com/market/stock-market-news/budget-2024-defence-railways-infra-renewable-energy-sectors-to-remain-in-focus-say-analysts-11719655560727.html",
-        urlToImage:
-          "https://www.livemint.com/lm-img/img/2024/06/29/1600x900/Dalal_Street_1719662185337_1719662185630.jpg",
-        publishedAt: "2024-06-29T11:58:03Z",
-        content:
-          "Market investors are now eagerly waiting for the Finance Minister Nirmala Sitharaman to table the full budget for FY25. According to media reports, the government will present the budget in the third… [+1977 chars]",
-      },
-      {
-        source: { id: null, name: "GaadiWaadi.com" },
-        author: "Team GaadiWaadi",
-        title:
-          "4 New Two-Wheeler Launches Scheduled For July 2024 - GaadiWaadi.com",
-        description:
-          "Here we have explained about the 4 new two-wheelers waiting to launch in the Indian market in the month of July 2024",
-        url: "https://gaadiwaadi.com/4-new-two-wheeler-launches-scheduled-for-july-2024/",
-        urlToImage:
-          "https://gaadiwaadi.com/wp-content/uploads/2024/06/Royal-Enfield-Guerrilla-450-.jpg",
-        publishedAt: "2024-06-29T11:35:10Z",
-        content:
-          "In this article, we look at the two-wheelers that have been confirmed to launch in July 2024 by their respective manufacturers. We have quite a mix of products this time around right from a roadster … [+3517 chars]",
-      },
-      {
-        source: { id: null, name: "Livemint" },
-        author: "Anubhav Mukherjee",
-        title:
-          "Nike stock declines 20%, biggest fall in 13 years; What led to the plunge? | Stock Market News - Mint",
-        description:
-          "Nike, the world’s largest sportswear company has been seeing a revenue decline to the mid-single digits in the company’s current fiscal year, while investors had expected an increase.",
-        url: "https://www.livemint.com/market/stock-market-news/nike-stock-declines-20-biggest-fall-in-13-years-what-led-to-the-plunge-11719593501865.html",
-        urlToImage:
-          "https://www.livemint.com/lm-img/img/2024/06/28/1600x900/BKP-SPO-WBA-INDIANA-FEVER-V-SEATTLE-STORM-17_1719584474018_1719593839270.jpg",
-        publishedAt: "2024-06-29T11:05:55Z",
-        content:
-          "Shares of Nike Inc. lost $27 billion in market value, falling the most in 13 years due to growing criticism of a continued sales slowdown.\r\nThe shares plunged 20 per cent on Friday's trading session … [+1778 chars]",
-      },
-      {
-        source: { id: null, name: "Moneycontrol" },
-        author: "Moneycontrol News",
-        title:
-          "NTPC gets board approval for raising of Rs 12,000 crore via bonds, NCDs - Moneycontrol",
-        description:
-          "NTPC recently told analysts in a concall that it has various capital expenditure projects such as ongoing projects and new capacity addition programs",
-        url: "https://www.moneycontrol.com/news/companies-2/ntpc-gets-board-approval-for-raising-of-rs-12000-crore-via-bonds-ncds-12758768.html",
-        urlToImage:
-          "https://images.moneycontrol.com/static-mcnews/2023/08/NTPC.jpg",
-        publishedAt: "2024-06-29T10:41:54Z",
-        content:
-          'State-owned power giant NTPC on June 29 said its board has given approval for a proposal to raise up to Rs 12,000 crore through the issuance of bonds, NCDs.\r\nIn a exchange filing NTPC said, "We wish … [+1531 chars]',
-      },
-      {
-        source: { id: "the-times-of-india", name: "The Times of India" },
-        author: "Nikhil Agarwal",
-        title:
-          "FIIs end up buying Indian stocks worth over Rs 26,000 crore in June, all eyes now on Budget - The Economic Times",
-        description:
-          "After being net sellers in the last two months, a U-turn by FIIs comes amid expectations that reforms will continue after the elections. Improved GDP growth forecast and solid earnings by India Inc has also increased the appeal for FIIs, analysts say.",
-        url: "https://economictimes.indiatimes.com/markets/stocks/news/fiis-end-up-buying-indian-stocks-worth-over-rs-26000-crore-in-june-all-eyes-now-on-budget/articleshow/111362409.cms",
-        urlToImage:
-          "https://img.etimg.com/thumb/msid-111362397,width-1200,height-630,imgsize-77238,overlay-etmarkets/photo.jpg",
-        publishedAt: "2024-06-29T10:12:46Z",
-        content:
-          "Shrugging off all worries related to elections, foreign institutional investors (FIIs) have ended up buying Indian stocks worth about Rs 26,565 crore in June - before the Union Budget and Indias incl… [+2710 chars]",
-      },
-      {
-        source: { id: null, name: "Business Standard" },
-        author: "Shiva Rajora",
-        title:
-          "Mospi sets up 26-member committee to decide new base year for GDP - Business Standard",
-        description:
-          "The Advisory Committee on National Accounts Statistics to review data sources, align GDP with inflation and industrial indices",
-        url: "https://www.business-standard.com/economy/news/mospi-sets-up-26-member-committee-to-decide-new-base-year-for-gdp-124062900374_1.html",
-        urlToImage:
-          "https://bsmedia.business-standard.com/_media/bs/img/article/2024-05/02/thumb/fitandfill/400X400/1714668422-2798.jpg",
-        publishedAt: "2024-06-29T09:50:55Z",
-        content:
-          "The Advisory Committee on National Accounts Statistics to review data sources, align GDP with inflation and industrial indices\r\nThe government is working to align the base year of all data releases. … [+2762 chars]",
-      },
-      {
-        source: { id: null, name: "Moneycontrol" },
-        author: "Ashish Mishra",
-        title:
-          "Mumbai achieves 12-year high with over 11,400 property registrations in June 2024: Knight Frank India - Moneycontrol",
-        description:
-          "The report said that compared to the same period last year, property registrations have risen 11% YoY, and revenues from these registrations have increased by 15% YoY.",
-        url: "https://www.moneycontrol.com/news/business/real-estate/mumbai-achieves-12-year-high-with-over-11400-property-registrations-in-june-2024-knight-frank-india-12758707.html",
-        urlToImage:
-          "https://images.moneycontrol.com/static-mcnews/2024/06/20240611133458_Mumbai.jpg",
-        publishedAt: "2024-06-29T09:37:22Z",
-        content:
-          "Mumbai city recorded approximately 11,443 property registrations in June 2024, which is the highest in the last 12 years, contributing over Rs 986 crores to the state exchequer, according to a report… [+2826 chars]",
-      },
-      {
-        source: { id: null, name: "Benzinga" },
-        author: "Rounak Jain",
-        title:
-          "Mukesh Ambani's Jio Gets Mocked After Tariff Hikes Following Luxurious-Looking Invite For Anant Ambani's Wedding - Benzinga India",
-        description:
-          "Mukesh Ambani's Reliance Jio raises tariffs by 25%, sparking memes about funding the lavish wedding of Anant Ambani and Radhika Merchant.",
-        url: "https://in.benzinga.com/content/39562676/mukesh-ambanis-jio-gets-mocked-after-tariff-hikes-following-luxurious-looking-invite-for-anant-amban",
-        urlToImage:
-          "https://cdn.benzinga.com/files/images/story/2024/06/29/Mukesh-Ambani.jpeg?width=1200&height=800&fit=crop",
-        publishedAt: "2024-06-29T09:28:28Z",
-        content:
-          "Mukesh Ambani-led RelianceIndustries decision to hike Jio tariffs by up to 25% from July has sparked a series of memes on social media, with users mocking the Ambani family for sending out luxurious … [+2035 chars]",
-      },
-      {
         source: { id: null, name: "CNBCTV18" },
-        author: "Meghna Sen",
+        author: "Hormaz Fatakia",
         title:
-          "Emcure Pharma IPO: GMP rises sharply ahead of issue opening for subscription on July 3 - CNBCTV18",
+          "Shares of this 'Miniratna' PSU surge over 8% to near record levels after its Q1 business update - CNBCTV18",
         description:
-          "Emcure Pharmaceuticals is looking to raise a total of ₹1,951.04 crore through the issue, considering the upper end of the price band.",
-        url: "https://www.cnbctv18.com/market/emcure-pharma-ipo-gmp-rises-sharply-ahead-of-issue-opening-for-subscription-on-july-3-namita-thapar-19435764.htm",
+          "MOIL CMD Ajit Kumar Saxena said that he is confident that the company will continue this business momentum in the quarters ahead.",
+        url: "https://www.cnbctv18.com/market/moil-share-price-near-record-high-q1-business-update-production-sales-best-prices-19437348.htm",
         urlToImage:
-          "https://images.cnbctv18.com/uploads/2023/08/Pharma.jpg?im=FitAndFill,width=500,height=300",
-        publishedAt: "2024-06-29T09:23:47Z",
+          "https://images.cnbctv18.com/uploads/2022/06/stock-market-file-photo-shutterstock.jpg?im=FitAndFill,width=500,height=300",
+        publishedAt: "2024-07-03T04:49:19Z",
         content:
-          "Shares of Emcure Pharmaceuticals are trading at a premium of 270 in the unlisted market on Saturday (June 29), days ahead of the issue opening for subscription.The grey market is an unofficial ecosys… [+2685 chars]",
-      },
-      {
-        source: { id: null, name: "Business Standard" },
-        author: "Bloomberg",
-        title:
-          "Court approves billionaire Anil Agarwal's plan to reclaim Zambia mine - Business Standard",
-        description:
-          "To get access to the mine again, Vedanta now needs to follow the court ruling by releasing $250 million to settle debts that KCM owes to contractors and suppliers",
-        url: "https://www.business-standard.com/companies/news/court-approves-billionaire-anil-agarwal-s-plan-to-reclaim-zambia-mine-124062900336_1.html",
-        urlToImage:
-          "https://bsmedia.business-standard.com/_media/bs/img/article/2024-01/02/thumb/fitandfill/400X400/1704162313-1113.jpg",
-        publishedAt: "2024-06-29T09:02:57Z",
-        content:
-          "To get access to the mine again, Vedanta now needs to follow the court ruling by releasing $250 million to settle debts that KCM owes to contractors and suppliers\r\no get access to the mine again, Ved… [+1723 chars]",
-      },
-    ],
-  },
-  entertainment: {
-    status: "ok",
-    totalResults: 62,
-    articles: [
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "HT Entertainment Desk",
-        title:
-          "Ajay Devgn says Amitabh Bachchan is 'intelligent, normal, sane today also only because he’s working' even at his age - Hindustan Times",
-        description:
-          "Ajay Devgn said that the moment a person stops working and decides to chill, they will ‘age three times faster’. Find out what he thinks about Amitabh Bachchan. | Bollywood",
-        url: "https://www.hindustantimes.com/entertainment/bollywood/ajay-devgn-says-amitabh-bachchan-is-intelligent-normal-sane-today-also-only-because-he-s-working-even-at-his-age-101719724071647.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/30/1600x900/ajay_devgn_1719725169118_1719725176307.png",
-        publishedAt: "2024-06-30T05:53:54Z",
-        content:
-          "Ajay Devgn praised Amitabh Bachchan for working even at the age of 80. A video was shared on the NH Studioz YouTube channel, in which Ajay said that since actors work continuously, after a point they… [+2258 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Sanya",
-        title:
-          "Triptii Dimri reacts to being called 'national crush' after Animal: 'I would like to thank God...' - Hindustan Times",
-        description:
-          "Triptii Dimri was asked if it made her uncomfortable to be termed the ‘crush’ of India at the risk of her acting being overlooked. Here's how she responded. | Bollywood",
-        url: "https://www.hindustantimes.com/entertainment/bollywood/triptii-dimri-reacts-to-being-called-national-crush-after-animal-i-would-like-to-thank-god-101719722604411.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/30/1600x900/tdimri_1706600928110_1719722846929.jpg",
-        publishedAt: "2024-06-30T05:03:25Z",
-        content:
-          "Triptii Dimri, who has become a national sensation ever since the release of Ranbir Kapoor-starrer Animal (2023), opened up about being labelled as India's 'crush'. The actor is gearing up for the re… [+1671 chars]",
-      },
-      {
-        source: { id: null, name: "NDTV News" },
-        author: null,
-        title:
-          "Kalki 2898 AD Box Office Collection Day 3: Prabhas-Deepika Padukone's Film Is At Rs 220 Crore And Counting - NDTV Movies",
-        description:
-          "NDTV.com: India, Business, Bollywood, Cricket, Video and Breaking News",
-        url: "https://www.ndtv.com/news",
-        urlToImage: "https://cdn.ndtv.com/common/images/ogndtv.png",
-        publishedAt: "2024-06-30T03:52:30Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "India Today" },
-        author: "Mita Bhan",
-        title:
-          "Weekly horoscope from June 30 to July 6: Your luck for this week; see which signs have lady luck smiling for them - India Today",
-        description:
-          "What does your luck look like this week June 30 to July 6 Find out in this weekly horoscope for Aries Taurus Gemini Cancer Leo Virgo Libra Scorpio Sagittarius Capricorn Aquarius and Pisces",
-        url: "https://www.indiatoday.in/horoscopes/story/weekly-horoscope-june-30-to-july-6-your-luck-for-this-week-which-signs-have-lady-luck-smiling-2559526-2024-06-30",
-        urlToImage:
-          "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202406/weekly-horoscope-170447564-16x9_3.jpg?VersionId=qht6hcAxw52thUXixM2jMdAxEEmZi_7a",
-        publishedAt: "2024-06-30T01:03:03Z",
-        content:
-          "Here's what the ancient Tarot cards have to say about your Sun sign for this week:\r\nAries (Mar 21 – Apr 19)\r\nDon’t take anything at face value. Do a little background work and research before you fal… [+7388 chars]",
-      },
-      {
-        source: { id: null, name: "VOGUE India" },
-        author: "Woodstock Witch",
-        title: "Leo Horoscope Today: June 30, 2024 - VOGUE India",
-        description:
-          "Read VOGUE India's free daily Leo horoscope for 30th June 2024 to learn more about what the stars have in store for you! Click here for our cosmic tips",
-        url: "https://www.vogue.in/horoscope/product/leo-horoscope-today-june-30-2024/",
-        urlToImage:
-          "https://media.vogue.in/wp-content/uploads/2022/02/Leo-866x487.jpg",
-        publishedAt: "2024-06-30T00:20:42Z",
-        content:
-          "Not everything in life has to be a battle. When faced with difficult people or situations, know that calm is your secret weapon. Take a deep breath, count to ten, and respond with a clear mind. Remem… [+502 chars]",
-      },
-      {
-        source: { id: null, name: "VOGUE India" },
-        author: "Woodstock Witch",
-        title: "Pisces Horoscope Today: June 30, 2024 - VOGUE India",
-        description:
-          "Read VOGUE India's free daily Pisces horoscope for 30th June 2024 to learn more about what the stars have in store for you! Click here for our cosmic tips",
-        url: "https://www.vogue.in/horoscope/product/pisces-horoscope-today-june-30-2024/",
-        urlToImage:
-          "https://media.vogue.in/wp-content/uploads/2022/06/Pisces-866x487.jpg",
-        publishedAt: "2024-06-30T00:20:10Z",
-        content:
-          "Pisces, youre in awe. Youre in awe of all the ways in which life is showing up for you right now. All the ways in which existence is holding space for you to get intoxicated on the sweet elixir of lo… [+569 chars]",
-      },
-      {
-        source: { id: null, name: "Livemint" },
-        author: "Sounak Mukhopadhyay",
-        title:
-          "OTT releases this week: New movies, web-series to watch this weekend; Aavesham, Sharmajee Ki Beti and more | Today News - Mint",
-        description:
-          "OTT releases this week: A number of movies and web series will be available this weekend on OTT platforms like Netflix, Amazon Prime Video, ZEE5 and Disney+ Hotstar. Check out.",
-        url: "https://www.livemint.com/news/trends/ott-releases-this-week-new-movies-web-series-to-watch-this-weekend-aavesham-sharmajee-ki-beti-and-more-11719555233816.html",
-        urlToImage:
-          "https://www.livemint.com/lm-img/img/2024/06/28/1600x900/OTT_June_28_1719557310667_1719557323329.png",
-        publishedAt: "2024-06-29T22:29:35Z",
-        content:
-          "OTT releases this week: A number of movies and web series will be available on OTT this weekend. Lets have a look at the ones that are available to watch.\r\nPlot: A surprising romance leads to comic s… [+1917 chars]",
-      },
-      {
-        source: { id: null, name: "YouTube" },
-        author: null,
-        title:
-          "Top 10 Friday Night SmackDown moments: WWE Top 10, June 28, 2024 - WWE",
-        description: null,
-        url: "https://www.youtube.com/watch?v=4f2BQTrhISM",
-        urlToImage: null,
-        publishedAt: "2024-06-29T19:00:07Z",
-        content:
-          "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Dr J.N Pandey",
-        title:
-          "Weekly Horoscope Capricorn, June 30- July 6, 2024 predicts financial hassles - Hindustan Times",
-        description:
-          "Read Capricorn weekly horoscope for June 30- July 6, 2024, to know your astrological predictions. | Horoscope",
-        url: "https://www.hindustantimes.com/astrology/horoscope/weekly-horoscope-capricorn-june-30-july-6-2024-predicts-financial-hassles-101719670562626.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/29/1600x900/WhatsApp_Image_2022-03-31_at_173136_1719673201326_1719673201513.jpeg",
-        publishedAt: "2024-06-29T18:39:06Z",
-        content:
-          "Capricorn (22nd December to 19th January)\r\nWeekly Horoscope Prediction says, you are a torchbearer of change\r\nThe romantic relationship will be cool and professionally youll be successful. Look for m… [+2956 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Dr J.N Pandey",
-        title:
-          "Weekly Horoscope Sagittarius, June 30- July 6, 2024 predicts romantic affairs on the cards - Hindustan Times",
-        description:
-          "Read Sagittarius weekly horoscope for June 30- July 6, 2024, to know your astrological predictions. Your health will also be normal. | Horoscope",
-        url: "https://www.hindustantimes.com/astrology/horoscope/weekly-horoscope-sagittarius-june-30-july-6-2024-predicts-romantic-affairs-on-the-cards-101719670463410.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/29/1600x900/WhatsApp_Image_2022-03-31_at_174213_1719675462539_1719675462757.jpeg",
-        publishedAt: "2024-06-29T18:38:06Z",
-        content:
-          "Sagittarius (22nd November to 21st December)\r\nWeekly Horoscope Prediction says, you prefer risks as they make you stronger\r\nEnsure your love life is intact and keep the love growing. Take up new task… [+3110 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Dr J.N Pandey",
-        title:
-          "Weekly Horoscope Scorpio, June 30- July 6, 2024 predicts new ventures - Hindustan Times",
-        description:
-          "Read Scorpio weekly horoscope for June 30- July 6, 2024, to know your astrological predictions. Smart investments will augment wealth. | Horoscope",
-        url: "https://www.hindustantimes.com/astrology/horoscope/weekly-horoscope-scorpio-june-30-july-6-2024-predicts-new-ventures-101719670375326.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/29/1600x900/WhatsApp_Image_2022-03-31_at_174228_1719675212922_1719675213399.jpeg",
-        publishedAt: "2024-06-29T18:37:06Z",
-        content:
-          "Scorpio (23rd October to 21st November)\r\nWeekly Horoscope Prediction says, do not let emotions guide you\r\nEmbrace new love and be expressive in emotions. Skip office politics that impact productivity… [+3053 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Dr J.N Pandey",
-        title:
-          "Weekly Horoscope Libra, June 30- July 6, 2024 predicts a successful professional life - Hindustan Times",
-        description:
-          "Read Libra weekly horoscope for June 30- July 6, 2024, to know your astrological predictions. Avoid office gossip and instead, focus on the task at the office. | Horoscope",
-        url: "https://www.hindustantimes.com/astrology/horoscope/weekly-horoscope-libra-june-30-july-6-2024-predicts-a-successful-professional-life-101719670013868.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/29/1600x900/WhatsApp_Image_2022-03-31_at_174144_1719674954512_1719674954742.jpeg",
-        publishedAt: "2024-06-29T18:36:05Z",
-        content:
-          "Libra - (23rd September to 22nd October)\r\nWeekly Horoscope Prediction says, celebrate the life is your mantra\r\nA happy romantic life backed by a successful professional life makes your week splendid.… [+3004 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Dr J.N Pandey",
-        title:
-          "Weekly Horoscope Gemini, June 30- July 6, 2024 predicts these positive changes - Hindustan Times",
-        description:
-          "Read Gemini weekly horoscope for June 30- July 6, 2024, to know your astrological predictions. Both wealth and health show positive changes. | Horoscope",
-        url: "https://www.hindustantimes.com/astrology/horoscope/weekly-horoscope-gemini-june-30-july-6-2024-predicts-these-positive-changes-101719669247474.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/29/1600x900/gemini5_1648803022685_1719674005378.jpeg",
-        publishedAt: "2024-06-29T18:32:04Z",
-        content:
-          "Gemini (21st May to 20th June)\r\nWeekly Horoscope Prediction says, sky is your limit\r\nHandle the problems in the romantic life. Look for more opportunities to prove the professional mettle. Both wealt… [+2834 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "Dr J.N Pandey",
-        title:
-          "Weekly Horoscope Taurus, June 30- July 6, 2024 predicts health obstacles - Hindustan Times",
-        description:
-          "Read Taurus weekly horoscope for June 30- July 6, 2024, to know your astrological predictions. Financial stability is also there in your life. | Horoscope",
-        url: "https://www.hindustantimes.com/astrology/horoscope/weekly-horoscope-taurus-june-30-july-6-2024-predicts-health-obstacles-101719669130940.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/29/1600x900/taurus5_1648802521516_1719673775536.jpeg",
-        publishedAt: "2024-06-29T18:31:04Z",
-        content:
-          "Taurus (20th April to 20th May)\r\nWeekly Horoscope Prediction says, you know the priorities\r\nResolve the troubles in the relationship. Professional pressure exists but you will overcome it with discip… [+2831 chars]",
-      },
-      {
-        source: { id: null, name: "123telugu.com" },
-        author: null,
-        title: "Kamal Haasan to sport these many looks in Indian 2 - 123telugu",
-        description:
-          "Telugu cinema news, Movie reviews, OTT News, OTT Release dates, Latest Movie reviews in Telugu, telugu movie reviews, Box office collections",
-        url: "https://www.123telugu.com/mnews/kamal-haasan-to-sport-these-many-looks-in-indian-2.html",
-        urlToImage:
-          "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
-        publishedAt: "2024-06-29T16:30:00Z",
-        content:
-          "After the release of Kalki 2898 AD, the next biggie that everyone is eagerly awaiting is Kamal Haasan’s Indian 2, which Shankar has directed on a massive scale.\r\nKamal Haasan makes a comeback as the … [+544 chars]",
-      },
-      {
-        source: { id: null, name: "123telugu.com" },
-        author: null,
-        title:
-          "Interview: Aswini Dutt – Without Prabhas, Kalki 2898 AD would have not been possible - 123telugu",
-        description:
-          "Telugu cinema news, Movie reviews, OTT News, OTT Release dates, Latest Movie reviews in Telugu, telugu movie reviews, Box office collections",
-        url: "https://www.123telugu.com/interviews/interview-aswini-dutt-without-prabhas-kalki-2898-ad-would-have-not-been-possible.html",
-        urlToImage:
-          "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
-        publishedAt: "2024-06-29T14:01:00Z",
-        content:
-          "Prabhas’ Kalki 2898 AD is doing phenomenal business across regions. The movie, directed by Nag Ashwin, features Amitabh Bachchan, Deepika Padukone, and Kamal Haasan in pivotal roles. Ace producer Asw… [+2207 chars]",
-      },
-      {
-        source: { id: null, name: "123telugu.com" },
-        author: null,
-        title:
-          "King Nagarjuna heaps praise on Prabhas’ Kalki 2898 AD - 123telugu",
-        description:
-          "Telugu cinema news, Movie reviews, OTT News, OTT Release dates, Latest Movie reviews in Telugu, telugu movie reviews, Box office collections",
-        url: "https://www.123telugu.com/mnews/king-nagarjuna-heaps-praise-on-prabhas-kalki-2898-ad.html",
-        urlToImage:
-          "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
-        publishedAt: "2024-06-29T13:30:00Z",
-        content:
-          "Kalki 2898 AD has been setting new records at the global box office. The movie is showing remarkable growth on its third day and is poised to break several records in the near future. Since Thursday,… [+1330 chars]",
-      },
-      {
-        source: { id: null, name: "Onmanorama.com" },
-        author: "Onmanorama Staff",
-        title:
-          "Meera Nandan's wedding: Fahadh Faasil, Kavya Madhavan, among celebrity guests | Onmanorama - Onmanorama",
-        description:
-          "The actor-turned-radio jockey tied the knot with UK-based chartered accountant Sreeju at Guruvayoor Temple on Saturday.",
-        url: "https://www.onmanorama.com/entertainment/entertainment-news/2024/06/29/meera-nandan-wedding-guruvayoor-temple-celebrity-fahadh-faasil-nazriya.html",
-        urlToImage:
-          "https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2024/6/29/meera-nandan-fahadh.jpg",
-        publishedAt: "2024-06-29T13:22:31Z",
-        content:
-          "Actor Meera Nandan's wedding at Guruvayoor Temple was a grand affair and was attended by the who's who of the Malayalam film industry. The actor-turned-radio jockey tied the knot with UK-based charte… [+1338 chars]",
-      },
-      {
-        source: { id: null, name: "123telugu.com" },
-        author: null,
-        title:
-          "Vijay Deverakonda wants Kalki 2898 AD to collect 1000 crores - 123telugu",
-        description:
-          "Telugu cinema news, Movie reviews, OTT News, OTT Release dates, Latest Movie reviews in Telugu, telugu movie reviews, Box office collections",
-        url: "https://www.123telugu.com/mnews/vijay-deverakonda-wants-kalki-2898-ad-to-collect-1000-crores.html",
-        urlToImage:
-          "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
-        publishedAt: "2024-06-29T13:06:00Z",
-        content:
-          "Prabhas starrer Kalki 2898 AD ended the box office drought in Telugu cinema. After Tillu Square, Tollywood didn’t get a proper hit, and Kalki is filling that vacuum. The movie had a phenomenal openin… [+978 chars]",
-      },
-      {
-        source: { id: null, name: "NDTV News" },
-        author: null,
-        title:
-          'Jim Sarbh Breaks Silence On His Viral "Mental Therapy" Comment: "Nothing I Said Refers To Ranveer Singh" - NDTV Movies',
-        description:
-          '"I only had lovely things to say about Ranveer as a co-actor," Jim wrote in his post',
-        url: "https://www.ndtv.com/entertainment/jim-sarbh-breaks-silence-on-his-viral-mental-therapy-comment-nothing-i-said-refers-to-ranveer-singh-5997333",
-        urlToImage:
-          "https://c.ndtvimg.com/2024-06/olrjmjqo_jim-_625x300_29_June_24.jpeg",
-        publishedAt: "2024-06-29T13:02:18Z",
-        content:
-          'Jim Sarbh shared this image. (Image courtesy: jimsarbhforreal)\r\nNew Delhi: Jim Sarbh recently clarified that his previous statements about actors and their "exaggerated" processes were not directed a… [+1982 chars]',
-      },
-    ],
-  },
-  sports: {
-    status: "ok",
-    totalResults: 8,
-    articles: [
-      {
-        source: { id: null, name: "NDTV News" },
-        author: null,
-        title:
-          'T20 World Cup 2024: Anushka Sharma To Virat Kohli After India\'s Big Win - "Grateful To Call You My Home" - NDTV Movies',
-        description:
-          "NDTV.com: India, Business, Bollywood, Cricket, Video and Breaking News",
-        url: "https://www.ndtv.com/news",
-        urlToImage: "https://cdn.ndtv.com/common/images/ogndtv.png",
-        publishedAt: "2024-06-30T05:20:32Z",
-        content: null,
-      },
-      {
-        source: { id: "the-times-of-india", name: "The Times of India" },
-        author: "TOI Sports Desk",
-        title:
-          "PM Narendra Modi speaks to Indian team, lauds cricketers after T20 World Cup win - The Times of India",
-        description:
-          "Cricket News: Prime Minister Narendra Modi congratulated the Indian cricket team on their victory in the ICC T20 World Cup 2024, expressing the pride of 140 crore I",
-        url: "https://timesofindia.indiatimes.com/sports/cricket/icc-mens-t20-world-cup/pm-narendra-modi-speaks-to-indian-team-lauds-cricketers-after-t20-world-cup-win/articleshow/111375522.cms",
-        urlToImage:
-          "https://static.toiimg.com/thumb/msid-111375691,width-1070,height-580,imgsize-72566,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-        publishedAt: "2024-06-30T04:55:00Z",
-        content: null,
-      },
-      {
-        source: { id: "the-times-of-india", name: "The Times of India" },
-        author: "TOI Sports Desk",
-        title:
-          "Hardik Pandya: 'Just a boy from Baroda living his dream' - The Times of India",
-        description:
-          "Cricket News: Hardik Pandya, the allrounder, had faced numerous challenges in his personal and professional life leading up to the T20 World Cup. However, he chose",
-        url: "https://timesofindia.indiatimes.com/sports/cricket/icc-mens-t20-world-cup/hardik-pandya-just-a-boy-from-baroda-living-his-dream/articleshow/111375383.cms",
-        urlToImage:
-          "https://static.toiimg.com/thumb/msid-111375438,width-1070,height-580,imgsize-45068,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-        publishedAt: "2024-06-30T04:44:00Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "Livemint" },
-        author: "Arshdeep kaur",
-        title:
-          "Watch Jasprit Bumrah share sweet moment with wife Sanjana Ganesan, son after T20 World Cup 2024 win | Mint - Mint",
-        description:
-          "Heartwarming moment captured as Bumrah celebrates T20 World Cup victory with his wife and son at Kensington Oval, Barbados.",
-        url: "https://www.livemint.com/sports/cricket-news/watch-jasprit-bumrah-share-sweet-moment-with-wife-sanjana-ganesan-son-after-t20-world-cup-2024-win-11719719989373.html",
-        urlToImage:
-          "https://www.livemint.com/lm-img/img/2024/06/30/1600x900/ANI-20240629039-0_1719719988496_1719720020241.jpg",
-        publishedAt: "2024-06-30T04:25:02Z",
-        content:
-          "As India won the T20 World Cup 2024, it was something else that stole the hearts on the internet. It was an adorable video of the Player of the Tournament, Indian pacer Jasprit Bumrah with a beaming … [+2148 chars]",
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "HT Sports Desk",
-        title:
-          "Rahul Dravid unleashes his wild side in never-seen-before celebrations after Virat Kohli hands India coach T20WC trophy - Hindustan Times",
-        description:
-          "On the last day of his assignment, outgoing head coach Rahul Dravid laid his hands on the World Cup title. Check out Virat Kohli's special gesture for Dravid. | Crickit",
-        url: "https://www.hindustantimes.com/cricket/rahul-dravid-unleashes-wild-side-never-seen-before-celebrations-virat-kohli-hands-india-coach-t20-world-cup-trophy-101719691550464.html",
-        urlToImage:
-          "https://www.hindustantimes.com/ht-img/img/2024/06/29/1600x900/MixCollage-30-Jun-2024-02-23-AM-7690_1719697116930_1719697123032.jpg",
-        publishedAt: "2024-06-30T03:30:57Z",
-        content:
-          "Rahul Dravid was third time lucky as the outgoing head coach of Rohit Sharma's Team India finally lifted the T20 World Cup trophy on Saturday. Dravid-coached Team India upstaged South Africa in the f… [+2768 chars]",
-      },
-      {
-        source: { id: null, name: "NDTV News" },
-        author: "NDTV Sports Desk",
-        title:
-          "T20 World Cup Prize Money: South Africa Earns Rs 10.67 Crore, India Got... - NDTV Sports",
-        description:
-          "India's agonising 11-year wait for a global title was brought to an end on Saturday with the T20 World Cup win.",
-        url: "https://sports.ndtv.com/t20-world-cup-2024/how-much-prize-money-india-earned-after-t20-world-cup-2024-triumph-5999583",
-        urlToImage:
-          "https://c.ndtvimg.com/2024-06/t1lvnhn_india-afp_625x300_30_June_24.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
-        publishedAt: "2024-06-30T01:21:48Z",
-        content:
-          "India's agonising 11-year wait for a global title was brought to an end by Virat Kohli's ingenuity and Rohit Sharma's inspirational captaincy as the star-studded team outwitted eternal bridesmaids So… [+1785 chars]",
-      },
-      {
-        source: { id: null, name: "India Today" },
-        author: "India Today Sports Desk",
-        title:
-          "Rohit Sharma doffs hat to Virat Kohli masterclass after T20 World Cup victory - India Today",
-        description:
-          "India captained Rohit Sharma hailed Virat Kohli039s patient innings as a masterclass after their T20 World Cup 2024 win Sharma hailed Kohli for his efforts for India in the T20I format after the legendary batter retired after the final of the tournament",
-        url: "https://www.indiatoday.in/sports/cricket/story/t20-world-cup-india-vs-south-africa-final-rohit-sharma-hardik-pandya-virat-kohli-2560201-2024-06-30",
-        urlToImage:
-          "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202406/rohit-sharma-and-virat-kohli-292143336-16x9_0.jpg?VersionId=P5vUFT36FavQyR8pZ_1V86MefaERumxI",
-        publishedAt: "2024-06-29T19:23:25Z",
-        content:
-          "India captain Rohit Sharma hailed Virat Kohli for his tremendous effort for the Indian team. Kohli played a gritty knock against South Africa in the final of the T20 World Cup 2024, guiding India to … [+2765 chars]",
-      },
-      {
-        source: { id: null, name: "NDTV News" },
-        author: null,
-        title:
-          "Watch: Axar Patel's Huge Mistake Results In Run-Out. Rohit Sharma's Reaction Is Viral - NDTV Sports",
-        description:
-          "Axar Patel was dismissed for 47 off 31 balls in the T20 World Cup 2024 Final vs South Africa.",
-        url: "https://sports.ndtv.com/cricket/watch-axar-patels-huge-mistake-results-in-run-out-rohit-sharmas-reaction-is-viral-5998283",
-        urlToImage:
-          "https://c.ndtvimg.com/2024-06/d862pr6_axar-patel-runout_625x300_29_June_24.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
-        publishedAt: "2024-06-29T15:59:51Z",
-        content:
-          "Axar Patel missed out on a 2024 T20 World Cup Final half-century, as he was run out on 47. After a fine hand with the bat, Axar was caught off guard on the non-striker's end during the final against … [+1800 chars]",
-      },
-    ],
-  },
-  technology: {
-    status: "ok",
-    totalResults: 70,
-    articles: [
-      {
-        source: { id: null, name: "The Indian Express" },
-        author: "The Indian Express",
-        title:
-          "I travelled with Lenovo Legion Go, and here’s what I think about this gaming handheld device - The Indian Express",
-        description: null,
-        url: "https://indianexpress.com/article/technology/tech-news-technology/lenovo-legion-go-review-9423910/",
-        urlToImage: null,
-        publishedAt: "2024-06-30T06:30:03Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "The Indian Express" },
-        author: "The Indian Express",
-        title:
-          "Here’s everything Samsung plans to show at its Unpacked event on July 10 - The Indian Express",
-        description: null,
-        url: "https://indianexpress.com/article/technology/tech-news-technology/samsung-galaxy-unpacked-paris-zflip6-zfold6-watch7-buds3-ring-9423874/",
-        urlToImage: null,
-        publishedAt: "2024-06-30T05:21:11Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "GSMArena.com" },
-        author: "Peter",
-        title:
-          "Weekly poll results: the Realme GT 6 and GT 6T are promising, but price might be an issue - GSMArena.com news - GSMArena.com",
-        description:
-          "The generous GT 6T early bird offer is great, but the regular price is too high. The GT 6 might be too pricey even with the pre-order discount.",
-        url: "https://www.gsmarena.com/weekly_poll_results_the_realme_gt_6_and_gt_6t_are_promising_but_price_might_be_an_issue-news-63452.php",
-        urlToImage:
-          "https://fdn.gsmarena.com/imgroot/news/24/06/weekly-poll-results-realme-gt6-gt6t/-952x498w6/gsmarena_000.jpg",
-        publishedAt: "2024-06-30T05:07:01Z",
-        content:
-          "The Realme GT 6 is a really good phone, judging by last weeks poll, but that price might be an issue. A decent chunk of voters are interested, though some are holding off until positive reviews come … [+1267 chars]",
-      },
-      {
-        source: { id: null, name: "YouTube" },
-        author: null,
-        title:
-          "Apple's VR headset launches in China | World Business Watch | WION - WION",
-        description: null,
-        url: "https://www.youtube.com/watch?v=mOnSMcKba2s",
-        urlToImage: null,
-        publishedAt: "2024-06-30T05:06:40Z",
-        content:
-          "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later",
-      },
-      {
-        source: { id: null, name: "YouTube" },
-        author: null,
-        title:
-          "Jio Airtel Tariff FAQ, Nothing Phone 3 Launch?, Galaxy Unpacked 2024 - #AskArun Is Back - Trakin Tech",
-        description: null,
-        url: "https://www.youtube.com/watch?v=uvZjec5KYeM",
-        urlToImage: null,
-        publishedAt: "2024-06-30T04:30:57Z",
-        content:
-          "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later",
-      },
-      {
-        source: { id: "the-times-of-india", name: "The Times of India" },
-        author: "TOI Tech Desk",
-        title:
-          "YouTube brings Jump Ahead, PiP for Shorts, and more new features for Premium subscribers - The Times of India",
-        description:
-          "TECH NEWS : YouTube Premium introduces new features like Jump Ahead and picture-in-picture mode, enhancing the viewing experience for subscribers. With additional",
-        url: "https://timesofindia.indiatimes.com/technology/tech-news/youtube-brings-jump-ahead-pip-for-shorts-and-more-new-features-for-premium-subscribers/articleshow/111375316.cms",
-        urlToImage:
-          "https://static.toiimg.com/thumb/msid-111375285,width-1070,height-580,imgsize-12664,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-        publishedAt: "2024-06-30T04:29:00Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "The Quint" },
-        author: "Raajwrita Dutta",
-        title:
-          "Garena Free Fire MAX Redeem Codes for 30 June 2024: How To Win In-Game Freebies - The Quint",
-        description:
-          "The Garena Free Fire MAX redeem codes for today, Sunday, 30 June 2024, are updated on the website - reward.ff.garena.com. Follow the steps here to claim the active codes.",
-        url: "https://www.thequint.com/tech-and-auto/tech-news/garena-free-fire-max-redeem-codes-for-today-how-to-win-rewards-and-diamonds-check-details-here",
-        urlToImage:
-          "https://images.thequint.com/thequint%2F2024-06%2F25acbc26-ceda-4bde-81c0-637639ede2ec%2Fgarena.jpg",
-        publishedAt: "2024-06-30T03:55:15Z",
-        content:
-          "Registered players can start claiming the Garena Free Fire MAX redeem codes for today, Sunday, 30 June 2024. The list of active codes is updated online and you can use any one of them. Players can co… [+589 chars]",
+          "Shares of Manganese Ore (India) Ltd. or MOIL surged as much as 8.9% on Wednesday to 535 after the company released a record quarterly update on Tuesday evening.The company in an exchange filing on Tu… [+1454 chars]",
       },
       {
         source: { id: null, name: "CNBCTV18" },
         author: "https://www.cnbctv18.com",
         title:
-          "July tech roundup: Foldable phones, budget handsets and other exciting launches - CNBCTV18",
+          "Analysts recommend buying Deepak Nitrite, TCS, L&T, Samvardhana Motherson and Persistent Systems - CNBCTV18",
         description:
-          "Motorola confirmed the launch of its 2024 foldable series — the Moto razr 50 and the moto razr 50 ultra in India.",
-        url: "https://www.cnbctv18.com/technology/july-tech-launches-foldable-phones-budget-handsets-and-other-exciting-launches-19435699.htm",
+          "On Wednesday, market tech analysts Soni Patnaik, Mitessh Thakkar and F&O analyst Rajesh Palviya recommended these stocks for the short term.",
+        url: "https://www.cnbctv18.com/photos/market/deepak-nitrite-tcs-larsen-toubro-samvardhana-motherson-persistent-systems-top-stock-picks-19437260.htm",
         urlToImage:
-          "https://images.cnbctv18.com/uploads/2024/06/samsung-galaxy-z-fold-6-2024-06-4de5164aa27a1bcc52ad8b047ef4a31b.jpg?im=FitAndFill,width=500,height=300",
-        publishedAt: "2024-06-30T03:35:53Z",
+          "https://images.cnbctv18.com/uploads/2023/04/2020-11-04T074428Z_1843634276_RC27WJ98S4AY_RTRMADP_3_INDIA-STOCKS.jpg?im=FitAndFill,width=500,height=300",
+        publishedAt: "2024-07-03T04:08:54Z",
         content:
-          "July is packed with highly anticipated launches in the tech world and promises. From foldable phones to budget-friendly handsets, here's all that's in store for tech enthusiasts in July.Motorola Razr… [+3149 chars]",
+          "Technical analysts Soni Patnaik of JM Financial Services, Mitessh Thakkar of earningwaves.com, along with Rajesh Palviya, VP-Tech and Derivative Research, Axis Securities share their top stock picks … [+1553 chars]",
       },
       {
-        source: { id: null, name: "GSMArena.com" },
-        author: "Sagar",
+        source: { id: "the-times-of-india", name: "The Times of India" },
+        author: "TOI Business Desk",
         title:
-          "WhatsApp's Community-exclusive Events feature is now available for group chats - GSMArena.com news - GSMArena.com",
+          "Stock market today: BSE Sensex crosses 80,000 for the first time; Nifty50 hits new lifetime high as bulls - The Times of India",
         description:
-          "But only for those who are beta users. Last month, WhatsApp announced a feature called Events for the Communities and said that it would be rolled out for...",
-        url: "https://www.gsmarena.com/whatsapp_group_chat_events_android_beta-news-63511.php",
+          "India Business News: Stock market today: BSE Sensex and Nifty50, the Indian equity benchmark indices, scaled new lifetime highs in trade today with the 30-share index cros",
+        url: "https://timesofindia.indiatimes.com/business/india-business/stock-market-today-bse-sensex-nifty50-july-03-2024-dalal-street-indian-equities-global-markets/articleshow/111445492.cms",
         urlToImage:
-          "https://fdn.gsmarena.com/imgroot/news/24/06/whatsapp-group-chat-events-beta-android/-952x498w6/gsmarena_001.jpg",
-        publishedAt: "2024-06-30T02:09:01Z",
-        content:
-          'Last month, WhatsApp announced a feature called Events for the Communities and said that it would be rolled out for groups that are not a part of any community "over the coming months." While WhatsAp… [+912 chars]',
-      },
-      {
-        source: { id: null, name: "Deccan Herald" },
-        author: "DH Web Desk",
-        title:
-          "Gadgets Weekly: Samsung Music Frame, Lenovo Legion Go gaming console and more - Deccan Herald",
-        description: null,
-        url: "https://www.deccanherald.com/technology/gadgets-weekly-samsung-music-frame-lenovo-legion-go-gaming-console-and-more-3084684",
-        urlToImage:
-          "https://images.deccanherald.com/deccanherald%2F2024-06%2F75144bc7-c86e-4207-b06c-cadf525a48e1%2FSamsung_Music_Frame_CS_1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
-        publishedAt: "2024-06-30T00:30:00Z",
-        content:
-          "The Lenovo Legion Go is powered by AMD Ryzen Z1 Extreme processor and AMD RNDA Graphics. It runs Windows 11 OS and supports up to 16GB LPDDR5X RAM (7500Mhz) and 1TB PCIe Gen4 SSD, it ensured smooth g… [+2241 chars]",
-      },
-      {
-        source: { id: null, name: "Dailyexcelsior.com" },
-        author: "Daily Excelsior",
-        title:
-          "Vegan leather Makes a compassionate fashion statement - Daily Excelsior",
-        description:
-          "The concept of vegan leather as a cruelty-free alternative to regular animal skin leather is emerging as fast fashion is being replaced by sustainability and compassion in both India and the US. Leather however is a dominant textile in both countries, so thei…",
-        url: "https://www.dailyexcelsior.com/vegan-leather-makes-a-compassionate-fashion-statement/",
-        urlToImage:
-          "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2024/06/makes-1.jpg",
-        publishedAt: "2024-06-29T22:45:23Z",
-        content:
-          "The concept of vegan leather as a cruelty-free alternative to regular animal skin leather is emerging as fast fashion is being replaced by sustainability and compassion in both India and the US. Leat… [+10524 chars]",
-      },
-      {
-        source: { id: null, name: "gizmochina" },
-        author: "gizmochina",
-        title:
-          "Save the most with OnePlus Nord CE4 Lite introductory offer at Rs 17999 - gizmochina",
-        description: null,
-        url: "https://www.gizmochina.com/2024/06/29/save-the-most-with-oneplus-nord-ce4-lite-introductory-offer-at-rs-17999/",
-        urlToImage: null,
-        publishedAt: "2024-06-29T22:14:04Z",
+          "https://static.toiimg.com/thumb/msid-111445533,width-1070,height-580,imgsize-118558,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        publishedAt: "2024-07-03T03:55:00Z",
         content: null,
       },
       {
-        source: { id: "techcrunch", name: "TechCrunch" },
-        author: "Cody Corrall",
-        title: "Apple finally supports RCS in iOS 18 update - TechCrunch",
+        source: { id: null, name: "CNBCTV18" },
+        author: "Meghna Sen",
+        title:
+          "Emcure Pharma IPO opens today: GMP rises; should you subscribe to the issue? - CNBCTV18",
         description:
-          "Welcome back to TechCrunch’s Week in Review. This week we look at Apple supporting RCS in its iOS 18 update and much more.",
-        url: "https://techcrunch.com/2024/06/29/apple-finally-supports-rcs-in-ios-18-update/",
+          "Considering the company's strengths, growth trajectory, and the potential for debt reduction post-IPO, most analysts have recommended investors to apply to this IPO with a long-term view.",
+        url: "https://www.cnbctv18.com/market/emcure-pharma-ipo-subscription-opens-know-gmp-share-price-issue-review-should-you-bid-19437276.htm",
         urlToImage:
-          "https://techcrunch.com/wp-content/uploads/2016/02/shutterstock_373731844.jpg?resize=1200,525",
-        publishedAt: "2024-06-29T20:15:00Z",
+          "https://images.cnbctv18.com/uploads/2020/02/paracetamol-medicines-drugs-pharma-pharceuticals-e1587487275172.jpg?im=FitAndFill,width=500,height=300",
+        publishedAt: "2024-07-03T03:38:57Z",
         content:
-          "Welcome back to TechCrunchs Week in Review TechCrunchs newsletter recapping the weeks biggest news. Want it in your inbox every Saturday? Sign up here.\r\nThis week, Apple finally added support for Ric… [+4371 chars]",
+          "The initial public offering (IPO) of Emcure Pharmaceuticals Ltd. opens for bidding on Wednesday, July 3 and can be subscribed till Friday, July 5. The company is offering its shares in the fixed pric… [+5309 chars]",
       },
       {
-        source: { id: null, name: "GSMArena.com" },
-        author: "Sagar",
+        source: { id: null, name: "Moneycontrol" },
+        author: "Moneycontrol News",
         title:
-          "Oppo A3x gets NBTC certified, key specs revealed by Geekbench - GSMArena.com news - GSMArena.com",
+          "HDFC Bank hits new record high on June shareholding data, potential MSCI boost - Moneycontrol",
         description:
-          "It's powered by an octa-core Snapdragon processor. Oppo unveiled the A3 Pro in April and is set to introduce the A3 on July 2. However, Oppo won't be done...",
-        url: "https://www.gsmarena.com/oppo_a3x_specs_geekbench_nbtc_certified-news-63507.php",
+          "With foreign investors' stake below 55 percent in June quarter, analysts expect weighting to double on the MSCI Standard index reshuffle",
+        url: "https://www.moneycontrol.com/news/business/markets/brokerages-bullish-on-hdfc-bank-as-fii-stake-drops-below-55-eyes-msci-boost-12761091.html",
         urlToImage:
-          "https://fdn.gsmarena.com/imgroot/news/24/06/oppo-a3x-specs-geekbench-nbtc-certified/-952x498w6/gsmarena_001.jpg",
-        publishedAt: "2024-06-29T18:45:01Z",
+          "https://images.moneycontrol.com/static-mcnews/2024/03/HDFC-BANK.jpg",
+        publishedAt: "2024-07-03T03:35:19Z",
         content:
-          "Oppo unveiled the A3 Pro in April and is set to introduce the A3 on July 2. However, Oppo won't be done launching A3 series smartphones with that since it's working on the A3x, which has been certifi… [+476 chars]",
+          "Shares of HDFC Bank surged 3.5 percent to hit an all-time high of Rs 1,791 per share on July 3, following 4 percent rally of its American Depository Receipts (ADRs) overnight to $66.9 apiece post the… [+2477 chars]",
+      },
+      {
+        source: { id: null, name: "Dsij.in" },
+        author: "Rakesh Deshmukh",
+        title:
+          "Penny Stock Under Rs 5: DIIs Own 43.25 per cent Stake, Stock Hits Upper Circuit Consecutively for 12 Days, Gains 140 per cent in 1 Month! - Dalal Street Investment Journal",
+        description:
+          "LIC Backed Multibagger Construction Stock has delivered an impressive multibagger return of 140 per cent in just 1 month.",
+        url: "https://www.dsij.in/dsijarticledetail/penny-stock-under-rs-5-diis-own-4325-per-cent-stake-stock-hits-upper-circuit-consecutively-for-12-days-gains-140-per-cent-in-1-month",
+        urlToImage:
+          "https://www.dsij.in/Portals/0/EasyDNNnews/39403/image_4148.jpg",
+        publishedAt: "2024-07-03T03:22:30Z",
+        content:
+          "LIC Backed Multibagger Construction Stock has delivered an impressive multibagger returns of 140 per cent in just 1 month.\r\nIncorporated in 2004, this company specializes in providing passive telecom… [+1852 chars]",
+      },
+      {
+        source: { id: null, name: "Livemint" },
+        author: "Dhanya Nagasundaram",
+        title:
+          "Vraj Iron and Steel IPO listing date today. Here’s what GMP, expert say on share debut | Stock Market News - Mint",
+        description:
+          "Vraj Iron and Steel IPO listing date set for today at 10:00 IST. Shares to list in pre-open session on both BSE and NSE. Equity shares to be listed on BSE within ’T’ Group of Securities list.",
+        url: "https://www.livemint.com/market/ipo/vraj-iron-and-steel-ipo-listing-date-today-here-s-what-gmp-expert-say-on-share-debut-11719975510708.html",
+        urlToImage:
+          "https://www.livemint.com/lm-img/img/2024/07/03/1600x900/gallery-3_1719458533763_1719976237679.jpg",
+        publishedAt: "2024-07-03T03:17:48Z",
+        content:
+          "Vraj Iron and Steel IPO listing date has been scheduled for today (Wednesday, July 3) on the bourses at 10:00 IST. According to details on the BSE website, Vraj Iron and Steel's share price will list… [+3223 chars]",
+      },
+      {
+        source: { id: null, name: "Livemint" },
+        author: "Dhanya Nagasundaram",
+        title:
+          "Buy or sell: Vaishali Parekh recommends three stocks to buy today - July 3 | Stock Market News - Mint",
+        description:
+          "Buy or sell stocks: Vaishali Parekh has recommended three stocks to buy today — Tata Consumer Products Ltd, Torrent Pharmaceuticals Ltd, and KEC International Ltd.",
+        url: "https://www.livemint.com/market/stock-market-news/buy-or-sell-vaishali-parekh-recommends-three-stocks-to-buy-today-july-3-11719973517422.html",
+        urlToImage:
+          "https://www.livemint.com/lm-img/img/2024/07/03/1600x900/Buy_or_sell_stocks_to_buy_today_stock_market_today_1698023021624_1719974945334.jpg",
+        publishedAt: "2024-07-03T02:51:56Z",
+        content:
+          "Buy or sell stocks for today: On Tuesday, despite mixed global cues, the domestic benchmark indices, the Sensex and the Nifty 50, reached new all-time high levels before finishing flat as a result of… [+3456 chars]",
+      },
+      {
+        source: { id: null, name: "CNBCTV18" },
+        author: "Hormaz Fatakia",
+        title:
+          "REC, PFC Shares: Love them, hate them, but cannot ignore them, says Bernstein - CNBCTV18",
+        description:
+          "PFC shares currently trade at a financial year 2025 price-to-earnings multiple of 6.7 times, while REC trades at a multiple of 8.5x.",
+        url: "https://www.cnbctv18.com/market/rec-pfc-share-price-bernstein-outperform-rating-upside-target-loans-npa-power-capacity-psu-19437248.htm",
+        urlToImage:
+          "https://images.cnbctv18.com/uploads/2024/06/delhi-power-demand-2024-06-5d3ca7b788c6d5d8411bb50340089428.jpg?im=FitAndFill,width=500,height=300",
+        publishedAt: "2024-07-03T02:38:28Z",
+        content:
+          "Brokerage firm Bernstein has initiated coverage on both REC Ltd. and PFC Ltd., the power financing PSUs with an outperform rating, calling both these stocks as their most preferred plays in India's p… [+1876 chars]",
       },
       {
         source: { id: null, name: "Business Standard" },
-        author: "Press Trust of India",
+        author: "Nikita Vashisht",
         title:
-          "Google adds Tulu to its translation services, community says 'great honour' - Business Standard",
+          "Stocks to Watch, July 3:HDFC Bank, Zomato, Concor, RVNL, M&M Fin, Britannia - Business Standard",
         description:
-          "Tulu joins 110 new languages on Google Translate from June 27, marking a historic moment for the millions of people who speak this language",
-        url: "https://www.business-standard.com/technology/tech-news/google-adds-tulu-to-its-translation-services-community-says-great-honour-124062900784_1.html",
+          "Stocks to Watch today, July 3, 2024: he latest foreign ownership data, released on Tuesday, July 2, showed FII holding in the private bank falling to 54.83 per cent",
+        url: "https://www.business-standard.com/markets/news/stocks-to-watch-july-3-hdfc-bank-zomato-concor-rvnl-mm-fin-britannia-124070300060_1.html",
         urlToImage:
-          "https://bsmedia.business-standard.com/_media/bs/img/article/2024-05/15/thumb/fitandfill/400X400/1715749660-0515.JPG",
-        publishedAt: "2024-06-29T17:16:45Z",
+          "https://bsmedia.business-standard.com/_media/bs/img/article/2023-10/03/thumb/featurecrop/400X400/1696329652-4074.jpg",
+        publishedAt: "2024-07-03T02:34:16Z",
         content:
-          "Even non-Tulu speakers in Karnataka may have encountered Tulu phrases through popular Kannada movies such as 'Ulidavaru Kandanthe,' 'Garuda Gamana Vrishabha Vahana,' and 'Kantara,' as well as the Hin… [+544 chars]",
+          "Stocks to Watch today, July 3, 2024: he latest foreign ownership data, released on Tuesday, July 2, showed FII holding in the private bank falling to 54.83 per cent\r\nHDFC Bank | Image credits: Bloomb… [+2946 chars]",
       },
       {
-        source: { id: null, name: "GSMArena.com" },
-        author: "Ro",
+        source: { id: null, name: "Hindustan Times" },
+        author: "Sanya Jain",
         title:
-          "Gemini AI makes its way to Google Messages - GSMArena.com news - GSMArena.com",
+          "Unacademy CEO’s comment on post about startup failure a day before laying off 250 employees - Hindustan Times",
         description:
-          "Gemini AI continues its march across the Google ecosystem. A new update is rolling out, bringing Gemini AI to Google Messages after Gmail already got the...",
-        url: "https://www.gsmarena.com/gemini_ai_makes_its_way_to_google_messages-news-63509.php",
+          "Unacademy founder and CEO Gaurav Munjal commented on a post about startup failure on July 1, a day before his company laid off 250 employees. | Trending",
+        url: "https://www.hindustantimes.com/trending/unacademy-ceo-gaurav-munjal-comments-on-post-about-startup-failure-day-before-laying-off-250-employees-101719973138626.html",
         urlToImage:
-          "https://fdn.gsmarena.com/imgroot/news/23/11/google-messages-rcs-1-billion-users/-952x498w6/gsmarena_000.jpg",
-        publishedAt: "2024-06-29T16:15:01Z",
+          "https://www.hindustantimes.com/ht-img/img/2024/07/03/1600x900/GauravMunjal_1716527801091_1719973455707.webp",
+        publishedAt: "2024-07-03T02:26:38Z",
         content:
-          "A new update is rolling out, bringing Gemini AI to Google Messages after Gmail already got the AI treatment and Google announcing the move more than a week ago. The feature isn't widely available yet… [+980 chars]",
+          "Gaurav Munjal-led edtech startup, Unacademy, has laid off 250 staffers in its latest round of restructuring. Unacademy said the layoffs were part of the companys ongoing efforts to streamline operati… [+2065 chars]",
       },
       {
-        source: { id: null, name: "Abplive.com" },
-        author: "Aashish Kumar Shrivastava",
+        source: { id: "the-times-of-india", name: "The Times of India" },
+        author: "Kairavi Lukka",
         title:
-          "OpenAI Unveils New Tool, CriticGPT, To Find Errors In AI-Generated Code: Report - ABP Live",
+          "Sebi's levy order likely to erode Rs 2,000 crore from discount brokers' income, hit client base - The Economic Times",
         description:
-          "In a study, CriticGPT demonstrated competence in analysing code and identifying errors that may elude human notice, aiding in the detection of hallucinations.",
-        url: "https://news.abplive.com/technology/openai-unveils-new-ai-tool-criticgpt-find-errors-in-ai-generated-code-1699135",
+          "Several brokerage firms, including IIFL Securities and Motilal Oswal Financial Services, saw share declines of 3% to 7% due to the regulatory order affecting brokerages, potentially leading to adjustments in zero-payment plans or increased rates.",
+        url: "https://economictimes.indiatimes.com/markets/stocks/news/fee-great-leveller-for-discount-brokerages/articleshow/111445099.cms",
         urlToImage:
-          "https://feeds.abplive.com/onecms/images/uploaded-images/2024/06/29/1c02d9b17913ce035563ca3eb73731fe1719675037558555_original.png?impolicy=abp_cdn&imwidth=1200",
-        publishedAt: "2024-06-29T15:31:11Z",
+          "https://img.etimg.com/thumb/msid-111445094,width-1200,height-630,imgsize-27712,overlay-etmarkets/photo.jpg",
+        publishedAt: "2024-07-03T02:19:14Z",
+        content:
+          "The regulatory order to stock exchanges to collect uniform levies could shrink brokerage incomes by more than 2,000 crore, disproportionately affecting discount platforms and dashing popular zero-bro… [+1426 chars]",
+      },
+      {
+        source: { id: "bloomberg", name: "Bloomberg" },
+        author: "Bhuma Shrivastava, Bei Hu",
+        title:
+          "Hedge Fund's Secret Adani Short Revealed in Blow-by-Blow Account - Bloomberg",
+        description:
+          "An activist short-seller, a New York hedge fund, a Mauritius-based investment vehicle and a broker tied to a big Indian bank: All played a role in one of the most-damaging short-seller attacks anywhere in the world.",
+        url: "https://www.bloomberg.com/news/articles/2024-07-03/hedge-fund-s-secret-adani-short-revealed-in-blow-by-blow-account",
+        urlToImage:
+          "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i1Qq_uliui88/v0/1200x800.jpg",
+        publishedAt: "2024-07-03T01:48:00Z",
+        content:
+          "An activist short-seller, a New York hedge fund, a Mauritius-based investment vehicle and a broker tied to a big Indian bank: All played a role in one of the most-damaging short-seller attacks anywhe… [+292 chars]",
+      },
+      {
+        source: { id: null, name: "Gadgets360.com" },
+        author: "Rohan Pal",
+        title:
+          "Airtel vs Jio vs Vi: Best Prepaid Plans With Up to 365 Days Validity - Gadgets 360",
+        description:
+          "Airtel, Reliance Jio, and Vodafone Idea have increased the prices of their prepaid plans in India. The new prepaid plans from the operators will go live on July 3. So, if you are wondering which operator offers better pricing and benefits for different validi…",
+        url: "https://www.gadgets360.com/telecom/features/airtel-vs-jio-vs-vi-best-prepaid-validity-plans-compared-2024-6015856",
+        urlToImage:
+          "https://i.gadgets360cdn.com/large/airtel_vs_jio_vs_vi_1719902658578.jpg",
+        publishedAt: "2024-07-03T01:30:01Z",
+        content:
+          "Ariel, Reliance Jio, and Vodafone Idea have announced price hikes for their prepaid and postpaid plans. Airtel and Jio's revised prepaid plans will be valid from July 3, while Vi recharge plans will … [+4730 chars]",
+      },
+      {
+        source: { id: null, name: "FXStreet" },
+        author: "Christian Borjon Valencia",
+        title: "Gold falls amid falling US yields, soft US Dollar - FXStreet",
+        description:
+          "Gold price slid during the North American session as market participants digested Federal Reserve (Fed) Chair Jerome Powell’s comments at a European Central Bank (ECB) forum in Portugal.",
+        url: "https://www.fxstreet.com/news/gold-price-slides-alongside-firm-us-yields-despite-powells-stance-202407021901",
+        urlToImage:
+          "https://editorial.fxstreet.com/images/Markets/Commodities/Metals/Gold/stack-of-golden-bars-in-the-bank-vault-60756080_Large.jpg",
+        publishedAt: "2024-07-02T21:51:52Z",
+        content:
+          "<ul><li>Gold falls 0.28%, reacting to Powell’s ECB forum remarks.</li><li>Powell is cautiously optimistic on disinflation, emphasizes need for more progress before rate cuts.</li><li>US Treasury yiel… [+4924 chars]",
+      },
+      {
+        source: { id: null, name: "Etnownews.com" },
+        author: "Sarmeeli Mallick",
+        title:
+          "Multibagger defence stock: Over 1000% returns in 3 years - Share price jumps from Rs 809 to Rs 2473 in 3 months! - ET Now",
+        description:
+          "Multibagger defence stock: The project is valued at approximately $21 million, and GRSE is targeting to complete it within a time period of around 24 months. The project will be on a design, build, and deliver basis, meaning that GRSE will be responsible for …",
+        url: "https://www.etnownews.com/markets/multibagger-defence-stock-over-1000-returns-in-3-years-share-price-jumps-from-rs-809-to-rs-2473-in-3-months-article-111439269",
+        urlToImage:
+          "https://etstatic.tnn.in/thumb/msid-111439269,width-1280,height-720,resizemode-75/111439269.jpg",
+        publishedAt: "2024-07-02T17:25:45Z",
+        content:
+          "The PSU stock, a component of BSE SmallCap index, is Garden Reach Shipbuilders &amp; Engineers Ltd (GRSE) and boosts a market cap of Rs 27,541.16 crore.",
+      },
+      {
+        source: { id: null, name: "Etnownews.com" },
+        author: "Anubhav Maurya",
+        title:
+          "Wipro Share Price Target 2024: Rs 800-mark coming soon? Brokerage's hot tip ahead of Q1 FY25 results - ET Now",
+        description:
+          "Wipro Share Price Target 2024: Wipro's consolidated net profit fell 8% year on year (YoY) to Rs 2,835 crore in the March quarter of 2024. The previous year's quarter saw a total of Rs 3,074 crore.",
+        url: "https://www.etnownews.com/markets/wipro-share-price-target-2024-rs-800-mark-coming-soon-brokerages-hot-tip-ahead-of-q1-fy25-results-article-111438736",
+        urlToImage:
+          "https://etstatic.tnn.in/thumb/msid-111438736,width-1280,height-720,resizemode-75/111438736.jpg",
+        publishedAt: "2024-07-02T16:37:30Z",
         content: null,
       },
       {
-        source: { id: null, name: "Gadgets360.com" },
-        author: "David Delima",
-        title:
-          "Apple Reportedly Exploring New Technology to Simplify iPhone Battery Replacement Process | Technology News - Gadgets 360",
-        description:
-          "Apple could equip an upcoming iPhone model with a new battery technology that allows users to replace the battery without using tweezers, according to a report. The iPhone maker will reportedly equip one iPhone 16 model with a battery housed in a metal case t…",
-        url: "https://www.gadgets360.com/mobiles/news/iphone-battery-replacement-technology-apple-development-report-5998012",
-        urlToImage:
-          "https://i.gadgets360cdn.com/large/apple_iphone_15_pro_max_side_cameras_ndtv_1699429121899.jpg",
-        publishedAt: "2024-06-29T15:24:39Z",
-        content:
-          "Apple is exploring the use of new technology that will ease the process of replacing the battery on future iPhone models, according to a report. The Cupertino company was previously said to be rework… [+2037 chars]",
+        source: { id: null, name: "[Removed]" },
+        author: null,
+        title: "[Removed]",
+        description: "[Removed]",
+        url: "https://removed.com",
+        urlToImage: null,
+        publishedAt: "1970-01-01T00:00:00Z",
+        content: "[Removed]",
       },
       {
-        source: { id: null, name: "Gadgets360.com" },
-        author: "David Delima",
+        source: { id: null, name: "Economictimes.com" },
+        author: "ETMarkets.com",
         title:
-          "Infinix Note 40S 4G Detailed Specifications Confirmed Ahead of Launch - Gadgets 360",
+          "Market Trading Guide: Jyothy Labs, Safari Industries among 4 stock recommendations for Wednesday - Stock Ideas - The Economic Times",
         description:
-          "Infinix Note 40S 4G specifications and design have been confirmed by the company via its website, ahead of the official launch of the handset. The upcoming smartphone will be available in Obsidian Black and Vintage Green colour options, and will feature the H…",
-        url: "https://www.gadgets360.com/mobiles/news/infinix-note-40s-4g-specifications-features-confirmed-5997448",
+          "D-Street benchmark indices Sensex and Nifty hit fresh lifetime high levels before closing flat due to profit-taking in select banking and telecom shares amid mixed global cues on Tuesday. The 30-share index declined 34.74 points or 0.04 per cent to settle at …",
+        url: "https://m.economictimes.com/markets/stocks/news/market-trading-guide-jyothy-labs-safari-industries-among-4-stock-recommendations-for-wednesday/stock-ideas/slideshow/111438396.cms",
         urlToImage:
-          "https://i.gadgets360cdn.com/large/infinix_note_40s_1719667878989.jpg",
-        publishedAt: "2024-06-29T13:45:24Z",
+          "https://img.etimg.com/thumb/msid-111438396,width-1070,height-580,overlay-etmarkets/photo.jpg",
+        publishedAt: "2024-07-02T16:09:51Z",
         content:
-          "Infinix Note 40S 4G is expected to be launched by the company in the coming weeks, and the company has already revealed the upcoming smartphone's specifications. The Note 40 series was launched in In… [+2458 chars]",
+          "After the downward correction amidst a range movement of the last few weeks, the stock price has shifted into a decisive upside breakout so far this week. We observe an upside breakout of triangle ty… [+410 chars]",
       },
       {
-        source: { id: null, name: "News9live.com" },
-        author: "Mohammad Faisal",
+        source: { id: null, name: "Business Standard" },
+        author: "Amritha Pillay",
         title:
-          "Big discount! Apple iPhone 14 Plus available for Rs 52,999, just for today - News9 LIVE",
+          "Rs 35,000 crore Saudi Aramco order biggest ever, say L&T executives - Business Standard",
         description:
-          "BOBCARD is offering up to Rs 4,000 off on premium smartphones like the iPhone 14 Plus through Flipkart. Customers can avail Rs 3,000 off on one-time purchases or Rs 4,000 off on EMI transactions, making the iPhone 14 Plus available for as low as Rs 51,999.",
-        url: "https://www.news9live.com/technology/mobile-phone/big-discount-apple-iphone-14-plus-available-for-rs-52999-just-for-today-2597907",
+          "Firm clarifies it is part of existing order book, not new",
+        url: "https://www.business-standard.com/companies/news/l-t-clarifies-on-saudi-aramco-order-win-stock-ends-higher-2-74-124070201105_1.html",
         urlToImage:
-          "https://images.news9live.com/wp-content/uploads/2024/06/Apple-iPhone-14-Plus.jpg",
-        publishedAt: "2024-06-29T12:55:46Z",
+          "https://bsmedia.business-standard.com/_media/bs/img/article/2023-06/13/thumb/featurecrop/400X400/1686645718-7795.jpg",
+        publishedAt: "2024-07-02T15:22:25Z",
         content:
-          "In picture: Apple iPhone 14 and iPhone 14 Plus (Image Credits: Apple)\r\nBOBCARD, the credit card arm of Bank of Baroda, is running a limited-time offer on Flipkart, allowing consumers to avail a flat … [+1731 chars]",
+          "Firm clarifies it is part of existing order book, not new\r\nAmritha PillayMumbai\r\nSenior executives from engineering conglomerate Larsen &amp; Toubro (L&amp;T) on Tuesday clarified on news reports of … [+3336 chars]",
+      },
+    ],
+  },
+  entertainment: {
+    status: "ok",
+    totalResults: 70,
+    articles: [
+      {
+        source: { id: "the-times-of-india", name: "The Times of India" },
+        author: "TOI Lifestyle Desk",
+        title:
+          "Varalaxmi Sarathkumar stuns in green lehenga at her Mehendi ceremony ahead of wedding - The Times of India",
+        description:
+          "Varalaxmi, daughter of renowned actor Sarathkumar, is embarking on the next chapter of her life: marriage. Recently, intimate glimpses from their Mehendi ceremony have surfaced, adding to the excitement.",
+        url: "https://timesofindia.indiatimes.com/life-style/fashion/celeb-style/varalaxmi-sarathkumar-stuns-in-green-lehenga-at-her-mehendi-ceremony-ahead-of-wedding/photostory/111422293.cms",
+        urlToImage: "https://static.toiimg.com/photo/111422697.cms",
+        publishedAt: "2024-07-03T04:11:00Z",
+        content:
+          "Varalaxmi, daughter of renowned actor Sarathkumar, is embarking on the next chapter of her life: marriage. The acclaimed actress got engaged to her dream partner, Nicholai Sachdev, in March 2024. Now… [+191 chars]",
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: null,
+        title:
+          "Kalki 2898 AD Box Office Collection Day 6: Prabhas' Film Inches Closer To Rs 600 Crore Mark Worldwide - NDTV Movies",
+        description:
+          "NDTV.com: India, Business, Bollywood, Cricket, Video and Breaking News",
+        url: "https://www.ndtv.com/",
+        urlToImage: "https://cdn.ndtv.com/common/images/ogndtv.png",
+        publishedAt: "2024-07-03T04:02:50Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "Ananya Das",
+        title:
+          "Ajay Devgn and Tabu's Auron Mein Kahan Dum Tha release date postponed, Kill to enjoy a solo outing this Friday - Hindustan Times",
+        description:
+          "Auron Mein Kahan Dum Tha was earlier scheduled to release on July 5. The film also stars Jimmy Sheirgill, Sayaji Shinde, Shantanu Maheshwari, Saiee Manjrekar. | Bollywood",
+        url: "https://www.hindustantimes.com/entertainment/bollywood/ajay-devgn-and-tabus-auron-mein-kahan-dum-tha-release-date-postponed-kill-to-enjoy-a-solo-outing-this-friday-101719974675483.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/03/1600x900/Ajay_Devgn_and_Tabu_in_Auron_Mein_Kahan_Dum_Tha_1718272820975_1719975781120.PNG",
+        publishedAt: "2024-07-03T03:20:34Z",
+        content:
+          "The release date of Auron Mein Kahan Dum Tha, starring Ajay Devgn and Tabu, has been postponed. The film's team on Tuesday shared that they have decided to postpone the film \"on the request of the ex… [+2171 chars]",
+      },
+      {
+        source: { id: null, name: "PINKVILLA" },
+        author: "Apeksha Juneja",
+        title:
+          "Kalki 2898 AD: Ranveer Singh reviews Deepika Padukone starrer; calls her ‘beyond compare’ and praises Amitabh Bachchan, Prabhas - PINKVILLA",
+        description:
+          "Ranveer Singh Recently Watched The Movie Kalki 2898 AD And Heaped Compliments Upon His Wife, Deepika Padukone, And The Rest Of The Cast And Crew In His Review.",
+        url: "https://www.pinkvilla.com/entertainment/news/kalki-2898-ad-ranveer-singh-reviews-deepika-padukone-starrer-calls-her-beyond-compare-and-praises-amitabh-bachchan-prabhas-1323562",
+        urlToImage:
+          "https://www.pinkvilla.com/images/2024-07/264930023_ranveer-singh-deepika-padukone.jpg",
+        publishedAt: "2024-07-03T02:12:23Z",
+        content:
+          "Kalki 2898 AD, which was released in theaters on June 27, has been winning the hearts of the audience. The sci-fi film, starring Prabhas, Deepika Padukone, Amitabh Bachchan, and Kamal Haasan, has per… [+2200 chars]",
+      },
+      {
+        source: { id: null, name: "VOGUE India" },
+        author: "Woodstock Witch",
+        title: "Sagittarius Horoscope Today: July 3, 2024 - VOGUE India",
+        description:
+          "Read VOGUE India's free daily Sagittarius horoscope for 3rd July 2024 to learn more about what the stars have in store for you! Click here for our cosmic tips",
+        url: "https://www.vogue.in/horoscope/product/sagittarius-horoscope-today-july-3-2024/",
+        urlToImage:
+          "https://media.vogue.in/wp-content/uploads/2019/12/Sagittarius.jpg",
+        publishedAt: "2024-07-03T00:20:04Z",
+        content:
+          "Sit with it, Sagittarius. Sit with the pain and the discomfort thats emerging at the moment. Instead of rejecting what your inner landscape is revealing to you, honour this as a period of growth, hea… [+417 chars]",
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "Neeraj Dhankher",
+        title:
+          "Career Horoscope Today for July 03, 2024: Tips to overcome roadblocks at work - Hindustan Times",
+        description:
+          "Daily Horoscope Today, July 03, 2024: Get daily career astrological predictions that will help you prosper at your workplace. | Horoscope",
+        url: "https://www.hindustantimes.com/astrology/horoscope/career-horoscope-today-for-july-03-2024-tips-to-overcome-roadblocks-at-work-101719927747488.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/02/1600x900/photo-1553729459-efe14ef6055d_1718903412414_1719928649459.jpg",
+        publishedAt: "2024-07-02T21:30:07Z",
+        content:
+          "Aries: Today, you may find yourself in the middle of the whirlwind of change. While your vitality and ability to make fast decisions may be seen as positive qualities, they can also work against you … [+5003 chars]",
+      },
+      {
+        source: { id: null, name: "PINKVILLA" },
+        author: "Loveleen Kaur",
+        title:
+          "EXCLUSIVE: Aamir Khan and Junaid should work on remake of THIS film of Mr Perfectionist, says Maharaj helmer Siddharth P. Malhotra - PINKVILLA",
+        description:
+          "Aamir Khan's Son Junaid Khan Made His Acting Debut With The Crime Drama Film Maharaj. Helmed By Siddharth P. Malhotra, It Also Stars Jaideep Ahlawat, Sharvari Wagh And Others.",
+        url: "https://www.pinkvilla.com/entertainment/exclusives/exclusive-aamir-khan-and-junaid-should-work-on-remake-of-this-film-of-mr-perfectionist-says-maharaj-helmer-siddharth-p-malhotra-1323554",
+        urlToImage:
+          "https://www.pinkvilla.com/images/2024-07/263084521_aamir-min.jpg",
+        publishedAt: "2024-07-02T20:18:37Z",
+        content:
+          "Aamir Khans son Junaid recently made his acting debut with Siddharth P. Malhotras film Maharaj. Despite facing multiple challenges, the biographical crime drama made its debut on OTT on June 21.\r\nAmi… [+2046 chars]",
+      },
+      {
+        source: { id: null, name: "123telugu.com" },
+        author: null,
+        title:
+          "Tamil blockbuster Garudan is now streaming on this OTT platform - 123telugu",
+        description:
+          "Telugu cinema news, Movie reviews, OTT News, OTT Release dates, Latest Movie reviews in Telugu, telugu movie reviews, Box office collections",
+        url: "https://www.123telugu.com/mnews/tamil-blockbuster-garudan-is-now-streaming-on-this-ott-platform.html",
+        urlToImage:
+          "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
+        publishedAt: "2024-07-02T19:32:00Z",
+        content:
+          "Tamil actor Soori delivered a solid blockbuster with the village drama Garudan. The film grossed over 50 crores at the worldwide box office and emerged as one of the biggest hits of Kollywood in 2024… [+811 chars]",
+      },
+      {
+        source: { id: null, name: "YouTube" },
+        author: null,
+        title: "Top 10 Raw Moments: July 1, 2024 - WWE",
+        description: null,
+        url: "https://www.youtube.com/watch?v=bUb3NqqfF7A",
+        urlToImage: null,
+        publishedAt: "2024-07-02T19:00:27Z",
+        content:
+          "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later",
+      },
+      {
+        source: { id: null, name: "PINKVILLA" },
+        author: "Loveleen Kaur",
+        title:
+          "Anant Ambani-Radhika Merchant’s Wedding: Nita-Mukesh Ambani gift gold, silver and Rs 1 lakh cash to 50 couples at mass wedding; REPORT - PINKVILLA",
+        description:
+          "Anant Ambani And Radhika Merchant Will Tie The Knot On July 12 In Mumbai’s Jio World Centre. Singers Like Adele, Drake, And Lana Del Rey Are Expected To Perform At The Star-studded Event.",
+        url: "https://www.pinkvilla.com/entertainment/news/anant-ambani-radhika-merchants-wedding-nita-mukesh-ambani-gift-gold-silver-and-rs-1-lakh-cash-to-50-couples-at-mass-wedding-report-1323534",
+        urlToImage:
+          "https://www.pinkvilla.com/images/2024-07/788655516_ambani-cover-min-1.jpg",
+        publishedAt: "2024-07-02T18:54:19Z",
+        content:
+          "Ahead of Anant Ambani and Radhika Merchants wedding later this month, billionaire couple Nita and Mukesh Ambani performed a good deed and organized a mass wedding in Thane, Mumbai.\r\nOn June 2, nearly… [+1901 chars]",
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "Dr J.N Pandey",
+        title:
+          "Capricorn Daily Horoscope Today, July 03, 2024 advice on financial prudence - Hindustan Times",
+        description:
+          "Read Capricorn daily horoscope for July 03, 2024 to know your astrological predictions. Today, you should aim for equilibrium in all aspects of their life. | Horoscope",
+        url: "https://www.hindustantimes.com/astrology/horoscope/capricorn-daily-horoscope-today-july-03-2024-advice-on-financial-prudence-101719931044402.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/02/1600x900/Capri_freepik_1716404225777_1719946237028.jpg",
+        publishedAt: "2024-07-02T18:53:25Z",
+        content:
+          "Capricorn (22nd December to 19th January)\r\nDaily Horoscope Prediction says, focus on Balance and Self-Care\r\nEmbrace balance today. Nurture your relationships, stay focused at work, and prioritize you… [+3088 chars]",
+      },
+      {
+        source: { id: "the-times-of-india", name: "The Times of India" },
+        author: "etimes.in",
+        title:
+          "Bigg Boss OTT 3: Bigg Boss sends shampoo for Shivani Kumari as she complaints of lice in her hair; Munish - The Times of India",
+        description:
+          "In a fiery episode of Bigg Boss OTT season 3, tensions rise as contestants navigate drama, hygiene concerns, and creative disputes, culminating in Vis",
+        url: "https://timesofindia.indiatimes.com/tv/news/hindi/bigg-boss-ott-3-bigg-boss-sends-shampoo-for-shivani-kumari-as-she-complaints-of-lice-in-her-hair-munisha-khatwani-is-concerned-about-everyones-hygiene/articleshow/111440157.cms",
+        urlToImage:
+          "https://static.toiimg.com/thumb/msid-111440153,width-1070,height-580,imgsize-26712,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        publishedAt: "2024-07-02T18:49:00Z",
+        content:
+          "Bigg Boss OTT 3's Payal Malik: Ek Time Tha, Armaan, Kritika Aur Main Teeno Suicide Karna Chahte The",
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "Dr J.N Pandey",
+        title:
+          "Pisces Daily Horoscope Today, July 03, 2024 predicts unexpected turns - Hindustan Times",
+        description:
+          "Read Pisces daily horoscope for July 03, 2024 to know your astrological predictions. Today, love may take unexpected turns. | Horoscope",
+        url: "https://www.hindustantimes.com/astrology/horoscope/pisces-daily-horoscope-today-july-03-2024-predicts-unexpected-turns-101719931324833.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/02/1600x900/Pisces_Freepik_1716404835423_1719942533422.jpg",
+        publishedAt: "2024-07-02T18:41:03Z",
+        content:
+          "Pisces (19th February to 20th March)\r\nDaily Horoscope Prediction says, embrace Change with Open Arms\r\nToday is a day of transformations; embrace change in love, career, finances, and health.\r\nPisces … [+3136 chars]",
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "Dr J.N Pandey",
+        title:
+          "Leo Daily Horoscope Today, July 03, 2024 predicts income may arise - Hindustan Times",
+        description:
+          "Read Leo daily horoscope for July 3, 2024 to know your astrological predictions. Leos, today invites you to open your heart and mind to new possibilities. | Horoscope",
+        url: "https://www.hindustantimes.com/astrology/horoscope/leo-daily-horoscope-today-july-03-2024-predicts-income-may-arise-101719930644705.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/02/1600x900/Leo_Freepik_1716401798981_1719944406247.jpg",
+        publishedAt: "2024-07-02T18:34:02Z",
+        content:
+          "Leo (23rd July to 22nd August)\r\nDaily Horoscope Prediction says, embrace New Beginnings and Opportunities\r\nToday is all about embracing fresh starts and welcoming new opportunities in both your perso… [+3289 chars]",
+      },
+      {
+        source: { id: null, name: "The Quint" },
+        author: "Saima Andrabi",
+        title:
+          "Wordle 1110 Answer for 3 July 2024: Hints & Clues to Guess Word of the Day - The Quint",
+        description:
+          "Discover the Wordle 1110 answer for 3 July 2024! Get hints and clues to solve today's challenging word puzzle and keep your winning streak alive.",
+        url: "https://www.thequint.com/tech-and-auto/tech-news/wordle-1110-answer-for-3-july-2024-hints-clues-to-guess-word-of-the-day",
+        urlToImage:
+          "https://images.thequint.com/thequint%2F2023-08%2F6066a4b3-8c1c-4dd5-bdcf-4cbaf8ddf5d7%2FWhatsApp_Image_2022_02_18_at_11_31_46_AM.jpeg?rect=0%2C48%2C1280%2C672",
+        publishedAt: "2024-07-02T18:31:00Z",
+        content:
+          "Wordle 1110 Answer for 3 July 2024: The online web puzzle Wordle has been updated to a new level on Wednesday, 3 July 2024. To guess the answer, users might require online hints and clues. The Wordle… [+553 chars]",
+      },
+      {
+        source: { id: null, name: "Bollywood Life" },
+        author: "Sanskruti Nemane",
+        title:
+          "Anupamaa serial twists: Here's why we will see Anuj's depressed look post another big leap in the show; will he get his Anu? - Bollywood Life",
+        description:
+          "Anupamaa will reportedly take another leap. Recently, Gaurav Khanna aka Anuj's new look went viral and here's the reason why we will see Anuj in that state post leap.",
+        url: "https://www.bollywoodlife.com/tv/anupamaa-serial-twists-heres-why-we-will-see-anujs-depressed-look-post-another-big-leap-in-the-show-will-he-get-his-anu-entertainment-news-tv-news-2930969/",
+        urlToImage:
+          "https://st1.bollywoodlife.com/wp-content/uploads/2024/07/Anupamaa-2024-07-02T231901.205.jpg",
+        publishedAt: "2024-07-02T18:13:22Z",
+        content:
+          "Rupali Ganguly and Gaurav Khanna starrer Anupamaa is in the news for its interesting twists and turns. The show has been at the top of the TRP charts. It has been getting all the love and we are all … [+2460 chars]",
+      },
+      {
+        source: { id: null, name: "123telugu.com" },
+        author: null,
+        title:
+          "Laila: First look poster of Vishwak Sen in a lady get-up to be out tomorrow - 123telugu",
+        description:
+          "Telugu cinema news, Movie reviews, OTT News, OTT Release dates, Latest Movie reviews in Telugu, telugu movie reviews, Box office collections",
+        url: "https://www.123telugu.com/mnews/laila-first-look-poster-of-vishwak-sen-in-a-lady-get-up-to-be-out-tomorrow.html",
+        urlToImage:
+          "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
+        publishedAt: "2024-07-02T18:09:00Z",
+        content:
+          "Mass Ka Das Vishwak Sens recent outing, Gangs of Godavari, didn’t get the desired result. There was good hype for the village action drama before its release, but the film’s content failed to live up… [+736 chars]",
+      },
+      {
+        source: { id: null, name: "Koreaboo.com" },
+        author: null,
+        title: "BTS's Jin Shuts Down Acting As His Next Venture - Koreaboo",
+        description:
+          "BTS's Jin has officially shut down any possibilities of pursuing a career in acting, as ARMYs had long anticipated his starring in K-Dramas.",
+        url: "https://www.koreaboo.com/news/actor-bts-jin-shuts-acting-next-venture/",
+        urlToImage: "https://img.koreaboo.com/2024/07/FI.jpg",
+        publishedAt: "2024-07-02T18:07:33Z",
+        content:
+          "BTS‘s Jin is back and busy!\r\nBTS’s Jin | @bts_bighit/X\r\nLast month, he teased that he would soon release his first official solo album after being discharged from mandatory military service.\r\n[Wevers… [+5474 chars]",
+      },
+      {
+        source: { id: null, name: "PINKVILLA" },
+        author: "Aditya Sagar",
+        title:
+          "EXCLUSIVE: Maharaj director expresses gratitude to court for allowing Junaid Khan starrer's release; urges all to give ‘fair chance’ to movie - PINKVILLA",
+        description:
+          "In An Exclusive Conversation With Pinkvilla, Maharaj Director Siddharth P Malhotra Expressed His Gratitude To The Judiciary System For Allowing The Junaid Khan Film To Be Released Amid Controversies.",
+        url: "https://www.pinkvilla.com/entertainment/exclusives/exclusive-maharaj-director-expresses-gratitude-to-court-for-allowing-junaid-khan-starrers-release-urges-all-to-give-fair-chance-to-movie-1323512",
+        urlToImage:
+          "https://www.pinkvilla.com/images/2024-07/1826023232_maharaj.jpg",
+        publishedAt: "2024-07-02T17:27:51Z",
+        content:
+          "Aamir Khans eldest son Junaid Khan is now the buzzing topic of town with his acting debut in the Netflix film Maharaj. Directed by Siddharth P Malhotra, the movie also starred Jaideep Ahlawat, Sharva… [+2222 chars]",
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "Anurag Bohra",
+        title:
+          "Kakuda trailer: Sonakshi Sinha, Riteish Deshmukh's horror-comedy takes a jibe at Stree, Manjulika - Hindustan Times",
+        description:
+          "The trailer of Sonakshi Sinha, Riteish Deshmukh and Saqib Saleem's Kakuda released on June 2. The horror-comedy is helmed by Munjya director Aditya Sarpotdar. | Bollywood",
+        url: "https://www.hindustantimes.com/entertainment/bollywood/kakuda-trailer-sonakshi-sinha-riteish-deshmukhs-horror-comedy-takes-a-jibe-at-stree-manjulika-101719936901215.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/02/1600x900/kakuda_riteish_sonakshi_news_1719940070877_1719940113338.jpg",
+        publishedAt: "2024-07-02T17:18:03Z",
+        content:
+          "Bollywood is currently embracing Halloween with a series of horror-comedies releasing this year. Following the success of Munjya, Aditya Sarpotdar is bringing another spooky comedy starring Sonakshi … [+1826 chars]",
+      },
+    ],
+  },
+  sports: {
+    status: "ok",
+    totalResults: 66,
+    articles: [
+      {
+        source: { id: null, name: "NDTV News" },
+        author: "NDTV Sports Desk",
+        title:
+          "Pakistan Pace Spearhead Shaheen Shah Afridi Gives Verdict On India T20 World Cup Final Win - NDTV Sports",
+        description:
+          "Pakistan had been knocked out of the T20 World Cup 2024 in the group stage, after losses to USA and India.",
+        url: "https://sports.ndtv.com/t20-world-cup-2024/pakistan-pace-spearhead-shaheen-shah-afridi-gives-verdict-on-india-t20-world-cup-final-win-6018998",
+        urlToImage:
+          "https://c.ndtvimg.com/2023-10/gscq60fo_shaheen-afridi_625x300_14_October_23.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675",
+        publishedAt: "2024-07-03T04:49:08Z",
+        content:
+          "Pakistan ace seamer Shaheen Shah Afridi has hailed Team India, as the latter lifted the T20 World Cup 2024 title. En route to the trophy, the men in blue had dispatched arch-rivals Pakistan during th… [+1572 chars]",
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: null,
+        title:
+          "Virat Kohli Video Calling Anushka Sharma To Show Hurricane In Barbados Is The Cutest Thing On Internet - NDTV Movies",
+        description:
+          "Virat was pictured showing the turbulent weather in Barbados caused by Hurricane Beryl to Anushka and their kids",
+        url: "https://www.ndtv.com/entertainment/virat-kohli-video-calling-anushka-sharma-to-show-hurricane-in-barbados-is-the-cutest-thing-on-internet-6022713",
+        urlToImage:
+          "https://c.ndtvimg.com/2024-07/l2inarao_anushka_625x300_03_July_24.jpg",
+        publishedAt: "2024-07-03T04:36:08Z",
+        content:
+          "The image was shared on Instagram. (courtesy: wrognxvirat)\r\nNew Delhi: Virat Kohli and Anushka Sharma don't leave any chance to win the Internet's heart with their cute antics and this time is no dif… [+1462 chars]",
+      },
+      {
+        source: { id: null, name: "Livemint" },
+        author: "AP",
+        title:
+          "Lionel Messi out of Argentina's Olympic squad; Coach Mascherano includes THESE 4 World Cup winners | Mint - Mint",
+        description:
+          "Lionel Messi not in Argentina's Olympic squad. Coach Mascherano includes World Cup winners Álvarez and Otamendi. Messi, focusing on Copa America, aims to defend title won in 2021.",
+        url: "https://www.livemint.com/sports/football-news/paris-olympics-lionel-messi-out-of-argentinas-olympic-squad-coach-mascherano-includes-these-4-world-cup-winners-11719978773231.html",
+        urlToImage:
+          "https://www.livemint.com/lm-img/img/2024/07/03/1600x900/Lionel_Messi_1719979292844_1719979293155.jpg",
+        publishedAt: "2024-07-03T04:06:06Z",
+        content:
+          "Lionel Messi won't be in Argentinas squad at the Olympics starting later this month in Paris.Coach Javier Mascherano included four World Cup winners in the squad he announced Tuesday, including strik… [+1501 chars]",
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "HT Sports Desk",
+        title:
+          "Watch: Zimbabwe welcomes 'T20 World Cup champions' India after VVS Laxman's side touch down ahead of five-match series - Hindustan Times",
+        description:
+          "India will play five T20Is against Zimbabwe in Harare, with just three of the T20 World Cup-winning squad playing after the second match.  | Crickit",
+        url: "https://www.hindustantimes.com/cricket/watch-zimbabwe-welcomes-t20-world-cup-champions-india-after-vvs-laxmans-side-touch-down-ahead-of-five-match-series-101719977365983.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/03/1600x900/harare_1719977590695_1719977598180.jpg",
+        publishedAt: "2024-07-03T03:57:10Z",
+        content:
+          "Team India has arrived in Zimbabwe for their upcoming five-match T20I series in the country. The team is set to consist of just three players who were part of the Indian squad that won the 2024 T20 W… [+1976 chars]",
+      },
+      {
+        source: { id: "the-times-of-india", name: "The Times of India" },
+        author: "TOI Entertainment Desk",
+        title:
+          "Natasa Stankovic faces backlash for her first post since India's T20 World Cup victory: 'Just tell us if - TOI Etimes",
+        description:
+          "Natasa Stankovic shared her first post since India’s T20 World Cup victory, in which her husband Hardik Pandya played a pivotal role. However, netizen",
+        url: "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/natasa-stankovic-faces-backlash-for-her-first-post-since-indias-t20-world-cup-victory-just-tell-us-if-you-are-still-with-hardik-panday-or-not/articleshow/111410695.cms",
+        urlToImage:
+          "https://static.toiimg.com/thumb/msid-111410688,width-1070,height-580,imgsize-87592,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        publishedAt: "2024-07-03T03:19:00Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "HT Sports Desk",
+        title:
+          "David Miller addresses retirement rumours after emotional note on South Africa's T20 World Cup heartbreak - Hindustan Times",
+        description:
+          "David Miller's emotional post after South Africa's loss in the 2024 T20 World Cup final sparked speculation as to whether the batter has retired from T20Is.  | Crickit",
+        url: "https://www.hindustantimes.com/cricket/david-miller-addresses-retirement-rumours-after-emotional-note-on-south-africas-t20-world-cup-heartbreak-101719972036446.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/03/1600x900/david_miller_getty_1719973429226_1719973434995.jpg",
+        publishedAt: "2024-07-03T02:30:13Z",
+        content:
+          "David Miller was in the thick of things South Africa came the closest to winning a major title in men's cricket history during the 2024 T20 World Cup. Miller was standing at the non-striker's end whe… [+2421 chars]",
+      },
+      {
+        source: { id: null, name: "News18" },
+        author: "Amar Sunil Panicker",
+        title:
+          "IPL 2025: BCCI Begins Finalising Retention Policy, Most Franchises Demand Retaining More Than 4 Players: Re - News18",
+        description:
+          "Reports suggest that the BCCI have started consulting the IPL franchise owners regarding their opinions on how the player retention rules should ahead of the IPL 2025 mega-auctions.",
+        url: "https://www.news18.com/cricket/bcci-begins-finalising-ipl-player-retention-policy-most-franchises-demand-to-retain-more-than-4-players-report-8952445.html",
+        urlToImage:
+          "https://images.news18.com/ibnlive/uploads/2024/04/ipl-auction-venue-2024-04-626509d72d4c4a646380fdfd006c19dd-16x9.jpg?impolicy=website&width=1200&height=675",
+        publishedAt: "2024-07-03T02:27:20Z",
+        content:
+          "With the mega IPL players auction scheduled to take place later this year, the BCCI has initiated the process of finalizing the retention policy. Meanwhile, the franchises have requested the Indian c… [+1873 chars]",
+      },
+      {
+        source: { id: null, name: "Indiansuperleague.com" },
+        author: null,
+        title:
+          "Four different venues to host Durand Cup 2024 starting July 27 - Indian Super League",
+        description:
+          "Two new cities, Jamshedpur and Shillong, along with Kolkata and Kokrajhar, will host the 133rd edition of the Durand Cup.",
+        url: "https://www.indiansuperleague.com/press-releases/four-different-venues-to-host-durand-cup-2024-starting-july-27",
+        urlToImage:
+          "https://www.indiansuperleague.com/static-assets/waf-images/e6/21/15/16-9/hCSValsilI.png",
+        publishedAt: "2024-07-03T02:23:28Z",
+        content:
+          "Four different venues to host Durand Cup 2024 starting July 27\r\nTwo new cities, Jamshedpur and Shillong, along with Kolkata and Kokrajhar, will host the 133rd edition of the Durand Cup.\r\nThe 133rd ed… [+2996 chars]",
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: "NDTV Sports Desk",
+        title:
+          "Ex Pakistan Cricketer Recalls MS Dhoni's Stunning Response When He Was Asked To Drop Virat Kohli - NDTV Sports",
+        description:
+          "Akmal narrated the incident in context of Kohli's poor form at the T20 World Cup 2024, which he came back from to win India the final vs South Africa.",
+        url: "https://sports.ndtv.com/t20-world-cup-2024/ex-pakistan-cricketer-recalls-ms-dhonis-stunning-response-when-virat-kohli-was-asked-to-be-dropped-6018856",
+        urlToImage:
+          "https://c.ndtvimg.com/2024-07/tul1u8rg_ms-dhoni-virat-kohli-bcci_625x300_03_July_24.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675",
+        publishedAt: "2024-07-03T02:13:46Z",
+        content:
+          "Former Pakistan cricketer Umar Akmal has reminisced about an incident where Virat Kohli was backed heavily by former India captain MS Dhoni despite his poor form. Akmal narrated the incident in the c… [+1942 chars]",
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: "NDTV Sports Desk",
+        title:
+          "How Rohit Sharma-Virat Kohli Decision Led To T20 World Cup 2024 Glory: Report Makes Big Revelation - NDTV Sports",
+        description:
+          "Rohit Sharma and Virat Kohli ended their T20I careers on a high as India clinched the T20 World Cup 2024 title after defeating South Africa in the summit clash.",
+        url: "https://sports.ndtv.com/t20-world-cup-2024/how-rohit-sharma-virat-kohli-decision-led-to-t20-world-cup-2024-glory-report-makes-big-revelation-6018894",
+        urlToImage:
+          "https://c.ndtvimg.com/2024-07/73ivb77_axsx_625x300_02_July_24.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675",
+        publishedAt: "2024-07-03T02:09:53Z",
+        content:
+          "Rohit Sharma and Virat Kohli ended their T20I careers on a high as India clinched the T20 World Cup 2024 title after defeating South Africa in the summit clash. Rohit led the Indian cricket team by e… [+1779 chars]",
+      },
+      {
+        source: { id: null, name: "Zoom" },
+        author: "Faham Uddin",
+        title:
+          "Yuvraj Singh, Suresh Raina To Play Against Shahid Afridi, Abdul Razzaq In Epic IND vs PAK Game On July 6 - Times Now",
+        description:
+          "It will be a treat for cricket fans to watch yesteryear stars like Yuvraj Singh along with Suresh Raina, Harbhajan Singh, Yusuf Pathan and Irfan Pathan take on Pakistan greats like Shahid Afridi, Shoaib Malik, Muhammad Hafeez, Sohail Tanvir, Abdul Razzaq, Wah…",
+        url: "https://www.timesnownews.com/sports/cricket/yuvraj-singh-suresh-raina-to-play-against-shahid-afridi-abdul-razzaq-in-epic-ind-vs-pak-game-on-july-6-in-wcl-article-111444616",
+        urlToImage:
+          "https://static.tnn.in/thumb/msid-111444635,thumbsize-72376,width-1280,height-720,resizemode-75/111444635.jpg",
+        publishedAt: "2024-07-03T01:35:19Z",
+        content:
+          "'Yatra Naryastu Pujyante...': Sudha Murty, In Maiden Rajya Sabha Speech, Touches Upon Women's Health, Tourism",
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "The Times of India",
+        title:
+          "Rohit Sharma's unseen reaction before Suryakumar Yadav's T20 World Cup Final heart-stopping catch goes viral - WATCH | Cricket News - The Times of India",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi1AFodHRwczovL3RpbWVzb2ZpbmRpYS5pbmRpYXRpbWVzLmNvbS9zcG9ydHMvY3JpY2tldC9pY2MtbWVucy10MjAtd29ybGQtY3VwL3JvaGl0LXNoYXJtYXMtdW5zZWVuLXJlYWN0aW9uLWJlZm9yZS1zdXJ5YWt1bWFyLXlhZGF2cy10MjAtd29ybGQtY3VwLWZpbmFsLWhlYXJ0LXN0b3BwaW5nLWNhdGNoLWdvZXMtdmlyYWwtd2F0Y2gvYXJ0aWNsZXNob3cvMTExNDQ0NTAwLmNtc9IBAA?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-03T01:03:00Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Hindustan Times" },
+        author: "HT Sports Desk",
+        title:
+          "Dinesh Karthik counters Navjot Sidhu's 'Virat Kohli' claim with priceless Bumrah remark: 'He's more valuable than...' - Hindustan Times",
+        description:
+          "Dinesh Karthik called Jasprit Bumrah a perfect asset for any captain who can produce results in any condition. | Crickit",
+        url: "https://www.hindustantimes.com/cricket/dinesh-karthik-counters-navjot-sidhu-virat-kohli-claim-with-priceless-jasprit-bumrah-remark-hes-more-valuable-than-101719934216006.html",
+        urlToImage:
+          "https://www.hindustantimes.com/ht-img/img/2024/07/02/1600x900/Virat_Kohli_Jasprit_Bumrah_1719934555560_1719934555825.jpg",
+        publishedAt: "2024-07-03T00:46:21Z",
+        content:
+          "Jasprit Bumrah has received praise from all corners after playing a pivotal role in India's T20 World Cup triumph. Bumrah proved to be the MVP at the big stage for the Indian team to end their ICC ti… [+2174 chars]",
+      },
+      {
+        source: { id: null, name: "International Cricket Council" },
+        author: "icc",
+        title:
+          "Rahul Dravid reveals reason behind continuing as head coach after CWC23 disappointment - ICC Cricket",
+        description:
+          "After coaching India to T20 World Cup glory, Rahul Dravid revealed that he had no plans to continue as India head coach after the ICC Men’s Cricket World Cup 2023 final defeat.",
+        url: "https://www.icc-cricket.com/tournaments/t20cricketworldcup/news/rahul-dravid-reveals-reason-behind-continuing-as-head-coach-after-cwc23-disappointment",
+        urlToImage:
+          "https://images.icc-cricket.com/image/upload/t_ratio16_9-size40/prd/cp1l0ll5me9uuz317ivy",
+        publishedAt: "2024-07-03T00:09:19Z",
+        content:
+          "Dravid as a coach finally added silverware to his portfolio with the T20 World Cup title win after leading India to the final in both the ICC World Test Championship and ICC ODI Cricket World Cup in … [+621 chars]",
+      },
+      {
+        source: { id: null, name: "Khelnow.com" },
+        author: null,
+        title: "Brazil 1-1 Colombia Highlights | Copa America 2024 - Khel Now",
+        description:
+          "Brazil vs Colombia: Colombia holds Brazil to 1-1 draw. Raphinha's free-kick stunner meets Muñoz's equalizer.",
+        url: "https://khelnow.com/football/world-football-brazil-vs-colombia-live-updates-202407",
+        urlToImage:
+          "https://assets.khelnow.com/news/uploads/2024/07/Brazil-vs-Colombia-Live-score-and-updates-Copa-America-2024.jpg",
+        publishedAt: "2024-07-02T23:36:08Z",
+        content:
+          "05:00 AM: Hello everyone and welcome to Khel Nows LIVE COVERAGE of the Copa America Group D match between Brazil vs Colombia. The kick-off is just a few hours away! Please wait for 30 seconds for the… [+2315 chars]",
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: "NDTV Sports Desk",
+        title:
+          "Austria vs Turkey Highlights, Euro 2024 Round Of 16: Turkey Pull Off Thrilling Win Over Austria To Reach Euro 2024 Quarterfinals - NDTV Sports",
+        description:
+          "AUT vs TUR Highlights: Turkey defeat Austria 2-1 in an Euro 2024 Round of 16 encounter on Wednesday.",
+        url: "https://sports.ndtv.com/uefa-euro-2024/austria-vs-turkey-live-score-uefa-euro-2024-round-of-16-football-match-aut-vs-tur-live-updates-6020747",
+        urlToImage:
+          "https://c.ndtvimg.com/2024-07/ev05aruo_-s_625x300_03_July_24.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
+        publishedAt: "2024-07-02T21:01:40Z",
+        content:
+          "UEFA Euro 2024 Round of 16, Austria vs Turkey Highlights: A double by Merih Demiral inspired Turkey to a 2-1 win over Austria in their Euro 2024 last 16 match on Tuesday and a place in the quarter-fi… [+308 chars]",
+      },
+      {
+        source: { id: "the-hindu", name: "The Hindu" },
+        author: "Sportstar",
+        title:
+          "Paris 2024: List of Indian track and field athletes in Olympics through automatic qualification and rankings - Sportstar",
+        description: null,
+        url: "https://sportstar.thehindu.com/athletics/paris-2024-olympics-india-track-field-squad-qualified-full-list-world-athletics-ranking-neeraj-chopra-relay-team-news/article68360091.ece",
+        urlToImage: null,
+        publishedAt: "2024-07-02T18:45:01Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: "NDTV Sports Desk",
+        title:
+          "Romania vs Netherlands Highlights, Euro 2024 Round Of 16: Netherlands Thrash Romania 3-0 To Reach Euro 2024 Quarterfinals - NDTV Sports",
+        description:
+          "ROM vs NED Highlights: Netherlands win 3-0 against Romania in an Euro 2024 Round of 16 encounter on Tuesday.",
+        url: "https://sports.ndtv.com/uefa-euro-2024/romania-vs-netherlands-live-score-uefa-euro-2024-round-of-16-football-match-rom-vs-ned-live-updates-6019311",
+        urlToImage:
+          "https://c.ndtvimg.com/2024-07/1cbhpteg_scc_625x300_02_July_24.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
+        publishedAt: "2024-07-02T18:30:11Z",
+        content:
+          "UEFA Euro 2024 Round of 16 Highlights, Romania vs Netherlands: Donyell Malen's double sealed the Netherlands' place in their first Euros quarter-final since 2008 as they beat Romania 3-0 in their las… [+393 chars]",
+      },
+      {
+        source: { id: "espn-cric-info", name: "ESPN Cric Info" },
+        author: "Mohammad Isam",
+        title:
+          "Taskin Ahmed on missing team bus for India game: 'Not as if they didn't pick me because I arrived late' - ESPNcricinfo",
+        description:
+          "Bangladesh vice-captain says he was left out on the day for reasons of team combination",
+        url: "https://www.espncricinfo.com/story/t20-world-cup-2024-bangladesh-fast-bowler-taskin-ahmed-says-he-was-not-dropped-for-india-game-for-arriving-late-1441955",
+        urlToImage:
+          "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/382500/382572.6.jpg",
+        publishedAt: "2024-07-02T17:53:49Z",
+        content:
+          "Ban vs Ind report: Hardik, Kuldeep lead India to their second Super Eight win",
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: "NDTV Sports Desk",
+        title:
+          "\"We Deserve This\": Mohammad Rizwan's Blunt Admission On Pakistan's Criticism Over T20 World Cup Disa.. - NDTV Sports",
+        description:
+          "The post-mortem of the Pakistan cricket team, following the disastrous T20 World Cup show, has been long and brutal to say the least.",
+        url: "https://sports.ndtv.com/cricket/we-deserve-this-mohammad-rizwans-blunt-admission-on-pakistans-criticism-over-t20-world-cup-disaster-6017947",
+        urlToImage:
+          "https://c.ndtvimg.com/2024-07/81r5tal8_mohammad-rizwan_625x300_02_July_24.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
+        publishedAt: "2024-07-02T16:55:10Z",
+        content:
+          "The post-mortem of the Pakistan cricket team, following the disastrous T20 World Cup show, has been long and brutal to say the least. Pakistan were thought to be the dark horse, but failed to even ge… [+1775 chars]",
+      },
+    ],
+  },
+  technology: {
+    status: "ok",
+    totalResults: 63,
+    articles: [
+      {
+        source: { id: null, name: "India Today" },
+        author: "Unnati Gusain",
+        title:
+          "Google Pixel 9 will have Mircosoft Recall-like feature but it will work only with screenshots - India Today",
+        description:
+          "It is no surprise that Google Pixel 9 will be powered by several Google AI features In a recent report sources confirmed that the upcoming flagship will feature new and existing AI functionalities like Pixel screenshots Add me and Studio",
+        url: "https://www.indiatoday.in/technology/news/story/google-ai-google-pixel-9-to-pack-more-secure-microsoft-recall-like-function-but-it-will-work-only-with-screenshots-2561593-2024-07-03",
+        urlToImage:
+          "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202407/pixel-8-292915685-16x9.jpg?VersionId=6ADj1w0gcm5_uNX52iOt1MxrFW66oOoX",
+        publishedAt: "2024-07-03T06:27:55Z",
+        content:
+          "Google has recently teased the release of the Pixel 9 series, which is scheduled for August 13. According to the event invitation, Google will showcase the best of its AI, Android, and Pixel devices.… [+3683 chars]",
+      },
+      {
+        source: { id: null, name: "Abplive.com" },
+        author: "ABP News Bureau",
+        title:
+          "NYT Strands Answers For July 3: How To Play, Today’s Words, Spangram, Everything Else You Need To Know - ABP Live",
+        description:
+          "NYT Strands Answer: Strands is a fun word puzzle that will let you test your lexicon. Here's a handy guide on how to play as well as today's answers.",
+        url: "https://news.abplive.com/technology/nyt-strands-answers-today-july-3-2024-words-solution-spangram-today-how-to-play-watch-video-tutorial-1699926",
+        urlToImage:
+          "https://feeds.abplive.com/onecms/images/uploaded-images/2024/07/03/5371cbce7b353e37d765031fbc59bc041719987178124555_original.png?impolicy=abp_cdn&imwidth=1200",
+        publishedAt: "2024-07-03T06:14:23Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Abplive.com" },
+        author: "ABP News Bureau",
+        title:
+          "Garena Free Fire Max: Exclusive Redeem Codes Unveiled For July 03. Here's How To Use - ABP Live",
+        description:
+          "Garena Free Fire Max redeem codes can unlock a handful of goodies, including weapons and skins.",
+        url: "https://news.abplive.com/technology/garena-free-fire-max-redeem-codes-jul-03-july-2024-daily-free-rewards-1699912",
+        urlToImage:
+          "https://feeds.abplive.com/onecms/images/uploaded-images/2024/05/06/33398c5c5555646f2a600601b46e87ef1714984881019925_original.jpg?impolicy=abp_cdn&imwidth=1200",
+        publishedAt: "2024-07-03T05:43:26Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "News18" },
+        author: "S Aadeetya",
+        title:
+          "WhatsApp Will Soon Let You Create AI Avatar In Chats Using Your Photo: How It Works - News18",
+        description:
+          "WhatsApp is already offering the Meta AI chatbot for users in many countries and soon you will get more features baked into it.",
+        url: "https://www.news18.com/tech/whatsapp-will-soon-let-you-create-ai-avatar-in-chats-using-your-photo-how-it-works-8952717.html",
+        urlToImage:
+          "https://images.news18.com/ibnlive/uploads/2024/04/meta-ai-whatsapp-roll-out-2024-04-0e90270015c4134c12ef4efac9304376-16x9.jpg?impolicy=website&width=1200&height=675",
+        publishedAt: "2024-07-03T05:36:05Z",
+        content:
+          "WhatsApp users in many countries are now able to access the Meta AI chatbot which lets them create images, ask for recipes and more. And soon the messaging will have the ability to use the AI tool to… [+1856 chars]",
+      },
+      {
+        source: { id: null, name: "The Indian Express" },
+        author: "The Indian Express",
+        title:
+          "Leaked internal code suggests iPhone 16 series to be powered by A18 chip - The Indian Express",
+        description: null,
+        url: "https://indianexpress.com/article/technology/mobile-tabs/iphone-16-series-to-be-powered-by-a18-chip-9429770/",
+        urlToImage: null,
+        publishedAt: "2024-07-03T04:51:50Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Livemint" },
+        author: "Livemint",
+        title:
+          "iQOO Z9 Lite 5G confirmed to launch in India: Expected price, specs and everything we know so far | Mint - Mint",
+        description:
+          "iQOO Z9 Lite is confirmed to be launched in India on July 15. The phone could come with a 6.56 inch LCD display and a 50MP primary camera.",
+        url: "https://www.livemint.com/technology/gadgets/iqoo-z9-lite-5g-confirmed-to-launch-in-india-expected-price-specs-and-everything-we-know-so-far-11719970952140.html",
+        urlToImage:
+          "https://www.livemint.com/lm-img/img/2024/07/03/1600x900/z9_lite_1719980852779_1719980862038.jpg",
+        publishedAt: "2024-07-03T04:45:17Z",
+        content:
+          "iQOO has confirmed that its latest budget focused smartphone, the iQOO Z9 Lite 5G will launch in India on July 15. Ahead of the launch, iQOO ha also confirmed that the Z9 Lite 5G will come powered by… [+2183 chars]",
+      },
+      {
+        source: { id: null, name: "Financial Express" },
+        author: "The Financial Express",
+        title:
+          "Netflix starts pushing users to watch ads or buy more expensive plan in these countries to boost revenue - The Financial Express",
+        description: null,
+        url: "https://www.financialexpress.com/life/technology-netflix-starts-pushing-users-to-watch-ads-or-buy-more-expensive-plan-in-these-countries-to-boost-revenue-3541948/",
+        urlToImage: null,
+        publishedAt: "2024-07-03T04:26:39Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Business Standard" },
+        author: "Reuters",
+        title:
+          "Apple poised to get OpenAI board observer role as part of AI pact: Report - Business Standard",
+        description:
+          "The move comes after Apple's announcement to bring OpenAI's ChaGPT  to its devices and integrating its new \"Apple Intelligence\" technology across its suite of apps, including virtual assistant Siri",
+        url: "https://www.business-standard.com/technology/tech-news/apple-poised-to-get-openai-board-observer-role-as-part-of-ai-pact-report-124070300149_1.html",
+        urlToImage:
+          "https://bsmedia.business-standard.com/_media/bs/img/article/2024-06/24/thumb/featurecrop/400X400/1719226357-0538.JPG",
+        publishedAt: "2024-07-03T04:24:14Z",
+        content:
+          "The move comes after Apple's announcement to bring OpenAI's ChaGPT to its devices and integrating its new \"Apple Intelligence\" technology across its suite of apps, including virtual assistant Siri\r\nI… [+1354 chars]",
+      },
+      {
+        source: { id: null, name: "Storyboard18.com" },
+        author: "Kashmeera Sambamurthy",
+        title:
+          "Educate, Entertain, Engage: Marketing strategies for complex industries by Policybazaar's Sai Narayan - Storyboard18",
+        description:
+          "Educate, Entertain, Engage: Marketing strategies for complex industries by Policybazaar's Sai Narayan",
+        url: "https://www.storyboard18.com/brand-marketing/educate-entertain-engage-marketing-strategies-for-complex-industries-by-policybazaars-sai-narayan-36029.htm",
+        urlToImage:
+          "https://images.storyboard18.com/storyboard18/2024/07/Oreo-rolls-out-a-chance-to-experience-space-through-its-Oreo-Space-Dunk-cookie-pack-2024-07-03T085946.483-2024-07-2693812a52d771fafe102bed584fc30d-768x432.jpg",
+        publishedAt: "2024-07-03T03:42:31Z",
+        content:
+          "In the digital age that we live in, it is a formidable challenge to capture and hold consumer attention amid the falling consumer attention spans. Especially when it comes to complex industries like … [+5345 chars]",
+      },
+      {
+        source: { id: null, name: "News18" },
+        author: "S Aadeetya",
+        title:
+          "Microsoft AI Chief Has No Problem Using Your Data To Train Their AI Models: Here’s What He Said - News18",
+        description:
+          "Suleyman has been part of Google's DeepMind division for years but his role at Microsoft allows him to work on new models and more.",
+        url: "https://www.news18.com/tech/microsoft-ai-chief-has-no-problem-using-your-data-to-train-their-ai-models-heres-what-he-said-8952536.html",
+        urlToImage:
+          "https://images.news18.com/ibnlive/uploads/2024/06/img-2-2024-06-24t113508.467-2024-06-6413d6788915597ae22fcbb007ce0a68-16x9.jpg?impolicy=website&width=1200&height=675",
+        publishedAt: "2024-07-03T03:27:59Z",
+        content:
+          "All our data on the internet is freely available and most times we dont even know when it is being misused. However, with the advent of AI, the need for our data to be judiciously utilised has stoked… [+1888 chars]",
+      },
+      {
+        source: { id: "the-verge", name: "The Verge" },
+        author: "Emma Roth",
+        title:
+          "Xbox Live is back after an outage lasting several hours - The Verge",
+        description:
+          "Microsoft has fixed a global Xbox Live outage that cut off multiplayer, game downloading, and other internet services for hours.",
+        url: "https://www.theverge.com/2024/7/2/24191012/xbox-live-down-outage-xbox-series-x-s-online-sign-failed",
+        urlToImage:
+          "https://cdn.vox-cdn.com/thumbor/aqR_QCxQ00KGZYwK94HgpOAXgK8=/0x0:2040x1334/1200x628/filters:focal(1020x667:1021x668)/cdn.vox-cdn.com/uploads/chorus_asset/file/25283723/STK048_XBOX_B.jpg",
+        publishedAt: "2024-07-03T01:38:00Z",
+        content:
+          "Xbox Live is back after an outage lasting several hours\r\nXbox Live is back after an outage lasting several hours\r\n / Many Xbox owners couldnt sign in for multiplayer, streaming, or other online featu… [+1484 chars]",
+      },
+      {
+        source: { id: null, name: "GSMArena.com" },
+        author: "Vlad",
+        title:
+          "Xiaomi Mix Fold 4 image leaks - GSMArena.com news - GSMArena.com",
+        description:
+          "Some specs have been reconfirmed too. The Xiaomi Mix Fold 4 will be the new thinnest foldable on the market when it arrives, according to a rumor from May,...",
+        url: "https://www.gsmarena.com/xiaomi_mix_fold_4_image_leaks-news-63543.php",
+        urlToImage:
+          "https://fdn.gsmarena.com/imgroot/news/24/07/xiaomi-mix-fold-4-leaked-image/-952x498w6/gsmarena_000.jpg",
+        publishedAt: "2024-07-02T23:47:01Z",
+        content:
+          "The Xiaomi Mix Fold 4 will be the new thinnest foldable on the market when it arrives, according to a rumor from May, presumably taking the crown from the Honor Magic V3 which is launching next week.… [+1315 chars]",
+      },
+      {
+        source: { id: "the-verge", name: "The Verge" },
+        author: "Jay Peters",
+        title:
+          "Figma pulls AI tool after criticism that it ripped off Apple's design - The Verge",
+        description:
+          "Figma’s new tool that lets designers mock up apps with generative AI is getting pulled after the tool made designs that looked similar to Apple’s iOS weather app.",
+        url: "https://www.theverge.com/2024/7/2/24190823/figma-ai-tool-apple-weather-app-copy",
+        urlToImage:
+          "https://cdn.vox-cdn.com/thumbor/ROz_HGgRuiHX-shd_SJS8TYuxEo=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/25515615/STK273_FIGMA.jpg",
+        publishedAt: "2024-07-02T20:15:00Z",
+        content:
+          "Figma pulls AI tool after criticism that it ripped off Apples design\r\nFigma pulls AI tool after criticism that it ripped off Apples design\r\n / Figma says it didnt train the generative AI models it us… [+4827 chars]",
+      },
+      {
+        source: { id: null, name: "Tom's Guide" },
+        author: "Ryan Epps",
+        title:
+          "LG just launched its newest 2024 OLED TV — and it's completely wireless - Tom's Guide",
+        description: "LG goes wireless with its newest M4 OLED",
+        url: "https://www.tomsguide.com/tvs/lg-just-launched-its-newest-2024-oled-tv-and-its-completely-wireless",
+        urlToImage:
+          "https://cdn.mos.cms.futurecdn.net/QR4YwJFtu4pP6Yaqmif4iE-1200-80.jpg",
+        publishedAt: "2024-07-02T18:52:12Z",
+        content:
+          "LG is launching its wireless M4 OLED TV globally on July 1, 2024, on the heels of debuting its budget LG B4 OLED TV\r\n. \r\nThe LG M4 OLED uses a design language similar to the underlying specs of the L… [+3022 chars]",
+      },
+      {
+        source: { id: null, name: "YouTube" },
+        author: null,
+        title:
+          "WWDC, macOS Sequoia, iOS 18 and Apple Intelligence on the AppleInsider Podcast - AppleInsider",
+        description:
+          "At last we know everything about Apple's AI moves -- or at least at lot more than we did. Looking at how it will impact the apps we rely on, here's what Appl...",
+        url: "https://www.youtube.com/watch?v=G4uD2va9oPw",
+        urlToImage:
+          "https://i.ytimg.com/vi/G4uD2va9oPw/maxresdefault.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAK4CIoCDAgAEAEYMCBnKHIwDw==&rs=AOn4CLB95MsdjwVxJ-I3CSNL-Ir9SDgluw",
+        publishedAt: "2024-07-02T18:25:12Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Abplive.com" },
+        author: "Krishna SinhaChaudhury",
+        title:
+          "iOS 18 With India-Focused Customisation And Multilingual Support Rolling Out For iPhone Users - ABP Live",
+        description:
+          "These India-centric features in iOS 18 include expanded language support and additional features tailored specifically for the users in the country.",
+        url: "https://news.abplive.com/technology/gadgets/ios-18-india-focused-customisation-multilingual-support-iphone-users-1699848",
+        urlToImage:
+          "https://feeds.abplive.com/onecms/images/uploaded-images/2024/07/02/a41244c02a9a2bb2ba965569d9df71fe1719944536924295_original.png?impolicy=abp_cdn&imwidth=1200",
+        publishedAt: "2024-07-02T18:23:39Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "9to5google.com" },
+        author: "Abner Li",
+        title:
+          "Android 14 July security patch rolling out today for Pixel - 9to5Google",
+        description:
+          "The Android 14 July security patch is rolling out today for the Pixel 5a, 6, 6 Pro, 6a, 7, 7 Pro, 7a, Tablet, Fold, 8, 8 Pro, and 8a...",
+        url: "http://9to5google.com/2024/07/02/android-14-july-security-patch/",
+        urlToImage:
+          "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2024/05/Pixel-8a-and-PIxel-7a-over-shoulder.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+        publishedAt: "2024-07-02T17:19:00Z",
+        content:
+          "Following QPR3 last month, the Android 14 July security patch is rolling out today for the Pixel 5a, 6, 6 Pro, 6a, 7, 7 Pro, 7a, Tablet, Fold, 8, 8 Pro, and 8a. Compared to the delays last month, it’… [+1121 chars]",
+      },
+      {
+        source: { id: null, name: "GSMArena.com" },
+        author: "Vlad",
+        title:
+          "Nothing confirms CMF Phone 1 camera details, CMF Buds Pro 2 and Watch Pro 2 info - GSMArena.com news - GSMArena.com",
+        description:
+          "As we get closer to the launch, the brand is revealing more and more. Nothing's drip-by-drip teaser campaign for its upcoming CMF devices continues. Today,...",
+        url: "https://www.gsmarena.com/nothing_confirms_cmf_phone_1_camera_details_cmf_buds_pro_2_and_watch_pro_2_info-news-63539.php",
+        urlToImage:
+          "https://fdn.gsmarena.com/imgroot/news/24/07/cmf-phone-1-camera-details/-952x498w6/gsmarena_000.jpg",
+        publishedAt: "2024-07-02T15:43:02Z",
+        content:
+          "Nothing's drip-by-drip teaser campaign for its upcoming CMF devices continues. Today, the brand has unveiled that the CMF Phone 1 will have a 50 MP rear camera with a Sony-made sensor and an f/1.8 le… [+1197 chars]",
+      },
+      {
+        source: { id: null, name: "Spiceworks.com" },
+        author: "Anuj Mudaliar",
+        title:
+          "OpenSSH Server RCE Vulnerability - Spiceworks News and Insights",
+        description:
+          "Millions of OpenSSH servers could be affected by a critical flaw that allows remote code execution attacks. Find out more.",
+        url: "https://www.spiceworks.com/it-security/vulnerability-management/news/critical-openssh-server-vulnerability-allows-remote-code-execution/",
+        urlToImage:
+          "https://images.spiceworks.com/wp-content/uploads/2024/01/22132404/Hack.jpg",
+        publishedAt: "2024-07-02T15:22:31Z",
+        content:
+          "OpenSSH maintainers have patched a critical vulnerability that could allow unauthenticated remote code execution on servers. Find out more about the flaw and its implications for glibc-based Linux sy… [+2006 chars]",
+      },
+      {
+        source: { id: null, name: "Space.com" },
+        author: "Mike Wall",
+        title:
+          "Watch SpaceX catch Starship Super Heavy booster with 'chopsticks' in this animation - Space.com",
+        description:
+          "SpaceX could try such a catch for real on the next Starship test flight.",
+        url: "https://www.space.com/spacex-starship-super-heavy-catch-chopsticks-animation",
+        urlToImage:
+          "https://cdn.mos.cms.futurecdn.net/zKkfaRXKMMnH96X3Dbv3xV-1200-80.jpg",
+        publishedAt: "2024-07-02T15:00:54Z",
+        content:
+          "A new SpaceX video gives us a glimpse of the future — the very near future, perhaps.\r\nLate last week, Elon Musk's company posted on X a 60-second animation showing Super Heavy — the first stage of Sp… [+2952 chars]",
       },
     ],
   },

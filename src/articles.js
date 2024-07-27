@@ -5,463 +5,448 @@ const articles = {
     articles: [
       {
         source: { id: "google-news", name: "Google News" },
-        author: "MIRROR NOW",
+        author: "India Today",
         title:
-          "Chandipura Virus Outbreak In Gujarat: Cases Surge Past 100, Two More Deaths Reported | Top News - MIRROR NOW",
+          "India telescope in Ladakh captures building-sized asteroid zoom past Earth - India Today",
         description: null,
-        url: "https://news.google.com/rss/articles/CCAiCzdKRmFwRnlXRDJVmAEB?oc=5",
+        url: "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcjQxUENyakI1M3B0NkJLemZyUWlDM1JobEtjNEswakh1R0MtRmNmcks1UUZ0U0lEQUFocnBCNnQxeUlDUU54ZW40T0lvbU5mdDZzbV9PZkpEdFFEMVc1M21kMGdWOUdmcFJGb2h3ZUJ3WEpJNjdhZVd6WmN4YzhVUTVyOW1vVTBBeXVrTjRKejdhc1RaOWRsOXdKZVVHVlVnaUtCQlVHZ2Nkb2Y4Z2c0MnV5SXVXYU81c1ZNODhPWldWTGRvN1lwSXZMTk5Ddw?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T12:14:03Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Mint",
-        title:
-          "'Apple Watch For Your Kids' introduced in India: How it works and details on features | Mint - Mint",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMilAFodHRwczovL3d3dy5saXZlbWludC5jb20vdGVjaG5vbG9neS90ZWNoLW5ld3MvYXBwbGUtd2F0Y2gtZm9yLXlvdXIta2lkcy1pbnRyb2R1Y2VkLWluLWluZGlhLWhvdy1pdC13b3Jrcy1hbmQtZGV0YWlscy1vbi1mZWF0dXJlcy0xMTcyMTgyMjI0MTc5NC5odG1s0gGYAWh0dHBzOi8vd3d3LmxpdmVtaW50LmNvbS90ZWNobm9sb2d5L3RlY2gtbmV3cy9hcHBsZS13YXRjaC1mb3IteW91ci1raWRzLWludHJvZHVjZWQtaW4taW5kaWEtaG93LWl0LXdvcmtzLWFuZC1kZXRhaWxzLW9uLWZlYXR1cmVzL2FtcC0xMTcyMTgyMjI0MTc5NC5odG1s?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T12:06:11Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Moneycontrol",
-        title:
-          "70% individual investors in equity cash segment incurred losses in FY23: Sebi study - Moneycontrol",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMilQFodHRwczovL3d3dy5tb25leWNvbnRyb2wuY29tL25ld3MvYnVzaW5lc3MvbWFya2V0cy83MC1vZi1pbmRpdmlkdWFsLWludmVzdG9ycy1pbi1lcXVpdHktY2FzaC1zZWdtZW50LWluY3VycmVkLWxvc3Nlcy1pbi1meTIzLXNlYmktc3R1ZHktMTI3NzczMTguaHRtbNIBAA?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T12:01:38Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "The Times of India",
-        title:
-          "'I was hoping to play well against RCB so that Virat Kohli...' - The Times of India",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMilwFodHRwczovL3RpbWVzb2ZpbmRpYS5pbmRpYXRpbWVzLmNvbS9zcG9ydHMvY3JpY2tldC9pcGwvdG9wLXN0b3JpZXMvaS13YXMtaG9waW5nLXRvLXBsYXktd2VsbC1hZ2FpbnN0LXJjYi1zby10aGF0LXZpcmF0LWtvaGxpLS9hcnRpY2xlc2hvdy8xMTE5ODkxNTguY21z0gGbAWh0dHBzOi8vdGltZXNvZmluZGlhLmluZGlhdGltZXMuY29tL3Nwb3J0cy9jcmlja2V0L2lwbC90b3Atc3Rvcmllcy9pLXdhcy1ob3BpbmctdG8tcGxheS13ZWxsLWFnYWluc3QtcmNiLXNvLXRoYXQtdmlyYXQta29obGktL2FtcF9hcnRpY2xlc2hvdy8xMTE5ODkxNTguY21z?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T11:49:00Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "Hindustan Times" },
-        author: "HT Entertainment Desk",
-        title:
-          "Bigg Boss OTT 3: Jio Cinema requests Cyber Crime unit to probe Armaan Malik-Kritika Malik's manipulated video - Hindustan Times",
-        description:
-          "Jio Cinema recently has filed a complaint with regard to a doctored video of Armaan Malik and Kritika Malik circulating on social media. | Web Series",
-        url: "https://www.hindustantimes.com/entertainment/web-series/bigg-boss-ott-3-jio-cinema-requests-cyber-crime-unit-to-probe-armaan-malik-kritika-maliks-manipulated-video-101721817621559.html",
-        urlToImage:
-          "https://images.hindustantimes.com/img/2024/07/24/1600x900/My_life_my_family_1721821049652_1721821086698.jpg",
-        publishedAt: "2024-07-24T11:47:23Z",
-        content:
-          "Jio Cinema had given a stern response to the alleged intimate clip of Armaan Malik and Kritika Malik from Bigg Boss OTT 3. The streaming platform had stated that it was a doctored video and they woul… [+2053 chars]",
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "The Economic Times",
-        title:
-          "Chinese scientists find traces of water in lunar soil brought by Chang'e-5 mission - The Economic Times",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMipQFodHRwczovL20uZWNvbm9taWN0aW1lcy5jb20vbmV3cy9pbnRlcm5hdGlvbmFsL3dvcmxkLW5ld3MvY2hpbmVzZS1zY2llbnRpc3RzLWZpbmQtdHJhY2VzLW9mLXdhdGVyLWluLWx1bmFyLXNvaWwtYnJvdWdodC1ieS1jaGFuZ2UtNS1taXNzaW9uL2FydGljbGVzaG93LzExMTk4OTYyOC5jbXPSAakBaHR0cHM6Ly9tLmVjb25vbWljdGltZXMuY29tL25ld3MvaW50ZXJuYXRpb25hbC93b3JsZC1uZXdzL2NoaW5lc2Utc2NpZW50aXN0cy1maW5kLXRyYWNlcy1vZi13YXRlci1pbi1sdW5hci1zb2lsLWJyb3VnaHQtYnktY2hhbmdlLTUtbWlzc2lvbi9hbXBfYXJ0aWNsZXNob3cvMTExOTg5NjI4LmNtcw?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T11:37:15Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Moneycontrol",
-        title:
-          "Axis Bank Q1 results: Net profit rises 4% to Rs 6,035 crore, beats estimates - Moneycontrol",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMikwFodHRwczovL3d3dy5tb25leWNvbnRyb2wuY29tL25ld3MvYnVzaW5lc3MvZWFybmluZ3MvYXhpcy1iYW5rLXExLXJlc3VsdHMtYXByaWwtanVuZS1uZXQtcHJvZml0LXJpc2VzLXRvLXJzLTYwMzUtY3JvcmUtYmVhdHMtZXN0aW1hdGVzLTEyNzc2ODg4Lmh0bWzSAZcBaHR0cHM6Ly93d3cubW9uZXljb250cm9sLmNvbS9uZXdzL2J1c2luZXNzL2Vhcm5pbmdzL2F4aXMtYmFuay1xMS1yZXN1bHRzLWFwcmlsLWp1bmUtbmV0LXByb2ZpdC1yaXNlcy10by1ycy02MDM1LWNyb3JlLWJlYXRzLWVzdGltYXRlcy0xMjc3Njg4OC5odG1sL2FtcA?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T11:32:57Z",
+        publishedAt: "2024-07-26T10:10:08Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
         author: "Hindustan Times",
         title:
-          "Ashish Nehra points out Gautam Gambhir factor for Hardik Pandya's India captaincy snub in SL T20s: ‘New coach has come…’ - Hindustan Times",
+          "India vs Bangladesh Live Score, Women's Asia Cup: IND-W restrict BAN-W to 80/8 - Hindustan Times",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMiowFodHRwczovL3d3dy5oaW5kdXN0YW50aW1lcy5jb20vY3JpY2tldC9hc2hpc2gtbmVocmEtcG9pbnRzLW91dC1nYXV0YW0tZ2FtYmhpci1mYWN0b3ItZm9yLWhhcmRpay1wYW5keWEtaW5kaWEtY2FwdGFpbmN5LXNudWItaW4tc3JpLWxhbmthLXQyMGlzLTEwMTcyMTgxNDQ0NjA3OS5odG1s0gGnAWh0dHBzOi8vd3d3LmhpbmR1c3RhbnRpbWVzLmNvbS9jcmlja2V0L2FzaGlzaC1uZWhyYS1wb2ludHMtb3V0LWdhdXRhbS1nYW1iaGlyLWZhY3Rvci1mb3ItaGFyZGlrLXBhbmR5YS1pbmRpYS1jYXB0YWluY3ktc251Yi1pbi1zcmktbGFua2EtdDIwaXMtMTAxNzIxODE0NDQ2MDc5LWFtcC5odG1s?oc=5",
+        url: "https://news.google.com/rss/articles/CBMiggJBVV95cUxOdDVKV1AzZWNoamkyY2VSLXVZaGdyVmVqRXdpdE9KYW9GZUhRQ2Nmemg4SnVxczdiY29maXd5UFZncFM3V2F3eFFweGFhN2YyeFk5dW1VQldIdUJZVlZRem41c1A4Z1dLSGpKbzhBYi0yd2c1d3ZfekFiRHJTTFAtZ3VEcXlQdmZOYjRLeFBBcG9uX29xVzZVWENzRkFweGhtNUIzcGRmZG50Z3VvNWp5NUJ3U0h4NS0zeG5lUUVKS0x1dG81bVd2MjR5NmFNNDJZLWhSYWlCS2pJWjRycVVVbDhMcUJHa3lFUFBqb0FSZUJaTkNGZFMzVXBPLWFWbnM2b0HSAYcCQVVfeXFMTjZzSWVTemxNLTVTUEJRY2xMc2F5R0ZHX0dyeFc4aF8xeXl5azJQOGVGSXp6MEl5SnRMR1lsU0ljLUJXOWk2MlV0WmN3akxnaE5CeTVqZVNKUVIwU3Q2NjBoOG5sRmJaLVhNTE5XWDNoYVVXai11WGlmQ0E3TllxbTh5ZlEwWGtkMF9leER5dmpxekx0TXBxLUY2QmlZbWNQcUVqWlI0QzhWcHM2YkxNZ0l6NHdNRG1iY2dlSlZndHgxQVdJM2M3Y0FxS09ESmNJNTJsM05fdmZLMTdXWFdGcXROSUFkYUtjdEhTRGgxRE1JeUEtaFV6WVVFZ3Zmb25lZzNLMTdlTDQ?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T10:31:26Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "Dst.gov.in" },
-        author: null,
-        title:
-          "Ladakh's rock varnish may help identify habitable environments in space - Department Of Science & Technology",
-        description:
-          "The Department of Science & Technology plays a pivotal role in promotion of science & technology in the country.",
-        url: "https://dst.gov.in/ladakhs-rock-varnish-may-help-identify-habitable-environments-space",
-        urlToImage: null,
-        publishedAt: "2024-07-24T09:57:02Z",
+        publishedAt: "2024-07-26T10:06:18Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: null,
+        author: "Moneycontrol",
         title:
-          "NASA Alerts Of 100-ft Aeroplane-Sized Asteroid Moving Towards Earth Tomorrow: Speed, Distance, Time - Times Now",
+          "HP unveils EliteBook Ultra, OmniBook X Copilot+ AI PCs with Snapdragon X Elite SoC in India - Moneycontrol",
         description: null,
-        url: "https://consent.google.com/m",
+        url: "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObHFZY05iOVJKSlRxZUpIMC1lX2o4TkRDdTZQZFFOYm1xdi1mZEhoeFhncDhNeVUwU2k2SUNIeGJybGVOWUtQRG53UHVrdUNEVmRTb3o2OHpUNURHcURZN0JMelc0cmo3Tkh0Xzd2Z0V0aHhsbWVDeTNWRWtzNEVPaFlYYVFfVDZEMkdaNC16OXJPb1FYNHdjQXRSbHpyMzl2bnktSzc1dmI5TUVVZHhJNTBQSWE3SHhmTHRYX2JpRnBrbjN5NGY0clRuYnJvT1JvUmlQREw3am5MWUR1NDN6OVh0UkNMQdIB6wFBVV95cUxQMGNOUktqb0xHN21lc2c1aG4xY05jSnhxR0JSNHZyRlJQY3ZYVVBfWmoxWDBkdVJRSE95QWFvbnRLZDZHcktSMG83emd3VkRHSW10X3d5cl91Y29TWFg5OXlfQ1phYUVfUC1OTzdQUk95Y3drVTJNOHhLMlpwRGhoQjFZamR3cHBnX21DRGdJTDhsYXRQRlpIRlJwclMxZVNWcFRiUmE0dGRLRVhNLWxwS0ZuM1AxeHV3ZjNCUXlGVERpRmIzRHM4SGdPVkhzd082cm1MYmJwdWwyYlBVejB6OUV3VkhwSlZBYUhn?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T09:22:09Z",
-        content:
-          "We use cookies and data to\r\n<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to un… [+1139 chars]",
+        publishedAt: "2024-07-26T09:49:57Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "NDTV",
+        title:
+          "Barack Obama, Wife Michelle Endorse Kamala Harris' Bid For US Presidency - NDTV",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMlJKaG1ydHlOYnZmR0NEVm5qcjVzODMxaWxVNXlCeGJTSzQ3SHV5VFpGbVdBMWhDVWJ2dDItcUlVaUFlT005cHRfcVVZRnpwbDFJOVBWcDlFdTZxNllfZHFuNGpMMG9KNVIteTd0RzNleXQ4dkMzSmJyWXMza0Z6TGdmQlZaRFJWZFN6Yl9JSUowNGQ1RUtacHVTQklSNWVPNVFjZEdKeFQyNjdQRjJDUVB3TDdiWExGb09NMWkyOUvSAcgBQVVfeXFMTXp5SmpjdjVpTWdnVW5uS2pCV2lkcWRueFRUeWkyUWFNMVYyNEdSOWNSQmR2cl80WnhOMWhiVDlTQWVLMEFDUkEwbWtCWExwWWREVnZ2ZTdGbm9IbWtYZTltak5UajlNZDQ2NDlDTm10U0dqa3JPQlQ1eDhDRFZmWFRzVkdWamZhUDZKTmIwMTQyU2gyTVY1N0JjR1V4WnRva3R0U3Y2c1NFNjV5Q18zcmt6T05mdV9CQTMzSUZiRTJJeDJBUE9aSFU?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T09:14:43Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "European Union",
+        title:
+          "World Hepatitis Day 2024: practical resources to help European countries beat viral hepatitis - European Union",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdVpaUk9JQTlKZ0EyTnVTOWptRVotMzYzYmhUWl9Fc2RQYXJYdE9jbEFmT3dBWnB5UVhoNlZnWWl3MFpMOW81UGF5STAzZkV5VzFDVHFLVEF0RHJxXzFqYVoxTnVpQ1JXSFVVV0RtNzYxalgxWkQ0Sjg5M2U1UGhxdm5UUjJUd2pQMDdmQlUxMzkwTDlLZTA4M2lJVGN2bjd0VnBHOGpraVFqdElTNXZ3QjFSUVdzckFpT0NFQ0lhUXdqRVN6M2t3OQ?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T08:18:44Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "The Indian Express",
+        title:
+          "ISRO in talks with European Space Agency on Ramses mission to track asteroid - The Indian Express",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeWhDRmRBN29ZczB2LUhmZlVoTnVOMGtzaTNONkdHUzhXYmc4dkpEV29ZT3pKeXZQMUJhd3BuY0dRaVc2c2o3azg2QnZsdFZOa1VWODJYaXNiaU9vY3BpbTRNYzZxQVZaWm1DcVVBR09lSWtEeVhHVVJ2Yk1uZG9VLXNrcklNRU55NG96NUZFQXltRExBSFB6MXA4SHJDTnhuVU5nR1g4cmpYbWtyMGxkRGlBNlpQNDU2QnfSAcABQVVfeXFMTjhRQ0lZTldRX19XbVRaNEFvYzg3NUd6VlRoYjBtOUJDd2dsR2Fkam02VW1XcTI0YU1McEZBa2lZcHpLa01WYnBWNFAyY1FJemRXRjZyT29URXBhZktZYlJWTUtXOHJFZWNRTUdMczd1ckptUFptOHlZVzNkWllidl9UTzVNU185dWZiX0RxNDRXWlNkNlZTWW5NSUI5dzdCUmRMU0p1TVE1WVNOS1YwdG5mRDUzdE5OVFFVd2hCT2df?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T07:57:39Z",
+        content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
         author: "The Times of India",
         title:
-          "Vivo V40 and Vivo V40 Pro features revealed ahead of India launch - The Times of India",
+          "HMD to manufacture smartphones in India, says CEO Jean Francois Baril - The Times of India",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMilwFodHRwczovL3RpbWVzb2ZpbmRpYS5pbmRpYXRpbWVzLmNvbS90ZWNobm9sb2d5L21vYmlsZXMtdGFicy92aXZvLXY0MC1hbmQtdml2by12NDAtcHJvLWZlYXR1cmVzLXJldmVhbGVkLWFoZWFkLW9mLWluZGlhLWxhdW5jaC9hcnRpY2xlc2hvdy8xMTE5ODQ1OTcuY21z0gGbAWh0dHBzOi8vdGltZXNvZmluZGlhLmluZGlhdGltZXMuY29tL3RlY2hub2xvZ3kvbW9iaWxlcy10YWJzL3Zpdm8tdjQwLWFuZC12aXZvLXY0MC1wcm8tZmVhdHVyZXMtcmV2ZWFsZWQtYWhlYWQtb2YtaW5kaWEtbGF1bmNoL2FtcF9hcnRpY2xlc2hvdy8xMTE5ODQ1OTcuY21z?oc=5",
+        url: "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcXBnclZRN2xpSEVXaGZydGpjNVpRUkQxV2xQX1QxTk1oUUN2VExuZWstWldISzZJMFIxUDFpNm9XSWhFQktTWEs0bXlLdGxpWG9FcHRWc05nN2tQd2RlQS1QbDZZekxtRy12NVAyaUhIeEFyOC00Rk9aRmQyVTVWdzV2M1lKd282cGFwMTNCM0JsSkxCZHQ2Ui0xczFWa3M2V2xPR0dta1U3QmFwTGdLem8tck5KRTdrcFJEM1J4czVLek9CRVBXa2Q4R0p2ZDFsOW53TUVFUFo5cldhT3l4OGxBX0hfd9IB6wFBVV95cUxNM2g4MlRzR0RfYlB4SFBuQWtJUlNkNmhGRjItRXpVV1RsWUFhZ2NDN2w2VEUyOGpXajQ2R1pna3pMLVVQRldGU2pqYThPSWMxWHJzbmI3MHIwYk1OTkdreWxqQUpZd3k3Q2tMemo1MDNlekxnTGlQbjBqMzktTGZJR0ZFbFVVUlZ3WFczY3BIelVxa1E5dmt0cnU4WWZodmZwVTBrX0dSelNUZWpjdm9Yb2Q5V3hMeFBZUWxqR1pGa05oSDBUaE1GdUdudjVUNGdubmJlRDRCLURlTmFGV0tHWVI4S2NQSXFiNHlZ?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T09:08:00Z",
+        publishedAt: "2024-07-26T07:41:00Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Livelaw.in" },
+        author: "Debby Jain",
+        title:
+          "Kanwar Yatra : Supreme Court Extends Stay Of UP, Uttarakhand Directives To Eateries To Display Owner &... - Live Law - Indian Legal News",
+        description:
+          "The Supreme Court on Friday (July 26) extended the interim order staying the directives of the Uttar Pradesh and Uttarakhand governments that the eateries along the Kanwariya pilgrim route must...",
+        url: "https://www.livelaw.in/top-stories/supreme-court-kanwar-yatra-supreme-court-extends-stay-of-up-uttarakhand-directives-to-eateries-to-display-owner-staff-names-264649",
+        urlToImage:
+          "https://www.livelaw.in/h-upload/2021/07/14/396604-kanwar-yatra-supreme-court.jpg",
+        publishedAt: "2024-07-26T07:38:16Z",
+        content:
+          "The Supreme Court on Friday (July 26) extended the interim order staying the directives of the Uttar Pradesh and Uttarakhand governments that the eateries along the Kanwariya pilgrim route must displ… [+6329 chars]",
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "Business Standard",
+        title:
+          "ChatGPT Voice Mode with GPT-4o model coming to Plus members soon: OpenAI - Business Standard",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWEV0LVFSQmI3eWR2NTJkbUgtY285R0dfNDRuTlY3b2dhVXlkXzFwZm5TM3I2QUFqU0d2WGJNWGREYmlldDUxdXhrSUd6MG1Mb0RPdFZ1WG1jYUxBUEw2U2E1NmFVOHdiSVFsWUpjUVlDODhQMUxmb2d2M2k3T1pxbGctbjJLV1U0SjdLQlF5VWpDRDNiamQtYXNWTUt3WFp1ZE9HY0tQU3VHN25KM1luMGY0bC15eWRqamRzYnI0SWlLdlhzMzNjb1JwS21Kd3ZnQ1lxMkwzUU1WdEljSFZV0gHkAUFVX3lxTE8tY1B0Q21EdklOTnpiVE5hYUJJRU1lV3ZxS2RUZTNIbHl5VmVHZzItWkpJb2V5aDdOQ3lkZUJGdmRDMnJwMDkzMGFzR005SlJjRl9jUjNNYjVrWS0yOEdvN1pYRE5rZnVWYVdqcVlINlBBZFZKNk5jNm5pWGRaYlpZcDhZSU5zR0ZtWE96cUVjMjNva3F4OEJrTjNKbHNwLUdSUVhpbVZIcG81S1Bya2dPVHdmOWF6WGltQlVkc3JZNjhScmJKUXgyTHJhdm9abkdnLUxWOUdoV2dTRFNuaXhWSjZwWQ?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T07:33:59Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: "NDTV Sports",
+        author: "Moneycontrol",
         title:
-          '"Other Boards Will Wag Their Tails": Ex Pakistan Star\'s Dig At BCCI Over Champions Trophy Row - NDTV Sports',
+          "Beyond 50 days delay of Boeing Starliner capsule, will Sunita William return soon? NASA shared updates - Moneycontrol",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMigQFodHRwczovL3Nwb3J0cy5uZHR2LmNvbS9jcmlja2V0L290aGVyLWJvYXJkcy13aWxsLXdhZy10aGVpci10YWlscy1leC1wYWtpc3Rhbi1zdGFycy1kaWctYXQtYmNjaS1vdmVyLWNoYW1waW9ucy10cm9waHktcm93LTYxNzc0NjDSAYcBaHR0cHM6Ly9zcG9ydHMubmR0di5jb20vY3JpY2tldC9vdGhlci1ib2FyZHMtd2lsbC13YWctdGhlaXItdGFpbHMtZXgtcGFraXN0YW4tc3RhcnMtZGlnLWF0LWJjY2ktb3Zlci1jaGFtcGlvbnMtdHJvcGh5LXJvdy02MTc3NDYwL2FtcC8x?oc=5",
+        url: "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNS3E5UTdXZmJzNjRlWTBPVEd0RURhSW9HSUdFdnVIaUVzUk5FUGtQNV92bkx2MmVaWmFSYXExdVJobks0Y1ItNDA2QlNYRE1LVzlqZGVSaDlxMHBFQ0ZETk5pX05icWhkSTlXQVI4MnRJbG9HQ2RJeTNNM0p2UGhCMzBISWFtMHRsT3Bkd3VkWVNsckE3dmczVzYwWkdkZUNCQlY2dlFZaFhfYjlmZThSN0EtUTNqRGJLOE5XeU90SjZxWlFuWVUzM19fY1ZtdFNyTHc0b2NXV1IwX0xOTnkzc0sxYWlLQzItVlB1OXNHMXnSAfYBQVVfeXFMTUJTTWFGSWh1bkhid1dZOFZyLXhiRTllSWF4VUh1ak5HYWV5X0U4Yk5SekV4NnpQTDFuZ3BsWjl2UE1QWTFKX19PbFB2VkhXVHdEQk4wQnUwV2pGOXZSTE1YQmM2TGt2S2VvS0ZGa28wdXh0cWZxaWR1eThnWGVzSG9rZklvTlZabHZ1VmgzVTUyY2pzdW84NDdXUGFzdVNiVTFCNlRmMFlBLWFHUDE1c19OYnFBNXZFa3pOQ1dVZGxBdEctRmh4WDBiOTN1WWluQ1J1Q3J0cHhPVUtvMWpTZlZXN0tfTkFFLTBvMUdPZzJGbUluS3Rn?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T09:07:53Z",
+        publishedAt: "2024-07-26T07:28:34Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "The Times of India",
+        title:
+          "Several French train lines hit by 'malicious acts' disrupting traffic ahead of Olympics - The Times of India",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNbk5UV1BOTmVHNWtYdUJkY3lkVkk3NU03dTRGNmdRRk5QNm50czAzQVJvLVpGX2tpTzczSTdSZVBkbXE4bzdHTFFFMldvODloQW0yX1UxSWVkZ2NsNkxYalRGZldWZHZXY0kxV2Mxd014Z0g2ZUVtdVZpbzJqaEZfS1BFT2hub1ZQQ0dydFlxNHRIQ0V5eVJGX1JvOURvZVdvWDlBRldhWVduNmpKTkFvN1FOaGo2d0JJMnBrN1cwVUF2UTlPa1J4OXVoV1FtaHR0ZUpLNFNJamNlRHl6UGZ1SUphQzJwOFl0WkR3TEpxUzUzZ9IB9wFBVV95cUxPZVR5aFR1eUFKTHVYQ1N5dEJ6QmR1d0lSdEZQYTg2N0hkN3d4ZkpxUGZ3RTNvajk2QWpDd3hDcXkydTRzemFRdC1MdW40YWhRQ3FWOTlMUkFZSHVZcm1pQ2RCRlFySGRSN2VDaFNuMk9RU0MtV2ZlUUQ4allXeU5WX3R2Y3VObDVST0oyNW5icVM0bzhwVi1Ed1UwNk1TcHZzenJ5Y3NseFVlaUg2TzE2N1BXQnVXd3d1NFNOeFdLZHREQ1FNcmFvWVJxZkdILU9PUUtTZzZldzRCNl92X0hwRUJEYmUtNkpkSHhnZjAycTl2ME5vei1j?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T07:23:00Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "Moneycontrol",
+        title:
+          "SpiceJet gets relief as SC junks Kalanithi Maran's plea against order setting aside award in his favour - Moneycontrol",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOaU55TW5hMmc2VzU3X3pIUEppRExGZnpoTDdEQnlRU3hYLTFPQzhoUUl4R1FTYmtpVEFkTDI2WWp1ZUNRNWxVc0hDbGQ0QUdvS2lWZk1Ob2k3SFBJZ2pJR0x1dHM2dzQxSm1UOHF6bXZHalpDSmJVR0xsMnlUaXkxY25Fd1l3S3JrOF82bjZqSm4tTEJPVnNSVTB4N0UxQUdTUFVlb1FOR3djV2lSUlhDY2ZqcktWNHl1VEFrRmgwWUVFNnBtSThkZ2o2N1gtM0g5T3Iyald0Nk5JZGVUYzZLQWRkQzFSZzdGdFI2azFHNWTSAfYBQVVfeXFMT3NIc2QwejJ0VEpIRndnVVJIMXRFNG1GR0ZOQzRrdE1nMFRlS3dmbUxHVTFMTWhpZjJqYjlNSVdqSmYzTVFzRW5hRVNRU18tVW91dVdiems3NFV4cEYyU2JXUno5T3ZtYVM4WUp6MTlmWDlfbUhKUmVrX1NfRjQ4akVPb3hqUjZZOWZKQ3NlNTRJWEpnUHJrVnduOUNCeGM0NFdoTkNpSnF4Sm50YTBrNHlBSVpaSFZMWlFaWnRGMkFtejQ0TFVKY2NzSDlTci14OXhMMVBmbG5nanJEOHB5cXZfX01qbGlzYVJ1WV9wOV9ZRzJnSE93?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T06:45:50Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
         author: "The Hindu",
         title:
-          "Supreme Court directs Haryana, Punjab to maintain status quo at Shambhu border - The Hindu",
+          "Assam’s Charaideo Maidam in UNESCO World Heritage list - The Hindu",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMiiAFodHRwczovL3d3dy50aGVoaW5kdS5jb20vbmV3cy9uYXRpb25hbC9zdXByZW1lLWNvdXJ0LWRpcmVjdHMtaGFyeWFuYS1wdW5qYWItdG8tbWFpbnRhaW4tc3RhdHVzLXF1by1hdC1zaGFtYmh1LWJvcmRlci9hcnRpY2xlNjg0NDA3ODIuZWNl0gGNAWh0dHBzOi8vd3d3LnRoZWhpbmR1LmNvbS9uZXdzL25hdGlvbmFsL3N1cHJlbWUtY291cnQtZGlyZWN0cy1oYXJ5YW5hLXB1bmphYi10by1tYWludGFpbi1zdGF0dXMtcXVvLWF0LXNoYW1iaHUtYm9yZGVyL2FydGljbGU2ODQ0MDc4Mi5lY2UvYW1wLw?oc=5",
+        url: "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSXhOa2NWckcyQzVJbnlLSzJtRFlfNi1fakpiYWU5dldqT3FHRzk1OG5aZnhYOEZtYm5EdTI5VzgtLXN3QUxYeGtqdjhuaVBnLTU0amZLc2NLeW5DN1UtTlVfbF85QzhaUEdFQW1MaGc2S3FBaktqaVZfU3BqRFBYODV0eG5RLUN1czNDTmREQjdmamNOSV9rX0JtT05CdEt2akJuX21EYUFiR0t1UW9OTFJaeGVsTVgwVXpoM3VQSGdxclZTem5mVld3aVBMYVR2QVJYN1ZoaFN6Z9IB4AFBVV95cUxQZVZldm9JbUdlUU5xdGlXSVBST3p1N2ZXcGwzU2ltM1NUekhyRlBpUFpWaFQzRTJOMnY3QTg0czNHZEJHR294c2NLNmhXM2JFTnVNNm1uZWpwaUZZODNhUVhnVDJUM2pXYUtNaURxYzAzaFE2LUVxMkcyVlduRC1nLUd2NnlBNUJTYXBoUVdVbWYxSTFOdFZVR2FVbXRhcTJFa3BFT0RMM0FLODZMX1FzSjVpc016ZXpKX0I2dkhmVUxsQzJ2SVdoWkt2TTBMYnY1b3ZKVjhQTE5hZG5fUmkyTg?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T09:04:00Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "India Today",
-        title:
-          "Salman Khan on house firing: I believe Lawrence Bishnoi tried to kill me | Exclusive - India Today",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMidWh0dHBzOi8vd3d3LmluZGlhdG9kYXkuaW4vaW5kaWEvc3Rvcnkvc2FsbWFuLWtoYW4taG91c2UtZmlyaW5nLW11bWJhaS1wb2xpY2Utc3RhdGVtZW50LWNoYXJnZXNoZWV0LTI1NzEyMTYtMjAyNC0wNy0yNNIBeWh0dHBzOi8vd3d3LmluZGlhdG9kYXkuaW4vYW1wL2luZGlhL3N0b3J5L3NhbG1hbi1raGFuLWhvdXNlLWZpcmluZy1tdW1iYWktcG9saWNlLXN0YXRlbWVudC1jaGFyZ2VzaGVldC0yNTcxMjE2LTIwMjQtMDctMjQ?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T08:50:13Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "NDTV News" },
-        author: null,
-        title:
-          "Plane With 19 On Board Crashes At Kathmandu Airport, Pilot Lone Survivor - NDTV",
-        description:
-          "Plane Crashed at Tribhuvan International Airport: The bodies of 18 out of the 19 people on board a Kathmandu flight were recovered after the plane crashed at a Nepal airport on Wednesday, local media said.",
-        url: "https://www.ndtv.com/world-news/plane-with-19-onboard-crashes-during-take-off-at-kathmandu-airport-6176319",
-        urlToImage:
-          "https://c.ndtvimg.com/2024-07/08c75kjo_nepal-plane-crash_625x300_24_July_24.jpeg?ver-20240615.100",
-        publishedAt: "2024-07-24T08:13:00Z",
-        content:
-          "The CRJ200 plane, which can seat 50 passengers, did not gain any altitude on takeoff.\r\nThe bodies of 18 out of the 19 people on board a Kathmandu flight were recovered after the plane crashed at a Ne… [+1740 chars]",
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "NDTV",
-        title:
-          '"Will March To Delhi," Say Farmers After Meeting Rahul Gandhi At Parliament - NDTV',
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMiogFodHRwczovL3d3dy5uZHR2LmNvbS9pbmRpYS1uZXdzL2Zhcm1lcnMtcHJvdGVzdC1uZXdzLXJhaHVsLWdhbmRoaS1tZWV0cy1mYXJtZXJzLXBhcmxpYW1lbnQtcmFodWwtZ2FuZGhpLW1lZXRzLXByb3Rlc3RpbmctZmFybWVycy1pbnNpZGUtcGFybGlhbWVudC1jb21wbGV4LTYxNzcxMDjSAagBaHR0cHM6Ly93d3cubmR0di5jb20vaW5kaWEtbmV3cy9mYXJtZXJzLXByb3Rlc3QtbmV3cy1yYWh1bC1nYW5kaGktbWVldHMtZmFybWVycy1wYXJsaWFtZW50LXJhaHVsLWdhbmRoaS1tZWV0cy1wcm90ZXN0aW5nLWZhcm1lcnMtaW5zaWRlLXBhcmxpYW1lbnQtY29tcGxleC02MTc3MTA4L2FtcC8x?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T08:12:30Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Benzinga India",
-        title:
-          "Bajaj Finserv Net Profit Surges 10.04% To ₹2,138 Cr - Benzinga India",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMiWWh0dHBzOi8vaW4uYmVuemluZ2EuY29tL2NvbnRlbnQvMzk5MjQ1NDAvYmFqYWotZmluc2Vydi1uZXQtcHJvZml0LXN1cmdlLTEwLTA0LXRvLTItMTM4LWNy0gEA?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T07:34:08Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Hindustan Times",
-        title:
-          "Amid row, Puja Khedkar ‘out of reach’, fails to report to trainee IAS academy: Report - Hindustan Times",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMijwFodHRwczovL3d3dy5oaW5kdXN0YW50aW1lcy5jb20vaW5kaWEtbmV3cy9hbWlkLXJvdy1wdWphLWtoZWRrYXItb3V0LW9mLXJlYWNoLWZhaWxzLXRvLXJlcG9ydC10by10cmFpbmVlLWlhcy1hY2FkZW15LXJlcG9ydC0xMDE3MjE3OTkxOTU3NzAuaHRtbNIBkwFodHRwczovL3d3dy5oaW5kdXN0YW50aW1lcy5jb20vaW5kaWEtbmV3cy9hbWlkLXJvdy1wdWphLWtoZWRrYXItb3V0LW9mLXJlYWNoLWZhaWxzLXRvLXJlcG9ydC10by10cmFpbmVlLWlhcy1hY2FkZW15LXJlcG9ydC0xMDE3MjE3OTkxOTU3NzAtYW1wLmh0bWw?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T07:26:34Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Moneycontrol",
-        title:
-          "Preparing for in vitro fertilisation? Keep these essential tips to reduce anxiety, manage finances - Moneycontrol",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMipgFodHRwczovL3d3dy5tb25leWNvbnRyb2wuY29tL2hlYWx0aC1hbmQtZml0bmVzcy9wcmVwYXJpbmctZm9yLWluLXZpdHJvLWZlcnRpbGlzYXRpb24ta2VlcC10aGVzZS1lc3NlbnRpYWwtdGlwcy10by1yZWR1Y2UtYW54aWV0eS1tYW5hZ2UtZmluYW5jZXMtYXJ0aWNsZS0xMjc3NjkxMy5odG1s0gGqAWh0dHBzOi8vd3d3Lm1vbmV5Y29udHJvbC5jb20vaGVhbHRoLWFuZC1maXRuZXNzL3ByZXBhcmluZy1mb3ItaW4tdml0cm8tZmVydGlsaXNhdGlvbi1rZWVwLXRoZXNlLWVzc2VudGlhbC10aXBzLXRvLXJlZHVjZS1hbnhpZXR5LW1hbmFnZS1maW5hbmNlcy1hcnRpY2xlLTEyNzc2OTEzLmh0bWwvYW1w?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T07:24:45Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Hindustan Times",
-        title:
-          "Kharge's ‘ mataji ’ dig at Nirmala Sitharaman in Rajya Sabha: ‘Bolne mein expert hain’ - Hindustan Times",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMihQFodHRwczovL3d3dy5oaW5kdXN0YW50aW1lcy5jb20vaW5kaWEtbmV3cy9tYXRhamktYm9sbmUtbWVpbi1leHBlcnQtaGFpbi1raGFyZ2VzLWRpZy1hdC1zaXRoYXJhbWFuLWluLXJhanlhLXNhYmhhLTEwMTcyMTgwMDY1NzQ3MC5odG1s0gEA?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T07:24:13Z",
-        content: null,
-      },
-    ],
-  },
-  science: {
-    status: "ok",
-    totalResults: 42,
-    articles: [
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "AZoM",
-        title:
-          "New Method Offers Promising Solution to Treat Perfluoroalkyl Substances - AZoM",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMiK2h0dHBzOi8vd3d3LmF6b20uY29tL25ld3MuYXNweD9uZXdzSUQ9NjM0MDTSAQA?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T11:47:00Z",
+        publishedAt: "2024-07-26T05:56:00Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
         author: "The Economic Times",
         title:
-          "Chinese scientists find traces of water in lunar soil brought by Chang'e-5 mission - The Economic Times",
+          "Indexation benefits: FM Sitharaman says you are missing the larger picture behind Budget's big tax change - The Economic Times",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMipQFodHRwczovL20uZWNvbm9taWN0aW1lcy5jb20vbmV3cy9pbnRlcm5hdGlvbmFsL3dvcmxkLW5ld3MvY2hpbmVzZS1zY2llbnRpc3RzLWZpbmQtdHJhY2VzLW9mLXdhdGVyLWluLWx1bmFyLXNvaWwtYnJvdWdodC1ieS1jaGFuZ2UtNS1taXNzaW9uL2FydGljbGVzaG93LzExMTk4OTYyOC5jbXPSAakBaHR0cHM6Ly9tLmVjb25vbWljdGltZXMuY29tL25ld3MvaW50ZXJuYXRpb25hbC93b3JsZC1uZXdzL2NoaW5lc2Utc2NpZW50aXN0cy1maW5kLXRyYWNlcy1vZi13YXRlci1pbi1sdW5hci1zb2lsLWJyb3VnaHQtYnktY2hhbmdlLTUtbWlzc2lvbi9hbXBfYXJ0aWNsZXNob3cvMTExOTg5NjI4LmNtcw?oc=5",
+        url: "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOOWZFOWJaVWdZS0ktMHZWQTBETWtSV0tGdVBOTEdMbFByOGxUVVZzeFF5YXMtRTdJQVN4dGl1eGc1Yng1NE5ZLXZKallrV1RwUzlwWFdWczAwcElYWWdTSWdPNjB4ZldIMk9ReUZlNlFMM2M2TTBqVW1UT2hfV2lJQXRmV19QZ3pQOEdKbENWS3pFNmZjNDZCcm0yRUMzWmJJN0E1dktzc1RfYkhEV1prYVZJV3dkSWU4OFZVblNPOHNURlkxXzhXRm9wekp5VG5uUHFsMlJpSERTLUI4ZHlOOTY4SmY2Z2xCTERLTmRvbmljUnFGbFBfU1VFM3lFM3B3UDE2Q0hLQ2jSAY4CQVVfeXFMT1dLZFc1dTA0MGlOY0tqT0dEeGdINDRXNUN6cDYxZXBkeVRheE9aU1dFTW10V215dlRXQThFRXFXczFuR2V4OWF4LWVwVHBMUmRRYzdmRGQyR0VWZ3FmRDdiR0RuVS1DUUVkZDNkVHRQcG1QS0swQmo1Mk5jN2NVclRZbWlCQkVtUDZMQVZLRjdHTnRUUEFCdWRFcllCRE5zNTF3a3BDN3FfbGJ0RXlxZi1Sbk5mZ3cxc0E5aG92dVhxbVQyTm5JTUZwalAwdFcwYWMtM3FtNF90SENsNndzU1Z5YWdnblpxVmR6MFNjQ2RGaTlzQk13d2tfMkNCclZpZVUtT2xpdTRZSVU3bEpB?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T11:37:15Z",
+        publishedAt: "2024-07-26T05:41:35Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: "Moneycontrol",
+        author: "Analytics Insight",
         title:
-          "Scientists Discover Incredible Plant That Could Survive on Mars - Moneycontrol",
+          "July 26 Garena Free Fire Max Update: All New Redeem Codes - Analytics Insight",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMifmh0dHBzOi8vd3d3Lm1vbmV5Y29udHJvbC5jb20vc2NpZW5jZS9zY2llbnRpc3RzLWRpc2NvdmVyLWluY3JlZGlibGUtcGxhbnQtdGhhdC1jb3VsZC1zdXJ2aXZlLW9uLW1hcnMtdmlzdWFsLXN0b3J5LTIyOTMwNTYuaHRtbNIBfmh0dHBzOi8vd3d3Lm1vbmV5Y29udHJvbC5jb20vc2NpZW5jZS9zY2llbnRpc3RzLWRpc2NvdmVyLWluY3JlZGlibGUtcGxhbnQtdGhhdC1jb3VsZC1zdXJ2aXZlLW9uLW1hcnMtdmlzdWFsLXN0b3J5LTIyOTMwNTYuaHRtbA?oc=5",
+        url: "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcDU0dEcxYktNOE9LNGc0enRXenVqYVk5dFhDeGZubmMxVnVrcmY5ZDlRV2pGOE5fbnlpN1QzQjJtd1VWNUN6bk5WN09ZMVdWY2gxM1lwT3d4WThrdURadmxUUWZxMEdQMnFwR2Zxd25oMWxoRUR5aG5MYm1DNG1pMFVqRmVBYm5TXzk1b0JzeUxKVWdkVnMxa2dmOWXSAaoBQVVfeXFMUEFWMHJJejNzNXlGV2tjLUJEa21RZXNpS2M3MFhnVWhoeDR0bEJmd2ZsQ1ZLOC1MbG94VVFSMzdwMGNkTEl0aGhaSzZCMkNSaWhfeTd2b0NpOF8zNUx5TUg0M1RiNmF1NDJRd3ZXbzIwMWRDZDVod0tkRDU3V0oyMExzMlRxMGxNWldPcFg3NWxjTk1EQ3VRU3gzSWxpUHlOaFU1a3AzV1d1X0E?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T11:37:11Z",
+        publishedAt: "2024-07-26T05:38:25Z",
         content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Mint",
-        title:
-          "Stuck in space, will Sunita Williams be back home anytime soon? NASA to make important announcement | Mint - Mint",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMimwFodHRwczovL3d3dy5saXZlbWludC5jb20vc2NpZW5jZS9uZXdzL3N0dWNrLWluLXNwYWNlLXdpbGwtc3VuaXRhLXdpbGxpYW1zLWJlLWJhY2staG9tZS1hbnl0aW1lLXNvb24tbmFzYS10by1tYWtlLWltcG9ydGFudC1hbm5vdW5jZW1lbnQtMTE3MjE4MTQyMDY1NTQuaHRtbNIBnwFodHRwczovL3d3dy5saXZlbWludC5jb20vc2NpZW5jZS9uZXdzL3N0dWNrLWluLXNwYWNlLXdpbGwtc3VuaXRhLXdpbGxpYW1zLWJlLWJhY2staG9tZS1hbnl0aW1lLXNvb24tbmFzYS10by1tYWtlLWltcG9ydGFudC1hbm5vdW5jZW1lbnQvYW1wLTExNzIxODE0MjA2NTU0Lmh0bWw?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T10:02:15Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "Dst.gov.in" },
-        author: null,
-        title:
-          "Ladakh's rock varnish may help identify habitable environments in space - Department Of Science & Technology",
-        description:
-          "The Department of Science & Technology plays a pivotal role in promotion of science & technology in the country.",
-        url: "https://dst.gov.in/ladakhs-rock-varnish-may-help-identify-habitable-environments-space",
-        urlToImage: null,
-        publishedAt: "2024-07-24T09:57:02Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: null,
-        title:
-          "NASA Alerts Of 100-ft Aeroplane-Sized Asteroid Moving Towards Earth Tomorrow: Speed, Distance, Time - Times Now",
-        description: null,
-        url: "https://consent.google.com/m",
-        urlToImage: null,
-        publishedAt: "2024-07-24T09:22:09Z",
-        content:
-          "We use cookies and data to\r\n<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to un… [+1139 chars]",
       },
       {
         source: { id: "google-news", name: "Google News" },
         author: "The Times of India",
         title:
-          "'Like finding an oasis in desert ...': Nasa's Curiosity rover stuns scientists with discovery of pure sul - The Times of India",
+          "U.S. Airbase Attacked In Iraq As Biden Hosts Netanyahu; Several Rockets, Drones Fired - The Times of India",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMiemh0dHBzOi8vdGltZXNvZmluZGlhLmluZGlhdGltZXMuY29tL3NjaWVuY2UvbmFzYXMtY3VyaW9zaXR5LXJvdmVyLWRpc2NvdmVycy1wdXJlLXN1bHBodXItb24tbWFycy9hcnRpY2xlc2hvdy8xMTE5ODM5NzEuY21z0gF-aHR0cHM6Ly90aW1lc29maW5kaWEuaW5kaWF0aW1lcy5jb20vc2NpZW5jZS9uYXNhcy1jdXJpb3NpdHktcm92ZXItZGlzY292ZXJzLXB1cmUtc3VscGh1ci1vbi1tYXJzL2FtcF9hcnRpY2xlc2hvdy8xMTE5ODM5NzEuY21z?oc=5",
+        url: "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNM1NJRnhWVW1xRnlhX3B2b0RTazhLaFJVbWlCTGNTem1BWVRiX3cxUEhUUW1vUUkzWU9TcnhKV3JzVU50eWNLbTNieFhoZEw3WHVKXzg1Q0MwejZoOWZqU0ZPOWtWY0ZWcGNfYklDbVJBZTZITnFTWkNXWVVzRG8yU2R6dGFlcEZKOHgyNHNSaHhmdjJKM1hseXhRd1RTM2Y4Nmw5Mmo4QW15amp1TlFXQjRzaS1COTF3ak0xaFpmMV82MEtXc1MtYmpmREdUdDZZenRjMWVXVTczNVVpWEZKUW9JcWlTX1VLeEVFYXAxMmN1ekU3alE?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T08:51:00Z",
+        publishedAt: "2024-07-26T05:13:23Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: "The Manila Times",
+        author: "Hindustan Times",
         title:
-          "NASA reveals rocket segments for Artemis II lunar mission - The Manila Times",
+          "Kargil Vijay Diwas: PM Narendra Modi says ‘Pakistan uses proxy war to stay…’, warns terrorists - Hindustan Times",
         description: null,
-        url: "https://news.google.com/rss/articles/CCAiC3BwdHlpZTZQd1lBmAEB?oc=5",
+        url: "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQNXlZUGhFZGZtRE1YckRrTnJXMnRsRlp4d19TQTFzc3BaYVcyYlZaaWZjTmcyYmJBYlViYVpOR2o2RFk0eGJaZjdlS1Rjd011OU84aERnNk5na3Q3TmlVblVOZjFCdVdPT0dLRjNLakxyZ1Y5d1dCX1lXNVV3cnlCNWhyc1dhUVJpMnVsQUtQV1FwUS00b2RPbi1pX01wSXE4WVhDcXQzaXVyclZsc0JSNHRZY1lmYkpYdkdnaUliQ0EyOVRXMTd2MzJRR2NlYmR4WW9mdmNTOEZ4LWNXVTVhOTBnRVZQOTd0WE5kXzB1S1Y4ZU9xZHkwV2d30gH_AUFVX3lxTE1pdE8zT0U1MzZEQ1YxR045RzlTZUF6Z1V3bUdGVWtZdFJRU3A5ZnNKVVloSTRpNnlvQ3lfaGlYWHBPTDRnZTZTZkdnYW83VV9nVzdjd3BVTHpBQ3o4ck56M2wxUjg4czFqeDgtdGhlMDdyOFIyU2tSTDN5aDBLaFdFSjNtbmM0aUxzOXVROGZTMVVmWUtnaDlMaHJRaDMwUTdPOXUtOUtvNlBtd19ncHlaMHR6Z3NiS1FDaVRRQjk4ZER6R1NsRzlKc21STGNadVFyQjl5a3BhdFluYTE5dC1yQ3p6LXUxQ3VfSk5YX0pxNmxKME5IUVRjdXlLckJxbw?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T07:30:13Z",
+        publishedAt: "2024-07-26T05:11:48Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: "The Financial Express",
+        author: "NDTV Sports",
         title:
-          "Scientists find ‘Dark Oxygen’: How metal nodules in depths of Ocean are rewriting Science - The Financial Express",
+          "\"It Doesn't...\": Shubman Gill's Honest Statement On Being Handed India Vice-Captaincy In ODI, T20Is - NDTV Sports",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMimAFodHRwczovL3d3dy5maW5hbmNpYWxleHByZXNzLmNvbS9saWZlL3NjaWVuY2Utc2NpZW50aXN0cy1maW5kLWRhcmstb3h5Z2VuLWluLWRlcHRocy1vZi1vY2Vhbi1ob3ctbWV0YWwtbm9kdWxlcy11bmRlcndhdGVyLWFyZS1yZXdyaXRpbmctc2NpZW5jZS0zNTYzNTcwL9IBnQFodHRwczovL3d3dy5maW5hbmNpYWxleHByZXNzLmNvbS9saWZlL3NjaWVuY2Utc2NpZW50aXN0cy1maW5kLWRhcmstb3h5Z2VuLWluLWRlcHRocy1vZi1vY2Vhbi1ob3ctbWV0YWwtbm9kdWxlcy11bmRlcndhdGVyLWFyZS1yZXdyaXRpbmctc2NpZW5jZS0zNTYzNTcwL2xpdGUv?oc=5",
+        url: "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMVFwVm1sTmt6dnhHMW5VOFJmRVFHeExibkZPZEp2NGNpT0hJUS12Q0owNUpWbnk4aDJXLWlqYXI2N3BHZW9zYVpDcFQyTWxrNmlUcThMVW1tVGd1Zk1Ld0owdlg5VTk3Ymk5N3JSbnVXTFpnVXBfVV96ZDVaaUU1YmdYc2RERDJEZElnVEo0amtwa2dVTkZrdks2SVRyRGprYTNncU1IVlJuS1UzNFFvSFJLT2tNS2RoQ2FtUmlKVE1wWDY2akhkUWRvdmE0VXdhUGswX2Vwb1RrVmpGN2ZR0gHnAUFVX3lxTE5ZUEg0blVnazFPZTV1b3dwQnZBYmdud3otaUxtTXYtdGxETjNFSHhvaU9LelJ6R0xqZXBqQWpfb1BVMlQ5a3ZwSUpZcERLOXZuMW1FQV8xR05zUkljaU5GN0Q1b25nZHdYODlrWlhEYjd3S21JbzAwNVB4Q2JCRkNocHZ5LVVFalhjeGJsaG13ZndsM05tVE9GZU5RS3d2aEowajNUZHdwcXFYVUduOVVwR1lZbVVYTVhWM3liU2k4dkNFYUpFX1Nkck0ybGtKZC1BSWlFODY0MWdzYUFkNzNWR2ZqWmp0bw?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T07:13:22Z",
+        publishedAt: "2024-07-26T04:57:46Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: "Global Times",
+        author: "The Hindu",
         title:
-          "Geomagnetic storm forecasted after coronal mass ejection: National Center for Space Weather - Global Times",
+          "Parliament Session LIVE updates: Lok Sabha, Rajya Sabha resume discussion on Union Budget - The Hindu",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMiNGh0dHBzOi8vd3d3Lmdsb2JhbHRpbWVzLmNuL3BhZ2UvMjAyNDA3LzEzMTY2MjYuc2h0bWzSAQA?oc=5",
+        url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxNam1wSHlOWEJxb3NfcXlIU3ZVWUpEYTRqMmlBalZFWWtES295MGhCSVJ4NUZ3aDlrb1cwRnExNEhqQ1JRaDFJWUhjV09KTHJZMHRnVlc1TlZMVmpfUDFEYngxTWdNY3BLZHlUWWl6ZklzM1VKZm9iT0R4ZjNJMENCc0ZGSUV2OHlCZkRlc1dqU2NNbHo1aE1CMTJsVk5oYW8?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T06:05:00Z",
+        publishedAt: "2024-07-26T04:51:00Z",
         content: null,
       },
       {
-        source: { id: "google-news", name: "Google News" },
-        author: "Big Think",
+        source: { id: null, name: "Livemint" },
+        author: "Karishma Pranav Bhavsar",
         title:
-          "10 revolutionary finds from JWST’s first 2 years of science - Big Think",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMiRmh0dHBzOi8vYmlndGhpbmsuY29tL3N0YXJ0cy13aXRoLWEtYmFuZy8xMC1yZXZvbHV0aW9uYXJ5LWp3c3Qtc2NpZW5jZS_SAQA?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T06:00:00Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Frontline",
-        title:
-          "Omega Centauri’s Black Hole, Most-Energetic Neutrino Detected, GaN Semiconductors For Nuclear Reactors - Frontline",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMiuQFodHRwczovL2Zyb250bGluZS50aGVoaW5kdS5jb20vc2NpZW5jZS1hbmQtdGVjaG5vbG9neS9hc3Ryb25vbXktYmxhY2staG9sZS1odWJibGUtdGVsZXNjb3BlLW1pbGt5LXdheS1uZXV0cmluby1wYXJ0aWNsZS1waHlzaWNzLW51Y2xlYXItcmVhY3Rvci1zZW5zb3Itc2VtaWNvbmR1Y3RvcnMvYXJ0aWNsZTY4NDAwMDU4LmVjZdIBvgFodHRwczovL2Zyb250bGluZS50aGVoaW5kdS5jb20vc2NpZW5jZS1hbmQtdGVjaG5vbG9neS9hc3Ryb25vbXktYmxhY2staG9sZS1odWJibGUtdGVsZXNjb3BlLW1pbGt5LXdheS1uZXV0cmluby1wYXJ0aWNsZS1waHlzaWNzLW51Y2xlYXItcmVhY3Rvci1zZW5zb3Itc2VtaWNvbmR1Y3RvcnMvYXJ0aWNsZTY4NDAwMDU4LmVjZS9hbXAv?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T05:41:16Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "WION",
-        title:
-          "WATCH: NASA captures Sun`s `dark` plasma wildly exploding, hitting Earth with solar storm - WION",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMie2h0dHBzOi8vd3d3Lndpb25ld3MuY29tL3NjaWVuY2Uvd2F0Y2gtbmFzYS1jYXB0dXJlcy1zdW5zLWRhcmstcGxhc21hLXdpbGRseS1leHBsb2RpbmctaGl0dGluZy1lYXJ0aC13aXRoLXNvbGFyLXN0b3JtLTc0MzY2NdIBf2h0dHBzOi8vd3d3Lndpb25ld3MuY29tL3NjaWVuY2Uvd2F0Y2gtbmFzYS1jYXB0dXJlcy1zdW5zLWRhcmstcGxhc21hLXdpbGRseS1leHBsb2RpbmctaGl0dGluZy1lYXJ0aC13aXRoLXNvbGFyLXN0b3JtLTc0MzY2NS9hbXA?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T05:20:56Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Firstpost",
-        title:
-          "How US physicists played God, created a new element called Livermorium using titanium particle beam - Firstpost",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMijgFodHRwczovL3d3dy5maXJzdHBvc3QuY29tL3RlY2gvaG93LXVzLXBoeXNpY2lzdHMtcGxheWVkLWdvZC1jcmVhdGUtYS1uZXctZWxlbWVudC1jYWxsZWQtbGl2ZXJtb3JpdW0tdXNpbmctdGl0YW5pdW0tcGFydGljbGUtYmVhbS0xMzc5NjM0NC5odG1s0gGSAWh0dHBzOi8vd3d3LmZpcnN0cG9zdC5jb20vdGVjaC9ob3ctdXMtcGh5c2ljaXN0cy1wbGF5ZWQtZ29kLWNyZWF0ZS1hLW5ldy1lbGVtZW50LWNhbGxlZC1saXZlcm1vcml1bS11c2luZy10aXRhbml1bS1wYXJ0aWNsZS1iZWFtLTEzNzk2MzQ0Lmh0bWwvYW1w?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T04:59:08Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "The Federal",
-        title:
-          "A star is all set to explode: Why astronomers are eagerly waiting - The Federal",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMieWh0dHBzOi8vdGhlZmVkZXJhbC5jb20vY2F0ZWdvcnkvdGhlLWVpZ2h0aC1jb2x1bW4vYS1zdGFyLWlzLWFsbC1zZXQtdG8tZXhwbG9kZS13aHktYXN0cm9ub21lcnMtYXJlLWVhZ2VybHktd2FpdGluZy0xMzQ5NDHSAX1odHRwczovL3RoZWZlZGVyYWwuY29tL2FtcC9jYXRlZ29yeS90aGUtZWlnaHRoLWNvbHVtbi9hLXN0YXItaXMtYWxsLXNldC10by1leHBsb2RlLXdoeS1hc3Ryb25vbWVycy1hcmUtZWFnZXJseS13YWl0aW5nLTEzNDk0MQ?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T01:00:52Z",
-        content: null,
-      },
-      {
-        source: { id: null, name: "BGR" },
-        author: "Joshua Hawkins, Joshua Hawkins",
-        title:
-          "These close-up images of the Sun are so crazy, you won’t believe they’re real - BGR",
+          "NASA images: Photo of massive star clusters in Milky Way’s heart; netizens say ‘time travel in picture’ | Mint - Mint",
         description:
-          "One astrophotographer has captured a photograph of the Sun so detailed it doesn't even look like a real picture.",
-        url: "https://bgr.com/science/these-close-up-images-of-the-sun-are-so-crazy-you-wont-believe-theyre-real/",
+          "NASA has unveiled a stunning image of a massive star cluster at the Milky Way's center, featuring over half a million stars.",
+        url: "https://www.livemint.com/science/news/nasa-images-photo-of-massive-star-clusters-in-milky-way-s-heart-netizens-says-time-travel-in-picture-11721965588690.html",
         urlToImage:
-          "https://bgr.com/wp-content/uploads/2021/12/AdobeStock_281795067.jpeg?quality=82&strip=all",
-        publishedAt: "2024-07-24T00:04:00Z",
+          "https://images.livemint.com/img/2024/07/26/1600x900/AIRBUS-VOYAGER--1_1693981134839_1721966635095.JPG",
+        publishedAt: "2024-07-26T04:37:52Z",
         content:
-          "Some astrophotographers know when theyve landed a killer shot, and Mark Johnston, who also happens to be a NASA solar system ambassador, has managed to capture one such photograph of the Sun from his… [+1985 chars]",
+          "The National Aeronautics and Space Administration (NASA) has shared stunning image of center of the galaxy which showcases massive star cluster containing more than half a million stars. As per NASA,… [+2557 chars]",
       },
+    ],
+  },
+  science: {
+    status: "ok",
+    totalResults: 18,
+    articles: [
       {
-        source: { id: null, name: "WebWire" },
-        author: null,
+        source: { id: "google-news", name: "Google News" },
+        author: "India Today",
         title:
-          "NASA Sponsors New Research on Orbital Debris, Lunar Sustainability - WebWire",
-        description:
-          "As part of NASA’s commitment to foster responsible exploration of the universe for the benefit of humanity, the Office of Technology, Policy, and Strategy (OTPS) is funding space sustainability research proposals from five university-based teams to analyze cr…",
-        url: "https://www.webwire.com/ViewPressRel.asp?aId=324620",
-        urlToImage:
-          "https://photos.webwire.com/prmedia/7/324620/324620-1-m.jpg",
-        publishedAt: "2024-07-23T19:35:23Z",
-        content:
-          "As part of NASAs commitment to foster responsible exploration of the universe for the benefit of humanity, the Office of Technology, Policy, and Strategy (OTPS) is funding space sustainability resear… [+2890 chars]",
+          "India telescope in Ladakh captures building-sized asteroid zoom past Earth - India Today",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcjQxUENyakI1M3B0NkJLemZyUWlDM1JobEtjNEswakh1R0MtRmNmcks1UUZ0U0lEQUFocnBCNnQxeUlDUU54ZW40T0lvbU5mdDZzbV9PZkpEdFFEMVc1M21kMGdWOUdmcFJGb2h3ZUJ3WEpJNjdhZVd6WmN4YzhVUTVyOW1vVTBBeXVrTjRKejdhc1RaOWRsOXdKZVVHVlVnaUtCQlVHZ2Nkb2Y4Z2c0MnV5SXVXYU81c1ZNODhPWldWTGRvN1lwSXZMTk5Ddw?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T10:10:08Z",
+        content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: "Space.com",
+        author: "The Indian Express",
         title:
-          "Alien weather report: James Webb Space Telescope detects hot, sandy wind on 2 brown dwarfs - Space.com",
+          "ISRO in talks with European Space Agency on Ramses mission to track asteroid - The Indian Express",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMiO2h0dHBzOi8vd3d3LnNwYWNlLmNvbS9icm93bi1kd2FyZi1hbGllbi13ZWF0aGVyLXJlcG9ydC1qd3N00gEA?oc=5",
+        url: "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeWhDRmRBN29ZczB2LUhmZlVoTnVOMGtzaTNONkdHUzhXYmc4dkpEV29ZT3pKeXZQMUJhd3BuY0dRaVc2c2o3azg2QnZsdFZOa1VWODJYaXNiaU9vY3BpbTRNYzZxQVZaWm1DcVVBR09lSWtEeVhHVVJ2Yk1uZG9VLXNrcklNRU55NG96NUZFQXltRExBSFB6MXA4SHJDTnhuVU5nR1g4cmpYbWtyMGxkRGlBNlpQNDU2QnfSAcABQVVfeXFMTjhRQ0lZTldRX19XbVRaNEFvYzg3NUd6VlRoYjBtOUJDd2dsR2Fkam02VW1XcTI0YU1McEZBa2lZcHpLa01WYnBWNFAyY1FJemRXRjZyT29URXBhZktZYlJWTUtXOHJFZWNRTUdMczd1ckptUFptOHlZVzNkWllidl9UTzVNU185dWZiX0RxNDRXWlNkNlZTWW5NSUI5dzdCUmRMU0p1TVE1WVNOS1YwdG5mRDUzdE5OVFFVd2hCT2df?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-23T18:00:01Z",
+        publishedAt: "2024-07-26T07:57:39Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
         author: "Moneycontrol",
         title:
-          "NASA’s Perseverance Mars rover is using AI to make autonomous decisions - Moneycontrol",
+          "Beyond 50 days delay of Boeing Starliner capsule, will Sunita William return soon? NASA shared updates - Moneycontrol",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMihAFodHRwczovL3d3dy5tb25leWNvbnRyb2wuY29tL3RlY2hub2xvZ3kvbmFzYXMtcGVyc2V2ZXJhbmNlLW1hcnMtcm92ZXItaXMtdXNpbmctYWktdG8tbWFrZS1hdXRvbm9tb3VzLWRlY2lzaW9ucy1hcnRpY2xlLTEyNzc2MzI3Lmh0bWzSAYgBaHR0cHM6Ly93d3cubW9uZXljb250cm9sLmNvbS90ZWNobm9sb2d5L25hc2FzLXBlcnNldmVyYW5jZS1tYXJzLXJvdmVyLWlzLXVzaW5nLWFpLXRvLW1ha2UtYXV0b25vbW91cy1kZWNpc2lvbnMtYXJ0aWNsZS0xMjc3NjMyNy5odG1sL2FtcA?oc=5",
+        url: "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNS3E5UTdXZmJzNjRlWTBPVEd0RURhSW9HSUdFdnVIaUVzUk5FUGtQNV92bkx2MmVaWmFSYXExdVJobks0Y1ItNDA2QlNYRE1LVzlqZGVSaDlxMHBFQ0ZETk5pX05icWhkSTlXQVI4MnRJbG9HQ2RJeTNNM0p2UGhCMzBISWFtMHRsT3Bkd3VkWVNsckE3dmczVzYwWkdkZUNCQlY2dlFZaFhfYjlmZThSN0EtUTNqRGJLOE5XeU90SjZxWlFuWVUzM19fY1ZtdFNyTHc0b2NXV1IwX0xOTnkzc0sxYWlLQzItVlB1OXNHMXnSAfYBQVVfeXFMTUJTTWFGSWh1bkhid1dZOFZyLXhiRTllSWF4VUh1ak5HYWV5X0U4Yk5SekV4NnpQTDFuZ3BsWjl2UE1QWTFKX19PbFB2VkhXVHdEQk4wQnUwV2pGOXZSTE1YQmM2TGt2S2VvS0ZGa28wdXh0cWZxaWR1eThnWGVzSG9rZklvTlZabHZ1VmgzVTUyY2pzdW84NDdXUGFzdVNiVTFCNlRmMFlBLWFHUDE1c19OYnFBNXZFa3pOQ1dVZGxBdEctRmh4WDBiOTN1WWluQ1J1Q3J0cHhPVUtvMWpTZlZXN0tfTkFFLTBvMUdPZzJGbUluS3Rn?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-23T13:13:20Z",
+        publishedAt: "2024-07-26T07:28:34Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: "Insights IAS",
-        title: "Apophis asteroid - Insights IAS",
+        author: "Business Insider India",
+        title:
+          "Perseverance rover has found a rock with potential signs of ancient life on Mars! Scientists can’t wait to bri - Business Insider India",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMiPGh0dHBzOi8vd3d3Lmluc2lnaHRzb25pbmRpYS5jb20vMjAyNC8wNy8yMy9hcG9waGlzLWFzdGVyb2lkL9IBAA?oc=5",
+        url: "https://news.google.com/rss/articles/CBMinwJBVV95cUxPUFRrMlI4R1VjWDRIVkV4Vm1DU095NTN3RVZ0R0toQXc2YkpERXhEWlByTHZNbmlfN3g1SGFzU29pTFZfYUVqSjNzaHRfUzVlakZ1WUxDekNVWVZlbzVGLVZmRG1LNGlDNHd4YTRCTGVJU3MtVWJ3d3YtZG1wRGw5WFp6OXlwYXN2NV9ZclJLVTRmaHVGblROeUh1dGpWWFFxSjVGVGtlVVZ1dTNyQjN3RTFqOC16cFo5Y2pkNUwzQ2poQU1CMzF0WmFPRFlJZG54MFQ2ME4zdE5vS0xsd0dmUmw3bXdiVl9yY295SEZ5UlRua1hVVk05OXhfcGViNUExVmZRdHE2SlZ5UTRxcF9jWWU1WGRDdzFGeVhpeFVHZ9IBpAJBVV95cUxNU1NvT2lrNFdLNy1hTWx5T2ZOT3B2LU5GT0loR0RMZ2sxMXJ4VUExcEQ5NFhNQ3FndW15eUhIdDNfcmhiZHo3cHRTYmFmSVlRdk9uSnBNclBzZ3FXMkRxRUFCUzlYME95LXBGZG1Lb3RJdkdwV0xYSTZ2NjFfUEhIS0VSYVNfU3JZWE5GWll2bUdNanVUdW85bDhYOEVuZE5fbXlfbmhEMnVuS0VpSW4zXzZKOEpQNElNYm1YY1B0eS1SVkJ1eDU1cnlILVV6T05ndUxEc181NC13b1RTdkNWdUp4X3E1QWNSUmxFWUtGMUE5MklYdFJLNDBjRHNlWW5Jc0Y1WWUyVFhvNDI2blk3bHdNZ1c3VThETGVpYXhRTkJmZ3dM?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-23T11:54:37Z",
+        publishedAt: "2024-07-26T07:20:17Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "Kashmir Life",
+        title:
+          "Discovery of Magnetofossils in Ladakh Holds Promise for Future Space Missions - Kashmir Life",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcFk0Rk9jWl9EV205eDdBcXVJODlCamsyVzVWQnFtcGpKa3FIRHZvV0FMLVdGVlkxTnU5RTlmR2pFOU10S1dBVGFTZ204ak4zT3E5MkRuZDRDQ3BFaDJQVHlTbjBMVUxDbjltTjZYWE5tTmJyLUI2aFl6QWEyR3lkcnhTS1FHZE9vMEFjZjFWZG9NXzZkVmlmQTR2QUFSVHlueF9Eemw5SVpadVFER2c?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T06:35:30Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "NDTV Profit",
+        title:
+          "In A First, NASA Uses Laser Communication To Stream 4K Video From Aircraft To Space Station - NDTV Profit",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOakk1MzB0WW9VSzlKbUhtTWRFNUhjTkRoNkJhdlZ6WVlGN1FFaGxVRFlBREZDMVRSZmlUV0J2azZEdklzcXpqQmhyTklDb0luZGkxa1U5Z2toSTlLYVoydFlhZWtJTUc0RzVTMUhDMGotV2dpR2JERGZ4X1pkZzRGSEF5RkQ3dkJONVNwYVJsSGJlUU5iUWtoNFB0RGV0NjJVMVZmNnBCNWJUQ3VBd096WnFKSGlrS3BLWjRyUGVGWmLSAcYBQVVfeXFMT0FCdmRNRHRFQ2FUd2JJTkhNaDczNjBuSVNhUWJDNXBjU1dhQlh2RG56ZHFSNzhQWHVtU1MyWnRRdldpVUZJRy1KQTkxXy16c09xRFhCSDlxckVNUXBPcjRJajRKV09WMmEwdHlhd2lZSmhNNWFLamVQVGdRTnVnOVVpN1VtdmtWTzBiWndaclBXREQ3RTN2aU1XRkx3TE4tNWxNSmF6b1hNOHdOZUF6bVRkM3VsazU0Q0lGeFFjdGxsQTdpMnJn?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T05:48:40Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Livemint" },
+        author: "Karishma Pranav Bhavsar",
+        title:
+          "NASA images: Photo of massive star clusters in Milky Way’s heart; netizens say ‘time travel in picture’ | Mint - Mint",
+        description:
+          "NASA has unveiled a stunning image of a massive star cluster at the Milky Way's center, featuring over half a million stars.",
+        url: "https://www.livemint.com/science/news/nasa-images-photo-of-massive-star-clusters-in-milky-way-s-heart-netizens-says-time-travel-in-picture-11721965588690.html",
+        urlToImage:
+          "https://images.livemint.com/img/2024/07/26/1600x900/AIRBUS-VOYAGER--1_1693981134839_1721966635095.JPG",
+        publishedAt: "2024-07-26T04:37:52Z",
+        content:
+          "The National Aeronautics and Space Administration (NASA) has shared stunning image of center of the galaxy which showcases massive star cluster containing more than half a million stars. As per NASA,… [+2557 chars]",
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "HT Tech",
+        title:
+          "NASA James Webb Telescope discover coldest known exoplanet ‘Super Jupiter’, here's everything you need to know - HT Tech",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQS3p4M2xsNmJZT3h1cnBLVmI2Qk5UVnVycWZFNGtSejlIWkpqa01GMUNWdFpkRHZfNnlUaUg5NXFNSVRBWlhWbW1zQ0hPdFNkUFlrWE1wS1AzNVBKZzl5TGZuNUwteGZtd19iRlFXb2loQ3JlN1h6NUJMWTBkRmJJRU9rZUI5VEhrNmdoSG5FTFU3TlRHV2hvUlZsMWtBUzdEbW95QVI1MjRxQXlvemg3S2VqaGFxRi14alF5UnRuNG1kdVlzVkEwVDItS1EzaXJMSjdTV19MTWdIV0pMS2M1UjZucEhQMzdHZzNTM2Utay1xSS0xbGY2Tm43VWU?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T01:49:20Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Futurism" },
+        author: "Victor Tangermann",
+        title:
+          "Terrifying NASA Video Shows America Spewing CO2 Into Atmosphere - Futurism",
+        description:
+          "NASA has released a new visualization that shows copious amounts of carbon dioxide swirling around the Earth's atmosphere.",
+        url: "https://futurism.com/the-byte/nasa-video-america-co2-atmosphere",
+        urlToImage:
+          "https://wordpress-assets.futurism.com/2024/07/nasa-video-america-co2-atmosphere.jpg",
+        publishedAt: "2024-07-25T21:32:52Z",
+        content:
+          'The level of detail is "tremendous."\r\nCar Bon Pain\r\nNASA has released a new visualization that shows copious amounts of carbon dioxide wafting off the Earth and swirling through the atmosphere.\r\nThe … [+2408 chars]',
+      },
+      {
+        source: { id: null, name: "NewsBytes" },
+        author: "Akash Pandey",
+        title:
+          "2024's first supermoon to dazzle skywatchers on August 19 - NewsBytes",
+        description: "",
+        url: "https://www.newsbytesapp.com/news/science/first-supermoon-of-2024-to-be-visible-next-month/story",
+        urlToImage:
+          "https://i.cdn.newsbytesapp.com/images/l56420240725162552.jpeg",
+        publishedAt: "2024-07-25T13:30:24Z",
+        content:
+          "Next Article\r\nSkygazers are eagerly anticipating the first supermoon of 2024, set to illuminate the skies on August 19. \r\n A supermoon occurs when the Moon makes its closest approach to Earth and is … [+919 chars]",
+      },
+      {
+        source: { id: null, name: "NDTV News" },
+        author: null,
+        title:
+          "Sunita Williams 'Gardening' In Space As 10-Day Test Flight Stretches Beyond 50 - NDTV",
+        description:
+          "Having taken off on Boeing Starliner's maiden flight for what was supposed to be a 10-day mission, Indian-origin astronaut Sunita Williams has now been in space for 50 days and counting.",
+        url: "https://www.ndtv.com/india-news/sunita-williams-gardening-in-space-as-10-day-test-flight-stretches-beyond-50-6186523",
+        urlToImage:
+          "https://c.ndtvimg.com/2024-07/bl93e5h_sunita-williams-from-space_625x300_10_July_24.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738?ver-20240615.100",
+        publishedAt: "2024-07-25T12:21:42Z",
+        content:
+          "Ms Williams and Butch Wilmore also participated in vein scans using an ultrasound device.\r\nHaving taken off on Boeing Starliner's maiden flight for what was supposed to be a 10-day mission, Indian-or… [+2706 chars]",
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: null,
+        title:
+          "Scientists Discover “Dark Oxygen” In The Deep Ocean Produced By Metal Nodules - Marine Insight",
+        description: null,
+        url: "https://consent.google.com/m",
+        urlToImage: null,
+        publishedAt: "2024-07-25T12:19:08Z",
+        content:
+          "We use cookies and data to\r\n<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to un… [+1139 chars]",
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "Moneycontrol",
+        title:
+          "Water found on Moon again after Chandrayaan-1, China's Chang'e 5 did discovery on lunar surface - Moneycontrol",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUW5OTkFVdFF0V3pMTHR3MEZrUjhzclJCYkQzd3ZYTG5ib1lqYW5pdjlYWWQ1eUJ1YnpjUmtFRmVLUjVkSVpTNkJBTXBYd2plRXp5bGg1cWNPR3QwQkJpZjV3NHRnT1hkaTYtcUppTGVsTDdRTGNEY3lETTBlNDJybHR5cFBzZk4zbkk5ZjBvY0hURWhOaXVDaEtHSVlyaVZfZU82c2d2TFNWdlJyU1pta2RQYThMQ2tmLTZaNzBYUUhTck1DMXcxUERsaVJQRTJQUmt0c1N0RmFHbkFXOG5RMDk4Z2l2QdIB6wFBVV95cUxOeHhkVXdyeWdSOHFPalRtdHJ3am8wOEMyXzFwM19ydm9mU1d0cVZadmkzSEp5d0E5TElFdmo3NEUtaDc5Tkl5MWlmM21abzlEZXdZTnV5VElMVkdhR0xOSG1WbW1ua0VNVTlwY3o2UlFoUEMwbFRxdUhBNzR5R1dJT2UtOTRicUlPMkxacHZWRDU2VnlCamFXR2gySDRFX0t5QzFJUHFELVZxc0JiS0dYRk95X1dQQWlnY1ZaN2x6cTNnTXFSXzM5VnRndWlTWFdjUXNnYjJjWUV3VEtjSS1TQ2J2SjRaY2lCdFhJ?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-25T11:12:17Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "NewsBytes",
+        title:
+          "Scientists genetically modify common fly to eat more human poop - NewsBytes",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdUxnY1VVcEdLTDA3aXp4SEMzU1JjV2ktOUVKemoxY1IzVk1ya0Z4NjRuQ3hpc2FzaXUxV3NlbUhGbUxPNENrcE1ZVll6OEJYZ1ZUa3pHUW9tMWExSkZlU0pDM054WkRkSEpTMnBSbFZJVDdjaWN3VDI1TzRPbFNPYlRmN0pzZXFrZ1hCazJvaTF4LTdFcTExbVNnZzg3ckhCdDMxRll0VkN3bEVoVHBPSHBXNm5PbFRl?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-25T09:15:07Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "DNA India" },
+        author: "Sonali Sharma",
+        title:
+          "NASA Webb Images: 10 striking pictures of space shared by NASA - DNA India",
+        description: "striking pictures of space shared by NASA",
+        url: "https://www.dnaindia.com/web-stories/viral/nasa-webb-images-10-striking-pictures-of-space-shared-by-nasa-1721873077871",
+        urlToImage: null,
+        publishedAt: "2024-07-25T02:13:40Z",
+        content:
+          "WR 124 is a rare type of Wolf-Rayet star, a bright, massive star experiencing a short-lived phase in its evolution",
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "NASA",
+        title:
+          "25 Years Ago: STS-93, Launch of the Chandra X-Ray Observatory - NASA",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYVhTbkNxQndqTDF1M0lFZXZscF8wMTJ4V0lObWYtZktEVlRBRlZETnpHQ0JlUjBoUUtNaUNEYnFiWDI4LVAwcHBoS3dkcVFYNllmdDViWlJnWHl1NEpLUHlhRkNTZ2FPbGVVQ3F4cE8xT09yVDNUUmpQLWJ0VEJxNFdETThyRjNzOXFFSmJYZmNEaWc?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-24T22:50:55Z",
+        content: null,
+      },
+      {
+        source: { id: null, name: "Space.com" },
+        author: "Jackson Ryan",
+        title:
+          "The key to detecting deepfakes may lie within deep space - Space.com",
+        description:
+          "Eyeballing fake faces is easier if you have a background studying galaxies.",
+        url: "https://www.space.com/deepfake-galaxy-detection-gini-index",
+        urlToImage:
+          "https://cdn.mos.cms.futurecdn.net/SUaintkpNa8r6XunC86UUW-1200-80.jpg",
+        publishedAt: "2024-07-24T21:00:01Z",
+        content:
+          "The eyes, the old saying goes, are the window to the soul but when it comes to deepfake images, they might be a window into unreality.\r\nThat's according to new research conducted at the University of… [+7838 chars]",
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "Business Today",
+        title:
+          "’14 km-thick layer of diamonds': Planet Mercury might have the potential to make everyone on Earth rich - Business Today",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNLVN1S3VvaTZzSU1sN3FaaVItQ1FUM3Jnd2dUaV9Wc2JoLUIxUlpEaXVsVmZBNEd5djNuUG91elgweHFZbzV4YWU0VGlyanlBTHgwWnZjeTVnZVBaWnhMRERYVGFtZTRUSlpQbU54bU8xSjQwNlR0R0duM0pTTmZVZmZSbURJdERXWDA2WWswaEJ2T1RUdmVxX01yWXJ4YXV5X2cxb19nNU1xWkF6c1hkVzYwSVFsdlN5NU1kSExUNVBxbFNDVk9hZzBzUVVZZUUya1p6ZTZEMWh4YXdoZDFiWlFDSm5kbk05TlZ0VkwtcXp4S2hxZ1BYZ0dR0gH6AUFVX3lxTE0tU3VLdW9pNnNJTWw3cVppUi1DUVQzcmd3Z1RpX1ZzYmgtQjFSWkRpdWxWZkE0R3l2M25Qb3V6WDB4cVlvNXhhZTRUaXJqeUFMeDBadmN5NWdlUFpaeExERFhUYW1lNFRKWlBtTnhtTzFKNDA2VHRHR24zSlNOZlVmZlJtREl0RFdYMDZZazBoQnZPVFR2ZXFfTXJZcnhhdXlfZzFvX2c1TXFaQXpzWGRXNjBJUWx2U3k1TWRITFQ1UHFsU0NWT2FnMHNRVVllRTJrWnplNkQxaHhhd2hkMWJaUUNKbmRuTTlOVnRWTC1xenhLaHFnUFhnR1E?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-22T06:52:29Z",
         content: null,
       },
     ],
@@ -1405,235 +1390,234 @@ const articles = {
   },
   technology: {
     status: "ok",
-    totalResults: 63,
+    totalResults: 55,
     articles: [
+      {
+        source: { id: null, name: "CNBCTV18" },
+        author: "Pihu Yadav",
+        title:
+          "POCO F6 Deadpool Limited Edition launches in India: Check price, features and more - CNBCTV18",
+        description:
+          "This limited edition POCO F6 features a custom design with Deadpool's red and black colours and his logo.",
+        url: "https://www.cnbctv18.com/technology/poco-f6-deadpool-limited-edition-launched-in-india-check-price-features-image-19449773.htm",
+        urlToImage:
+          "https://images.cnbctv18.com/uploads/2024/07/poco-f6-deadpool-edition-2024-07-202b7dd693391b1e0d3273f8070aa6c7.jpg?im=FitAndFill,width=500,height=300",
+        publishedAt: "2024-07-26T10:24:25Z",
+        content:
+          "Smartphone maker POCO announced, on Friday, that it has teamed up with Marvel Studios to release a special Deadpool limited edition of the POCO F6. This collaboration is happening just in time for th… [+1229 chars]",
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "Business Standard",
+        title:
+          "POCO M6 Plus 5G with 108MP camera launching on August 1: What to expect - Business Standard",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUW1sYVZvOEd4eU1UOFFHSXVkSXFHMVJYbnlCbGRvd3lEUnR6VTdrTllQdU5ram1XdnFPeVFZZy1DY1ZITEl1eWVqUlZQbmZ6aXlmaUdzTlN3Q0xxSHh2bjdGZDZTVWppczBIMGQzeUphN1Y1QjJBOS00M2R2ekNzdjJGaGRuWWlkUVREYl9kUG5NaXVwWjNrNG44b21NZUFaSS0zNi0xemotcWpiZkIwa3ptVzhqRGlQdWlJMVB4dU9NSjZHNGdyQ25KZlo3U3ZIdUxHZmljZ0t3MUhzVVHSAeMBQVVfeXFMTURCMlBuZllVY3N0TzhIaFQteWt0TjU5UmV3ZWhoSlRiNnBMeDFQcGpCdUQxN21ucm5TcmI5TkxKN0NnVk1xYV9DYkRzYjJwdE9WTTBYNjl4UXJ4eVNGeUhpUDM3WUVqaXVSZzVwcHlUN2pURkEyU1JsUWtYZUlLZV92SGFVUlc3d19XckFyd0s4VC0tRm1wbHZmOHdLM2dvQmw1LU5teFZid1JTLTVVdnA5N2Iwajhkdi1HSHdKcnluQjVOTnllS0lPWXBWZnE3WGE2THpCaUlQbUhhMUFlWUwtQWs?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T09:56:57Z",
+        content: null,
+      },
       {
         source: { id: "google-news", name: "Google News" },
         author: "The Financial Express",
         title:
-          "Apple iPhone SE 4 production to start this October: Report - The Financial Express",
+          "Apple Maps launched in web version; Here’s all we know - The Financial Express",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vd3d3LmZpbmFuY2lhbGV4cHJlc3MuY29tL2xpZmUvdGVjaG5vbG9neS1hcHBsZS1pcGhvbmUtc2UtNC1wcm9kdWN0aW9uLXRvLXN0YXJ0LXRoaXMtb2N0b2Jlci1yZXBvcnQtMzU2NDAyMy_SAXhodHRwczovL3d3dy5maW5hbmNpYWxleHByZXNzLmNvbS9saWZlL3RlY2hub2xvZ3ktYXBwbGUtaXBob25lLXNlLTQtcHJvZHVjdGlvbi10by1zdGFydC10aGlzLW9jdG9iZXItcmVwb3J0LTM1NjQwMjMvbGl0ZS8?oc=5",
+        url: "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbFNEZEJKY2s0OXpTZGpmb3VzUEJCMk04WTNhNWszc0I4dFF0UkdrQVkxZXBxbmxETjBUelA1b1o1R1VoalVRUVkwellWekJUdS1DM2diZmx0UWdzOWxtTTlWaHZjN2QzTWJyVXVhMTk3anNFVzQtRDA1ZWxCdnhhbnVIbVRLeWU3RVJhWFliM2ZPYW9kWk9fTkw3OFFnY1RkakRYR0dKb2lNRmJiRXdN0gG2AUFVX3lxTE5VbW45Q0RBOXR3YmVBczNZUjlMNkVGSnhEZlBPbkdqM3NZVlRYTDhhc2RoNlVGRjl3dVlGMWI4ZEMxa00wdW9YTVJDczFJTmVvY2pOS0RsNDNtcEIySElLbXFoRDUwbTZKYV80ZTY1dURlNlhvT3RHdTZQM1NrTld3UExEVXljMDlWWWFrUm1vWXE2U1VWdkhqSVp5cW9jNVRMRFIwdVNYYUJVTVJYWjk0Sy10MWJR?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T12:15:46Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "NDTV Profit",
-        title:
-          "Design Innovations: Adobe Introduces New Tools In Illustrator, Photoshop - NDTV Profit",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3Lm5kdHZwcm9maXQuY29tL3RlY2hub2xvZ3kvZGVzaWduLWlubm92YXRpb25zLWFkb2JlLWludHJvZHVjZXMtbmV3LXRvb2xzLWluLWlsbHVzdHJhdG9yLXBob3Rvc2hvcNIBcGh0dHBzOi8vd3d3Lm5kdHZwcm9maXQuY29tL2FtcC90ZWNobm9sb2d5L2Rlc2lnbi1pbm5vdmF0aW9ucy1hZG9iZS1pbnRyb2R1Y2VzLW5ldy10b29scy1pbi1pbGx1c3RyYXRvci1waG90b3Nob3A?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T12:06:39Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Mint",
-        title:
-          "'Apple Watch For Your Kids' introduced in India: How it works and details on features | Mint - Mint",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMilAFodHRwczovL3d3dy5saXZlbWludC5jb20vdGVjaG5vbG9neS90ZWNoLW5ld3MvYXBwbGUtd2F0Y2gtZm9yLXlvdXIta2lkcy1pbnRyb2R1Y2VkLWluLWluZGlhLWhvdy1pdC13b3Jrcy1hbmQtZGV0YWlscy1vbi1mZWF0dXJlcy0xMTcyMTgyMjI0MTc5NC5odG1s0gGYAWh0dHBzOi8vd3d3LmxpdmVtaW50LmNvbS90ZWNobm9sb2d5L3RlY2gtbmV3cy9hcHBsZS13YXRjaC1mb3IteW91ci1raWRzLWludHJvZHVjZWQtaW4taW5kaWEtaG93LWl0LXdvcmtzLWFuZC1kZXRhaWxzLW9uLWZlYXR1cmVzL2FtcC0xMTcyMTgyMjI0MTc5NC5odG1s?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T12:06:11Z",
-        content: null,
-      },
-      {
-        source: { id: "the-times-of-india", name: "The Times of India" },
-        author: "TOI Tech Desk",
-        title:
-          "Realme Narzo N61 smartphone to launch in India on July 29: Here’s what the affordable smartphone will off - The Times of India",
-        description:
-          "MOBILES & TABLETS News: Realme launched the Narzo N61 smartphone in India on July 29, 2024. The device features ArmorShell Protection, an IP54 rating, and Rainwater Smart Tou",
-        url: "https://timesofindia.indiatimes.com/technology/mobiles-tabs/realme-narzo-n61-smartphone-to-launch-in-india-on-july-29-heres-what-the-affordable-smartphone-will-offer/articleshow/111987493.cms",
-        urlToImage:
-          "https://static.toiimg.com/thumb/msid-111987463,width-1070,height-580,imgsize-53328,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-        publishedAt: "2024-07-24T10:30:00Z",
-        content:
-          "Your Privacy\r\nWe process your data to deliver content or advertisements and measure the delivery of such content or advertisements to extract insights about our website. We share this information wit… [+2411 chars]",
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "The Economic Times",
-        title:
-          "Prime Video launches new streaming features to enhance user experience - The Economic Times",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMimQFodHRwczovL20uZWNvbm9taWN0aW1lcy5jb20vaW5kdXN0cnkvbWVkaWEvZW50ZXJ0YWlubWVudC9wcmltZS12aWRlby1sYXVuY2hlcy1uZXctc3RyZWFtaW5nLWZlYXR1cmVzLXRvLWVuaGFuY2UtdXNlci1leHBlcmllbmNlL2FydGljbGVzaG93LzExMTk4NjQ2Ni5jbXPSAZ0BaHR0cHM6Ly9tLmVjb25vbWljdGltZXMuY29tL2luZHVzdHJ5L21lZGlhL2VudGVydGFpbm1lbnQvcHJpbWUtdmlkZW8tbGF1bmNoZXMtbmV3LXN0cmVhbWluZy1mZWF0dXJlcy10by1lbmhhbmNlLXVzZXItZXhwZXJpZW5jZS9hbXBfYXJ0aWNsZXNob3cvMTExOTg2NDY2LmNtcw?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T10:03:49Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "News18",
-        title:
-          "Spotify Premium 3 Months Plan Can Be Yours For Just Rs 59: Read Here About This Special Offer - News18",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMihQFodHRwczovL3d3dy5uZXdzMTguY29tL3RlY2gvc3BvdGlmeS1wcmVtaXVtLTMtbW9udGhzLXBsYW4tY2FuLWJlLXlvdXJzLWZvci1qdXN0LXJzLTU5LXJlYWQtaGVyZS1hYm91dC10aGlzLXNwZWNpYWwtb2ZmZXItODk3NjcwMC5odG1s0gGJAWh0dHBzOi8vd3d3Lm5ld3MxOC5jb20vYW1wL3RlY2gvc3BvdGlmeS1wcmVtaXVtLTMtbW9udGhzLXBsYW4tY2FuLWJlLXlvdXJzLWZvci1qdXN0LXJzLTU5LXJlYWQtaGVyZS1hYm91dC10aGlzLXNwZWNpYWwtb2ZmZXItODk3NjcwMC5odG1s?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T10:02:35Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "The Hindu",
-        title:
-          "Xiaomi 14 CiVi Limited Edition Panda Design to launch on July 29 - The Hindu",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMiiQFodHRwczovL3d3dy50aGVoaW5kdS5jb20vc2NpLXRlY2gvdGVjaG5vbG9neS9nYWRnZXRzL3hpYW9taS0xNC1jaXZpLWxpbWl0ZWQtZWRpdGlvbi1wYW5kYS1kZXNpZ24tdG8tbGF1bmNoLW9uLWp1bHktMjkvYXJ0aWNsZTY4NDQwOTM3LmVjZdIBAA?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T09:54:00Z",
+        publishedAt: "2024-07-26T09:56:56Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
         author: "Moneycontrol",
         title:
-          "Apple releases iOS 18 beta 4 for developers: How to download, new features, and more - Moneycontrol",
+          "HP unveils EliteBook Ultra, OmniBook X Copilot+ AI PCs with Snapdragon X Elite SoC in India - Moneycontrol",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMijwFodHRwczovL3d3dy5tb25leWNvbnRyb2wuY29tL3RlY2hub2xvZ3kvYXBwbGUtcmVsZWFzZXMtaW9zLTE4LWJldGEtNC1mb3ItZGV2ZWxvcGVycy1ob3ctdG8tZG93bmxvYWQtbmV3LWZlYXR1cmVzLWFuZC1tb3JlLWFydGljbGUtMTI3NzcxNDMuaHRtbNIBkwFodHRwczovL3d3dy5tb25leWNvbnRyb2wuY29tL3RlY2hub2xvZ3kvYXBwbGUtcmVsZWFzZXMtaW9zLTE4LWJldGEtNC1mb3ItZGV2ZWxvcGVycy1ob3ctdG8tZG93bmxvYWQtbmV3LWZlYXR1cmVzLWFuZC1tb3JlLWFydGljbGUtMTI3NzcxNDMuaHRtbC9hbXA?oc=5",
+        url: "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObHFZY05iOVJKSlRxZUpIMC1lX2o4TkRDdTZQZFFOYm1xdi1mZEhoeFhncDhNeVUwU2k2SUNIeGJybGVOWUtQRG53UHVrdUNEVmRTb3o2OHpUNURHcURZN0JMelc0cmo3Tkh0Xzd2Z0V0aHhsbWVDeTNWRWtzNEVPaFlYYVFfVDZEMkdaNC16OXJPb1FYNHdjQXRSbHpyMzl2bnktSzc1dmI5TUVVZHhJNTBQSWE3SHhmTHRYX2JpRnBrbjN5NGY0clRuYnJvT1JvUmlQREw3am5MWUR1NDN6OVh0UkNMQdIB6wFBVV95cUxQMGNOUktqb0xHN21lc2c1aG4xY05jSnhxR0JSNHZyRlJQY3ZYVVBfWmoxWDBkdVJRSE95QWFvbnRLZDZHcktSMG83emd3VkRHSW10X3d5cl91Y29TWFg5OXlfQ1phYUVfUC1OTzdQUk95Y3drVTJNOHhLMlpwRGhoQjFZamR3cHBnX21DRGdJTDhsYXRQRlpIRlJwclMxZVNWcFRiUmE0dGRLRVhNLWxwS0ZuM1AxeHV3ZjNCUXlGVERpRmIzRHM4SGdPVkhzd082cm1MYmJwdWwyYlBVejB6OUV3VkhwSlZBYUhn?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T09:45:55Z",
+        publishedAt: "2024-07-26T09:49:57Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "ETBrandEquity",
+        title:
+          "Epic Games says Fortnite returning to iOS in EU, leaving Samsung app store - ETBrandEquity",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdFFjbUpHc2lIdVg4NDlfTEhDdXdNMUdoeXBqZ2xGRTJXRWNUcFlvSzRscGRENHlibE9XQmN0ZUNvRzVOM1Izc0cwVV9MYjRFYkhiQklyNnNSMHRNMEdtdlRCMnE3NHdZMjVyNXRhZURtYkxsdzJKRllIT0tuUHlNaE1tY3hfWFdBd09CWXA2VDY1WldyM2pKeUEyV1hPc2QyZEFDTEZDaDZOQ2kzdUUybEh6RXhlRG1PSHZ2QnNiTk9FU0FBdjROdXJ5cUNMeU1JZVdVTFZCTzlnQmZpOWfSAeMBQVVfeXFMUFBORjVNRjQ2aEc2cUpiTm9EV0hGRXp6ZWxQM01aUEtZQWNwdDd3YTVtTXIzTDNoZEpNLTVjSjROLWNYVDJKSGp5V1dTQ3M0R0ZOajZ2MzgxMUZoYlZKOWYzTHVQZlRKRkhFVVV1OGNpSWo3QzlXYWF3Yk9xd0pxOHFYMWNNSDF6T3dMMVNxS1FPSlJrbkFYcHQwNUl4bFcyY291VkxCbmhyendrdFJJeHFzUmh4M3lFeWVrT3lBNkNxMW1vM2pSazFOdjRFUHRJMzdxNmVYVk9pRG8wc0NudThrRkk?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T08:10:00Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "The Times of India",
+        title:
+          "HMD to manufacture smartphones in India, says CEO Jean Francois Baril - The Times of India",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcXBnclZRN2xpSEVXaGZydGpjNVpRUkQxV2xQX1QxTk1oUUN2VExuZWstWldISzZJMFIxUDFpNm9XSWhFQktTWEs0bXlLdGxpWG9FcHRWc05nN2tQd2RlQS1QbDZZekxtRy12NVAyaUhIeEFyOC00Rk9aRmQyVTVWdzV2M1lKd282cGFwMTNCM0JsSkxCZHQ2Ui0xczFWa3M2V2xPR0dta1U3QmFwTGdLem8tck5KRTdrcFJEM1J4czVLek9CRVBXa2Q4R0p2ZDFsOW53TUVFUFo5cldhT3l4OGxBX0hfd9IB6wFBVV95cUxNM2g4MlRzR0RfYlB4SFBuQWtJUlNkNmhGRjItRXpVV1RsWUFhZ2NDN2w2VEUyOGpXajQ2R1pna3pMLVVQRldGU2pqYThPSWMxWHJzbmI3MHIwYk1OTkdreWxqQUpZd3k3Q2tMemo1MDNlekxnTGlQbjBqMzktTGZJR0ZFbFVVUlZ3WFczY3BIelVxa1E5dmt0cnU4WWZodmZwVTBrX0dSelNUZWpjdm9Yb2Q5V3hMeFBZUWxqR1pGa05oSDBUaE1GdUdudjVUNGdubmJlRDRCLURlTmFGV0tHWVI4S2NQSXFiNHlZ?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T07:41:00Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
         author: "Mint",
         title:
-          "Poco F6 Deadpool Edition to launch with Marvel-inspired design: All you need to know | Mint - Mint",
+          "OpenAI is launching search engine, taking direct aim at Google | Company Business News - Mint",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMikwFodHRwczovL3d3dy5saXZlbWludC5jb20vdGVjaG5vbG9neS9nYWRnZXRzL3BvY28tZjYtZGVhZHBvb2wtZWRpdGlvbi10by1sYXVuY2gtd2l0aC1tYXJ2ZWwtaW5zcGlyZWQtZGVzaWduLWFsbC15b3UtbmVlZC10by1rbm93LTExNzIxODEzNTA3ODg5Lmh0bWzSAZcBaHR0cHM6Ly93d3cubGl2ZW1pbnQuY29tL3RlY2hub2xvZ3kvZ2FkZ2V0cy9wb2NvLWY2LWRlYWRwb29sLWVkaXRpb24tdG8tbGF1bmNoLXdpdGgtbWFydmVsLWluc3BpcmVkLWRlc2lnbi1hbGwteW91LW5lZWQtdG8ta25vdy9hbXAtMTE3MjE4MTM1MDc4ODkuaHRtbA?oc=5",
+        url: "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUlloQjRtS1oyTlRpT21oRmZwRzlGdU9vbTdFTjF4YWwtZkVHcmQ1d3lWUk00ZFJWbTV4MEJxMjBGNnIxYUx1VFY0QTBMM2xRRHB6cUVCMm5nMTFsaVBRb1RZOUd1cXBDOEZZektQVW9uNFREOFlITU1sajc5Sm9nV1JRU0JHMUl4OGxuRTFZeEVGUm1fODl1YVlpdEtwa0JwNzNRYmljQ2VBTDEtbGg1SzBJbFVNRGNDNl9KMVhR0gHDAUFVX3lxTE5ZZURDUmNOUkpvZjNER1psZ1pvTjRYOVhHU3RtS1VxbVk1Q3FfV0VNeTVqbGxGWmlIZm1pMGJ4WGo5S2FrcnUtZGJZTVVXVEp4aG9VODhiOF95TG1ONDF6LWRyUmpaRlJFOVBubUttOWhNcTNpTFNuUTZVdDRoc1NYZHpETWhUbS1EZEw3Snlzc0UxUWMtRXVBc05MSVl6Ymx5MkNFcnNMTkt6LU5YMjkwOHN0SmowcVQ3NGh6eGQyNzhBUQ?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T09:39:55Z",
+        publishedAt: "2024-07-26T07:40:10Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: "The Times of India",
+        author: "Business Standard",
         title:
-          "Vivo V40 and Vivo V40 Pro features revealed ahead of India launch - The Times of India",
+          "ChatGPT Voice Mode with GPT-4o model coming to Plus members soon: OpenAI - Business Standard",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMilwFodHRwczovL3RpbWVzb2ZpbmRpYS5pbmRpYXRpbWVzLmNvbS90ZWNobm9sb2d5L21vYmlsZXMtdGFicy92aXZvLXY0MC1hbmQtdml2by12NDAtcHJvLWZlYXR1cmVzLXJldmVhbGVkLWFoZWFkLW9mLWluZGlhLWxhdW5jaC9hcnRpY2xlc2hvdy8xMTE5ODQ1OTcuY21z0gGbAWh0dHBzOi8vdGltZXNvZmluZGlhLmluZGlhdGltZXMuY29tL3RlY2hub2xvZ3kvbW9iaWxlcy10YWJzL3Zpdm8tdjQwLWFuZC12aXZvLXY0MC1wcm8tZmVhdHVyZXMtcmV2ZWFsZWQtYWhlYWQtb2YtaW5kaWEtbGF1bmNoL2FtcF9hcnRpY2xlc2hvdy8xMTE5ODQ1OTcuY21z?oc=5",
+        url: "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWEV0LVFSQmI3eWR2NTJkbUgtY285R0dfNDRuTlY3b2dhVXlkXzFwZm5TM3I2QUFqU0d2WGJNWGREYmlldDUxdXhrSUd6MG1Mb0RPdFZ1WG1jYUxBUEw2U2E1NmFVOHdiSVFsWUpjUVlDODhQMUxmb2d2M2k3T1pxbGctbjJLV1U0SjdLQlF5VWpDRDNiamQtYXNWTUt3WFp1ZE9HY0tQU3VHN25KM1luMGY0bC15eWRqamRzYnI0SWlLdlhzMzNjb1JwS21Kd3ZnQ1lxMkwzUU1WdEljSFZV0gHkAUFVX3lxTE8tY1B0Q21EdklOTnpiVE5hYUJJRU1lV3ZxS2RUZTNIbHl5VmVHZzItWkpJb2V5aDdOQ3lkZUJGdmRDMnJwMDkzMGFzR005SlJjRl9jUjNNYjVrWS0yOEdvN1pYRE5rZnVWYVdqcVlINlBBZFZKNk5jNm5pWGRaYlpZcDhZSU5zR0ZtWE96cUVjMjNva3F4OEJrTjNKbHNwLUdSUVhpbVZIcG81S1Bya2dPVHdmOWF6WGltQlVkc3JZNjhScmJKUXgyTHJhdm9abkdnLUxWOUdoV2dTRFNuaXhWSjZwWQ?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T09:08:00Z",
+        publishedAt: "2024-07-26T07:33:59Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: "India Today",
+        author: "ETHealthWorld",
         title:
-          "Motorola to launch a new phone, calls it world's slimmest military grade device - India Today",
+          "Advancements and Tech in the current world of Embryology - ETHealthWorld",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMikAFodHRwczovL3d3dy5pbmRpYXRvZGF5LmluL3RlY2hub2xvZ3kvbmV3cy9zdG9yeS9tb3Rvcm9sYS10by1sYXVuY2gtYS1uZXctcGhvbmUtY2FsbHMtaXQtd29ybGRzLXNsaW1tZXN0LW1pbGl0YXJ5LWdyYWRlLWRldmljZS0yNTcxMjIxLTIwMjQtMDctMjTSAZQBaHR0cHM6Ly93d3cuaW5kaWF0b2RheS5pbi9hbXAvdGVjaG5vbG9neS9uZXdzL3N0b3J5L21vdG9yb2xhLXRvLWxhdW5jaC1hLW5ldy1waG9uZS1jYWxscy1pdC13b3JsZHMtc2xpbW1lc3QtbWlsaXRhcnktZ3JhZGUtZGV2aWNlLTI1NzEyMjEtMjAyNC0wNy0yNA?oc=5",
+        url: "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdi0xRjlSeGpKNmE1anZFMEJoNmhxQ2FueGdFX3k1cVVEdENJa2VOYzltbVpIUXBhYXJwMEp1MllkQmZDUTFyaDlKWDFnTWdjdVZUWXM0RzNaclJ5MjJZZHJnTjFIbmlaUno5R0FYZGxZVmVncUN1TndzWXZYV0ZXNzlfZlFsVmRyM3hlcVNpODh1ZDFudmZFV1ZLMXVXS1JuZ3FRREwwaEEtUDdOOTJLMFQ4cXU3TDBMY1pjejJlUjFFZ9IBxwFBVV95cUxNMWlMRnBOYjE3SzdxZEFOMEllWDZNU3NVSEhCZkVwQ19zZWUyNDUwOFNXNE9Yek9Xd0F4QlRXM2kwSlhOY05nWkVmZFhsMGtjNGRSR2lWLUVteEdBV0l5SWRnaHNQc3pKV3lhTWZQX0dvWUlIQWtkb0s2V211eWxLNXVCVi16YTF5ZFVfXzQ1R2ZDYWd0T2xDYWdoN3YtcjJPLUgtajNtRFpIS0dzTEtUQVpqNE1CSFRvQXRRUDM3SGZxSmZ6d0Jr?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T08:57:57Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Investing.com India",
-        title:
-          "Meta AI now available in Hindi, unveils largest and most capable open-source model By IANS - Investing.com India",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMigwFodHRwczovL2luLmludmVzdGluZy5jb20vbmV3cy9nZW5lcmFsLW5ld3MvbWV0YS1haS1ub3ctYXZhaWxhYmxlLWluLWhpbmRpLXVudmVpbHMtbGFyZ2VzdC1hbmQtbW9zdC1jYXBhYmxlLW9wZW5zb3VyY2UtbW9kZWwtNDMzMDcxMNIBAA?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T07:50:41Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "India Today",
-        title:
-          "iQOO Z9s series set to launch in India in August, design revealed ahead of event - India Today",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMikgFodHRwczovL3d3dy5pbmRpYXRvZGF5LmluL3RlY2hub2xvZ3kvbmV3cy9zdG9yeS9pcW9vLXo5cy1zZXJpZXMtc2V0LXRvLWxhdW5jaC1pbi1pbmRpYS1pbi1hdWd1c3QtZGVzaWduLXJldmVhbGVkLWFoZWFkLW9mLWV2ZW50LTI1NzExNjYtMjAyNC0wNy0yNNIBlgFodHRwczovL3d3dy5pbmRpYXRvZGF5LmluL2FtcC90ZWNobm9sb2d5L25ld3Mvc3RvcnkvaXFvby16OXMtc2VyaWVzLXNldC10by1sYXVuY2gtaW4taW5kaWEtaW4tYXVndXN0LWRlc2lnbi1yZXZlYWxlZC1haGVhZC1vZi1ldmVudC0yNTcxMTY2LTIwMjQtMDctMjQ?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T07:45:09Z",
-        content: null,
-      },
-      {
-        source: { id: "google-news", name: "Google News" },
-        author: "Deccan Herald",
-        title:
-          "WhatsApp testing AirDrop-like file sharing feature without internet - Deccan Herald",
-        description: null,
-        url: "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vd3d3LmRlY2NhbmhlcmFsZC5jb20vdGVjaG5vbG9neS93aGF0c2FwcC10ZXN0aW5nLWFpcmRyb3AtbGlrZS1maWxlLXNoYXJpbmctZmVhdHVyZS13aXRob3V0LWludGVybmV0LTMxMTk1OTDSAQA?oc=5",
-        urlToImage: null,
-        publishedAt: "2024-07-24T07:37:19Z",
+        publishedAt: "2024-07-26T07:16:36Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
         author: "Analytics Insight",
-        title: "Redmi Pad Pro 5G to Hit Indian Market Soon - Analytics Insight",
+        title:
+          "July 26 Garena Free Fire Max Update: All New Redeem Codes - Analytics Insight",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LmFuYWx5dGljc2luc2lnaHQubmV0L2FtcHN0b3JpZXMvZ2FkZ2V0cy9yZWRtaS1wYWQtcHJvLTVnLXRvLWhpdC1pbmRpYW4tbWFya2V0LXNvb27SAV5odHRwczovL3d3dy5hbmFseXRpY3NpbnNpZ2h0Lm5ldC9hbXBzdG9yaWVzL2dhZGdldHMvcmVkbWktcGFkLXByby01Zy10by1oaXQtaW5kaWFuLW1hcmtldC1zb29u?oc=5",
+        url: "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcDU0dEcxYktNOE9LNGc0enRXenVqYVk5dFhDeGZubmMxVnVrcmY5ZDlRV2pGOE5fbnlpN1QzQjJtd1VWNUN6bk5WN09ZMVdWY2gxM1lwT3d4WThrdURadmxUUWZxMEdQMnFwR2Zxd25oMWxoRUR5aG5MYm1DNG1pMFVqRmVBYm5TXzk1b0JzeUxKVWdkVnMxa2dmOWXSAaoBQVVfeXFMUEFWMHJJejNzNXlGV2tjLUJEa21RZXNpS2M3MFhnVWhoeDR0bEJmd2ZsQ1ZLOC1MbG94VVFSMzdwMGNkTEl0aGhaSzZCMkNSaWhfeTd2b0NpOF8zNUx5TUg0M1RiNmF1NDJRd3ZXbzIwMWRDZDVod0tkRDU3V0oyMExzMlRxMGxNWldPcFg3NWxjTk1EQ3VRU3gzSWxpUHlOaFU1a3AzV1d1X0E?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T07:14:11Z",
+        publishedAt: "2024-07-26T05:38:25Z",
         content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: "The Times of India",
+        author: "SamMobile - Samsung news",
         title:
-          "Qualcomm to host Snapdragon for India event on July 30: Here’s what to expect - The Times of India",
+          "Massive leak reveals One UI 7.0 design changes! - SamMobile - Samsung news",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMingFodHRwczovL3RpbWVzb2ZpbmRpYS5pbmRpYXRpbWVzLmNvbS90ZWNobm9sb2d5L3RlY2gtbmV3cy9xdWFsY29tbS10by1ob3N0LXNuYXBkcmFnb24tZm9yLWluZGlhLWV2ZW50LW9uLWp1bHktMzAtaGVyZXMtd2hhdC10by1leHBlY3QvYXJ0aWNsZXNob3cvMTExOTgwODI3LmNtc9IBogFodHRwczovL3RpbWVzb2ZpbmRpYS5pbmRpYXRpbWVzLmNvbS90ZWNobm9sb2d5L3RlY2gtbmV3cy9xdWFsY29tbS10by1ob3N0LXNuYXBkcmFnb24tZm9yLWluZGlhLWV2ZW50LW9uLWp1bHktMzAtaGVyZXMtd2hhdC10by1leHBlY3QvYW1wX2FydGljbGVzaG93LzExMTk4MDgyNy5jbXM?oc=5",
+        url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Jc3ZHcExjZEVkRjNLcFEyZFBWaDBRVEpVXzZRVktZTzFVNHMtazhwT1dYMTBYUzZJRjJla2RsSU9oSWVJNmp6ZHZaTS1PTERCZ0VxM3Q0SVJwTl8zaE0yazRyRmFFUkZQU1RhekxtVTFlYWViZnBlSE1kUjlNTmc?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T07:11:00Z",
+        publishedAt: "2024-07-26T05:17:00Z",
         content: null,
-      },
-      {
-        source: { id: null, name: "India Today" },
-        author: "Divya Bhati",
-        title:
-          "Apple foldable iPhone launch possible in 2026, reports say iPhone Flip to be debut model - India Today",
-        description:
-          "Apple is reportedly planning to introduce a foldable iPhone possibly named the iPhone Flip in 2026",
-        url: "https://www.indiatoday.in/technology/news/story/apple-foldable-iphone-launch-possible-in-2026-reports-say-iphone-flip-to-be-debut-model-2571091-2024-07-24",
-        urlToImage:
-          "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202407/foldable-iphone-17503617-16x9_1.png?VersionId=oyZnI73BEV9j3vcBHLcMl8p6CEnwsWbf",
-        publishedAt: "2024-07-24T06:07:09Z",
-        content:
-          "Amid the smartphone war, manufacturers are now also competing to bring the best foldable phones, be it Samsung, OnePlus, Vivo, or others. However, Apple, one of the leaders with its iPhone, seems to … [+2525 chars]",
       },
       {
         source: { id: "google-news", name: "Google News" },
-        author: "Gadgets 360",
+        author: "SamMobile - Samsung news",
         title:
-          "Samsung Galaxy Z Fold 6, Galaxy Z Flip 6, Watch 7, Watch Ultra, Galaxy Buds 3 Series Go on Sale in India ... - Gadgets 360",
+          "Three fun Galaxy Z Flip 6 features to try out after unboxing - SamMobile - Samsung news",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMif2h0dHBzOi8vd3d3LmdhZGdldHMzNjAuY29tL21vYmlsZXMvbmV3cy9zYW1zdW5nLXotZm9sZC02LWZsaXAtYnVkcy0zLXByby13YXRjaC03LXVsdHJhLXByaWNlLWluZGlhLXNhbGUtb2ZmZXJzLWZlYXR1cmVzLTYxNzU5NzbSAYMBaHR0cHM6Ly93d3cuZ2FkZ2V0czM2MC5jb20vbW9iaWxlcy9uZXdzL3NhbXN1bmctei1mb2xkLTYtZmxpcC1idWRzLTMtcHJvLXdhdGNoLTctdWx0cmEtcHJpY2UtaW5kaWEtc2FsZS1vZmZlcnMtZmVhdHVyZXMtNjE3NTk3Ni9hbXA?oc=5",
+        url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd0ZTNGlScGVOaVJxQi1xQ01ZOURwZFUyVXhMZ09xR2cwbHQybjJUeTF2N2FhZXpMTEZjdVUyWEE4LUY0RXo4RzJXNW5tTG5ZbFBXWEtoV2pQbllxZkRCYW9xeGFROUtaaWIyaVd5dG0tLXpaakZMZlJVc1FqSkI3NHdLS2Y?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T05:53:25Z",
+        publishedAt: "2024-07-26T04:33:00Z",
         content: null,
       },
       {
-        source: { id: null, name: "Jagran.com" },
-        author: "Ashish Singh",
+        source: { id: "google-news", name: "Google News" },
+        author: "India Today",
         title:
-          "Garena Free Fire MAX Redeem Codes Today, July 24 2024: Win Free Diamonds And So Much More - Jagran English",
-        description:
-          "Garena Free Fire MAX Redeem Codes Today, July 24 2024: Win a variety of free gifts including the free diamonds using the Garenas Free Fire MAX redeem codes today.",
-        url: "https://english.jagran.com/technology/garena-free-fire-max-redeem-codes-today-july-24-2024-indian-server-2024-win-free-diamonds-with-advance-hacks-10175620",
-        urlToImage:
-          "https://imgeng.jagran.com/images/2024/07/24/article/image/garena-free-fire-max-redeem-codes-1721798202378.jpg",
-        publishedAt: "2024-07-24T05:21:00Z",
-        content:
-          "Garena Free Fire MAX Redeem Codes Today, July 24 2024: By using the new redeem codes, Free Fire MAX players can win a range of free goods, such as outfits, skins, weapons, and free diamonds. Garena r… [+2423 chars]",
+          "Google says its AI is maths wizard, gets silver in Mathematical Olympiad - India Today",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQanppOU1JemEzNk5CdUtTcFhsaUlkS1Z3bWNqbE5sR0xPMVFMNS1TTmprNkVKRTVDVU5qTnFQZUJzQ0NlN1dFZVFvSFE0czBQZ01VcGRjVHQ0eWV6ZTR2MjhQSGRSRTFiOWlSaC1nUjJ6NDVXMlVjMGZ3dDlGUlZqNUo1Q3NIZ2tSUzVKcF9IdGg3MjlYYjRyRHlPWm1LRkZPV0puNWpheWhwTTBHZ0VubWUyM1pzV044SGNlQ0R0dFB2U2NZbmc3MHloWlNMbURuSWpFY9IB2gFBVV95cUxOQmU3WnV4Y2NUbUQtRktRR0R5XzBQcEVBMEEtV19melgxZXEwNkZVcURCVjdyNFNOSlVOUnFEU1ZLWmdjNDJNN0dBdUhQck10X0dIeGJaOGhlRzZlTi0yOXpXb3dTUUFMbTh4WTh3VDc0b2dvTnVfMkZjbF9wbXl4MzNTcXMwY2VpZTM5R3c4VUR5UkZTc0tFQjBfRUJQYkpXU0JCNVV6dVpwTFJCY0UwZTN5bGl1OFJ6V2FSemJxQzJ2bmYzZTIyMmlpQkpzUnRvcGJIckJFYS1Ndw?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T04:19:28Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "Mint",
+        title:
+          "Nothing Phone 2a Plus processor, RAM details revealed ahead of July 31 launch: All we know so far | Mint - Mint",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORENsSnV2ZllubG9PMjRRbnRWUXpsQkM4Zy1KeXp4QmoyU2p1ZDFCX0NHQk4zR0MwNHE1b1djaUlGNW12QlBubi1tSXZaMmNiMWVtdHdNUXhFRGRtWHFJSmhJNG5Qa1ZLNkFNY1Vxc05peU1xT0VLZFk4SzlzN0tYcmthNVVSVVdDV3ZSSldrLVNoWXE1aHZSSG5BSlpvTERWUUFUZDZVcGZrcUdHdEtsZGJoVWJXUFAzdmx1eEc4SHE4aktCM1dfby1hY014ZUREQk0wY3MybTZWYmFqWEFFNkNLTkVaazhlalBnSDd0N3XSAfYBQVVfeXFMUGZOVDNvX3dsN1pjdFFTcEJjeWNac0VaWWcybUs4Z2VPNEpETzZOYmpoVXppYi1LMmZJaWdtczBwX2NGQW1kWDc1YThlUEp1dUQ3Vk1FQlFyaXEzY1RBR0NnNkpleGZLbGg1WmRIelNTZzhGbXZOalNVa3ZiWWJCTHdhRlBHVXplZ0dpY0lCZXZEcnN2SXNCcTlCNzRUejhsNWc0LXNrMFBRRGU3Zml0dU5TazBJdjlzTXNNYVA2WVBSdEhqMVJhcl9xZTVZRjFGX3lGLWtxWTZpQ1JNdEpMTFhDcUN5RzlBLTE1QXFwS1NsNzJFRHFB?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T02:19:28Z",
+        content: null,
       },
       {
         source: { id: "google-news", name: "Google News" },
         author: "GSMArena.com",
         title:
-          "Xiaomi Mix Flip is coming to Europe, will cost EUR 1,300 - GSMArena.com news - GSMArena.com",
+          "Google Pixel Buds Pro 2 leak in all four colorways - GSMArena.com news - GSMArena.com",
         description: null,
-        url: "https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LmdzbWFyZW5hLmNvbS94aWFvbWlfbWl4X2ZsaXBfaXNfY29taW5nX3RvX2V1cm9wZV93aWxsX2Nvc3RfZXVyXzEzMDAtbmV3cy02MzgyNC5waHDSAVtodHRwczovL20uZ3NtYXJlbmEuY29tL3hpYW9taV9taXhfZmxpcF9pc19jb21pbmdfdG9fZXVyb3BlX3dpbGxfY29zdF9ldXJfMTMwMC1hbXAtNjM4MjQucGhw?oc=5",
+        url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxOakdCdmNPblBGWnRLRkxldFN1OFZQeWJrMXRrRTRIVndZMUhmZTlxR1J6cHN0Rk1KeTZxSjB3OVpuNGcxUHFKTWozUzJKQ1hWWmJqVkUxNnJSQmctNGVmdTlWQjJrYS1GSUZSUDEtTEhOQkhYZ0dfT3RRTVlKZWtKWDFJbnE2RjctZU5nRElnUmRucEhJ0gGQAUFVX3lxTE5jRW85anJWOWRIRFhSNHZRV1JFREpEczJiUkhhd1h6TjQ1UlgzM0dDY3U0QlZzaFdRdXdVNmhkdm5zdkVVR2NhT0phZFFFU1hKQURqcGJnWUkydDUtRUZPVVQ5LXh5NWxwdUJuQk1Gdm14bHhZcjhFWDJONFZXSVlsQVZoOHdsVVkwX3FlT2lTSg?oc=5",
         urlToImage: null,
-        publishedAt: "2024-07-24T05:10:01Z",
+        publishedAt: "2024-07-26T02:16:01Z",
         content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "SiliconANGLE News",
+        title:
+          "Google’s free Gemini chatbot gets 1.5 Flash update, making responses faster and smarter - SiliconANGLE News",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTN0c18ycUxIN2RxLVhfcEVYX3JqUTN5MVp4bU9ic3pwdGwydkg2RXJYR095MVM0M0hOUHZzSXBaSENUOEcxUXYtaDd1bk12NFJ0ZlpHTEk4Z0I3NVBuVHRkMXUzVmJFQWVPcFQwazNfT2M2Zm1na0pVdjBVSXJpSzZzUG1ITWV4a2JrYi15YTFrdHhRcUxNNE0xQVBwa0JnV1VBZGxOclhDOFpNZG5USk90NmtqV2tBTHc?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-26T01:09:58Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: null,
+        title:
+          "Google Pixel 9 Pro leaks in all colors - GSMArena.com news - GSMArena.com",
+        description: null,
+        url: "https://consent.google.com/m",
+        urlToImage: null,
+        publishedAt: "2024-07-25T23:22:01Z",
+        content:
+          "We use cookies and data to\r\n<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to un… [+1139 chars]",
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "SamMobile - Samsung news",
+        title:
+          "Galaxy Buds 3 Pro review: A perfect mix of substance and style - SamMobile - Samsung news",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WN1lMZU9sVW85SXlfRWNfNWRPRjlDVHhlcmswZjFIbzZqc0dLYUVTbUVMeWxRcDZSaThqd25VejRUR0ZVcGVCODZ5b3FfOVIzR1NaNkFEZWtOUG10cHlkRGlMZXYwSjkycUMw?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-25T19:57:00Z",
+        content: null,
+      },
+      {
+        source: { id: "google-news", name: "Google News" },
+        author: "Android Authority",
+        title:
+          "The Google Play Store is making it easier to see why your subscriptions are worth it - Android Authority",
+        description: null,
+        url: "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd0dXenZTeDdPUVBMbUF6alBiY1FTUkpTcnlzd0cyeThKd2hxdUFwLXN4VS1DYlhnZ1FIVDJjNU90N01SdVZ6elE3ZFgxMWc2RklRTUN3aFdBWDktb2FpWWg3LVQ1dUliTlc0YnJRQjhBMDBwTURHdEVKNTRCLUhDQkw5ZU5zYTRBQ3dJa1RR?oc=5",
+        urlToImage: null,
+        publishedAt: "2024-07-25T19:15:34Z",
+        content: null,
+      },
+      {
+        source: { id: "the-verge", name: "The Verge" },
+        author: "Emma Roth",
+        title:
+          "Runway’s AI video generator trained on thousands of scraped YouTube videos - The Verge",
+        description:
+          "Runway trained its text-to-video AI model on thousands of YouTube videos from news outlets, entertainment companies, and creators, 404 Media found.",
+        url: "https://www.theverge.com/2024/7/25/24206120/runway-ai-video-generator-scraped-youtube-videos-report",
+        urlToImage:
+          "https://cdn.vox-cdn.com/thumbor/-KyuSZMMphB1yWgBCZfn2bl08H4=/0x0:4000x2667/1200x628/filters:focal(2854x1020:2855x1021)/cdn.vox-cdn.com/uploads/chorus_asset/file/25545828/1703205214.jpg",
+        publishedAt: "2024-07-25T18:19:03Z",
+        content:
+          "Runways AI video generator trained on thousands of scraped YouTube videos\r\nRunways AI video generator trained on thousands of scraped YouTube videos\r\n / A spreadsheet obtained by 404 Media shows a ma… [+2824 chars]",
       },
     ],
   },

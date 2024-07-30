@@ -41,7 +41,9 @@ const NewsCard = ({ title, description, src, url, publishedAt, author }) => {
           onError={handleError}
         />
         <div className="card-body news-card-body">
-          <h5 className="card-title">{title.slice(0, 50)}</h5>
+          <h5 className="card-title">
+            {description ? title.slice(0, 50) : title}
+          </h5>
           <p className="card-text news-card-text">
             {description
               ? `${description.slice(0, descriptionSize)}` +
